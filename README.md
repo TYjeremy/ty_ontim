@@ -17,3 +17,23 @@ sudo make install
 
 把系统写入软盘
 dd if=boot.bin of=a.img bs=512 count=1 conv=notrunc
+
+寄存器:
+
+cs是代码段寄存器
+
+ds是数据段寄存器
+
+ss是堆栈段寄存器
+
+es是扩展段寄存器
+
+fs是标志段寄存器
+
+gs是全局段寄存器
+
+lgdt: 加载全局描述符
+92h: A20
+cr0:控制实模式和保护模式
+
+lodsb: 具体操作是把SI指向的存储单元读入累加器

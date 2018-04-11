@@ -17,8 +17,8 @@ LABEL_DESC_VIDEO:  Descriptor 0B8000h,           0ffffh, DA_DRW	     ; ÏÔ´æÊ×µØÖ
 ; GDT ½áÊø
 
 GdtLen		equ	$ - LABEL_GDT	; GDT³¤¶È
-GdtPtr		dw	GdtLen - 1	; GDT½çÏÞ
-		dd	0		; GDT»ùµØÖ·
+GdtPtr		dw	GdtLen - 1	; GDT½çÏÞ ;lgdt¿¿¿¿¿¿¿¿¿¿¿¿¿¿GDT¿¿
+dd	0		; GDT»ùµØÖ·
 
 ; GDT Ñ¡Ôñ×Ó
 SelectorCode32		equ	LABEL_DESC_CODE32	- LABEL_GDT
@@ -55,7 +55,7 @@ LABEL_BEGIN:
 	lgdt	[GdtPtr]
 
 	; ¹ØÖÐ¶Ï
-	cli
+	cli ;clear interrupt
 
 	; ´ò¿ªµØÖ·ÏßA20
 	in	al, 92h
@@ -82,7 +82,8 @@ LABEL_SEG_CODE32:
 
 	mov	edi, (80 * 11 + 79) * 2	; ÆÁÄ»µÚ 11 ÐÐ, µÚ 79 ÁÐ¡£
 	mov	ah, 0Ch			; 0000: ºÚµ×    1100: ºì×Ö
-	mov	al, 'P'
+#	mov	al, 'P'
+	mov al, [GdtLen]
 	mov	[gs:edi], ax
 
 	; µ½´ËÍ£Ö¹

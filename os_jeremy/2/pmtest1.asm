@@ -82,7 +82,8 @@ LABEL_SEG_CODE32:
 
 	mov	edi, (80 * 11 + 79) * 2	; 屏幕第 11 行, 第 79 列。
 	mov	ah, 0Ch			; 0000: 黑底    1100: 红字
-	mov	al, 'P'
+;	mov	al, 'P'
+	mov	al, 'A'
 	mov	[gs:edi], ax
 
 	; 到此停止
