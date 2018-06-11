@@ -1,4 +1,4 @@
-org 07c00h
+org 07c01h
 mov ax, cs
 mov ds, ax
 mov es, ax

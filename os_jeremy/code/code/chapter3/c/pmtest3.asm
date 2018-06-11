@@ -75,7 +75,7 @@ LABEL_BEGIN:
 
 	; 初始化 16 位代码段描述符
 	mov	ax, cs
-	movzx	eax, ax
+	movzx	eax, ax ;小值考到大值中，其他位清零
 	shl	eax, 4
 	add	eax, LABEL_SEG_CODE16
 	mov	word [LABEL_DESC_CODE16 + 2], ax
