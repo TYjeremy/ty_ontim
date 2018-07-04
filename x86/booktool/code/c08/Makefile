@@ -7,33 +7,37 @@ OBJCOPY := $(CCPREFIX)objcopy
 OBJDUMP := $(CCPREFIX)objdump 
 OBJNM := $(CCPREFIX)nm 
 NASM := $(CCPREFIX)nasm
+NDISASM := $(CCPREFIX)ndisasm
 
 include build.mk
 
-#LIBS := $(patsubst %.c, %.o, $(SRC))
+#BIN := $(patsubst %.c, %, $(SRC))
 #PRE_PILE := $(patsubst %.c, %.i, $(SRC))
-#COMPILE := $(patsubst %.c, %.S, $(SRC))
-#$(warning $(LIBS))
+#COMPILE := $(patsubst %.asm, %.bin, $(SRC))
 
-CFLAGS := -g
+tmp := $(SRC:%.asm=%)
 
 .PHONY: all
 
-target := a.img
-all := $(target)
-tmp := boot.bin
 
-all:$(target)
-	ndisasm -o 0x7c00 boot.bin >> disboot.asm
+target := c.img
+
+all: $(target)
+	$(foreach n, $(tmp), $(NDISASM) $(n).bin > $(n)_dis.asm;)
+#	ndisasm -o 0x7c00 boot.bin > disboot.asm
 
 $(target):$(tmp)
-	$(shell dd if=$< of=$@ bs=512 count=1 conv=notrunc)
+	$(shell ./dd.sh)
 
-$(tmp): $(SRC)
-	$(NASM) $(SRC) -o $@
+# %.bin : %.asm
+#	$(warning fanxzh)
+
+$(tmp):
+	$(foreach n, $(@), $(NASM) $(n).asm -o ${n}.bin;)
+
 
 $(PRE_PILE):$(SRC)
 	$(CC) -o $@ -E $<
 
 clean:
-	$(RM) *.bin disboot.asm
+	$(RM) *.bin *_dis.asm
