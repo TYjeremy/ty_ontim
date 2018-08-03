@@ -46,7 +46,7 @@ start:
       int 0x16
       
       mov ah,0x0e
-      mov bl,0x07
+      mov bl,0x00
       int 0x10
 
       jmp .reps
