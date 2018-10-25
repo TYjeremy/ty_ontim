@@ -1,0 +1,5 @@
+sudo mke2fs -t ext4 -b 4096 /dev/sdc: 格式化磁盘
+sudo dd if=boot.bin of=/dev/sdc bs=512 count=1: 写入存储设备
+ndisasm -o 0x7c00 boot.bin >> disboot.asm: 反汇编
+
+qemu-system-x86_64 -fda a.img

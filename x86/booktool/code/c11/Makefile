@@ -24,7 +24,7 @@ target := c.img
 
 all: $(target)
 	$(foreach n, $(tmp), $(NDISASM) $(n).bin > $(n)_dis.asm;)
-#	ndisasm -o 0x7c00 boot.bin > disboot.asm
+	ndisasm -o 0x7c00 c11_mbr.bin > disboot.asm
 
 $(target):$(tmp)
 	$(shell ./dd.sh)

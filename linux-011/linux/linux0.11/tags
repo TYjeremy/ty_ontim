@@ -1,0 +1,2260 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-file-alignment	VC/system.mak	/^   bin\\ld -T .\\bin\\ld_script.txt -s -x --file-alignment=1 --section-alignment=1 -Ttext=0 --image-base=0 -nostdlib -Map=.\\release\\system.map -o .\\release\\system   ".\\Release\\boot\\head.o" ".\\Release\\init\\main.o"  ".\\Release\\kernel\\exit.o"  ".\\Release\\kernel\\fork.o"  ".\\Release\\kernel\\math\\math_emulate.o"  ".\\Release\\kernel\\mktime.o"  ".\\Release\\kernel\\panic.o"  ".\\Release\\kernel\\printk.o" ".\\Release\\kernel\\sched.o"   ".\\Release\\kernel\\signal.o" ".\\Release\\kernel\\sys.o"  ".\\Release\\kernel\\system_call.o"  ".\\Release\\kernel\\traps.o"  ".\\Release\\kernel\\vsprintf.o" ".\\Release\\kernel\\asm.o"   ".\\Release\\kernel\\blk_drv\\floppy.o" ".\\Release\\kernel\\blk_drv\\hd.o"   ".\\Release\\kernel\\blk_drv\\ll_rw_blk.o" ".\\Release\\kernel\\blk_drv\\ramdisk.o"   ".\\Release\\kernel\\chr_drv\\console.o" ".\\Release\\kernel\\chr_drv\\keyboard.o"   ".\\Release\\kernel\\chr_drv\\rs_io.o" ".\\Release\\kernel\\chr_drv\\serial.o"   ".\\Release\\kernel\\chr_drv\\tty_io.o" ".\\Release\\kernel\\chr_drv\\tty_ioctl.o"   ".\\Release\\mm\\memory.o" ".\\Release\\mm\\page.o" ".\\Release\\fs\\bitmap.o"   ".\\Release\\fs\\block_dev.o" ".\\Release\\fs\\buffer.o" ".\\Release\\fs\\char_dev.o"   ".\\Release\\fs\\exec.o"  ".\\Release\\fs\\fcntl.o"       ".\\Release\\fs\\file_dev.o"\\$/;"	m
+ABRT_ERR	include/linux/hdreg.h	63;"	d
+ACC_MODE	fs/namei.c	25;"	d	file:
+ALRMMASK	kernel/chr_drv/tty_io.c	19;"	d	file:
+AR	fs/Makefile	/^AR	=gar$/;"	m
+AR	kernel/Makefile	/^AR	=gar$/;"	m
+AR	kernel/blk_drv/Makefile	/^AR =gar # GNU 的二进制文件处理程序，用于创建、修改以及从归档文件中抽取文件。$/;"	m
+AR	kernel/chr_drv/Makefile	/^AR =gar # GNU 的二进制文件处理程序，用于创建、修改以及从归档文件中抽取文件。$/;"	m
+AR	kernel/math/Makefile	/^AR =gar # GNU 的二进制文件处理程序，用于创建、修改以及从归档文件中抽取文件。$/;"	m
+AR	lib/Makefile	/^AR	=gar$/;"	m
+AR	mm/Makefile	/^AR	=gar$/;"	m
+AS	fs/Makefile	/^AS	=gas$/;"	m
+AS	kernel/Makefile	/^AS	=gas$/;"	m
+AS	kernel/blk_drv/Makefile	/^AS =gas # GNU 的汇编程序。$/;"	m
+AS	kernel/chr_drv/Makefile	/^AS =gas # GNU 的汇编程序。$/;"	m
+AS	kernel/math/Makefile	/^AS =gas # GNU 的汇编程序。$/;"	m
+AS	lib/Makefile	/^AS	=gas$/;"	m
+AS	mm/Makefile	/^AS	=gas$/;"	m
+B0	include/termios.h	185;"	d
+B110	include/termios.h	188;"	d
+B1200	include/termios.h	194;"	d
+B134	include/termios.h	189;"	d
+B150	include/termios.h	190;"	d
+B1800	include/termios.h	195;"	d
+B19200	include/termios.h	199;"	d
+B200	include/termios.h	191;"	d
+B2400	include/termios.h	196;"	d
+B300	include/termios.h	192;"	d
+B38400	include/termios.h	200;"	d
+B4800	include/termios.h	197;"	d
+B50	include/termios.h	186;"	d
+B600	include/termios.h	193;"	d
+B75	include/termios.h	187;"	d
+B9600	include/termios.h	198;"	d
+BADNESS	fs/buffer.c	232;"	d	file:
+BBD_ERR	include/linux/hdreg.h	66;"	d
+BCD_TO_BIN	init/main.c	96;"	d	file:
+BLOCK_SIZE	include/linux/fs.h	65;"	d
+BLOCK_SIZE_BITS	include/linux/fs.h	66;"	d
+BOOTSEG	boot/bootsect.s	/^ BOOTSEG  = 07c0h		;\/\/ bootsect的原始地址（是段地址，以下同）$/;"	d
+BRKINT	include/termios.h	134;"	d
+BS0	include/termios.h	173;"	d
+BS1	include/termios.h	174;"	d
+BSC32	VC/build.mak	/^BSC32=bscmake.exe$/;"	m
+BSC32_FLAGS	VC/build.mak	/^BSC32_FLAGS=\/nologo \/o"$(OUTDIR)\\build.bsc" $/;"	m
+BSC32_SBRS	VC/build.mak	/^BSC32_SBRS= \\$/;"	m
+BSDLY	include/termios.h	172;"	d
+BUFFER_END	include/const.h	4;"	d
+BUSY_STAT	include/linux/hdreg.h	32;"	d
+CBAUD	include/termios.h	184;"	d
+CC	fs/Makefile	/^CC	=gcc$/;"	m
+CC	kernel/Makefile	/^CC	=gcc$/;"	m
+CC	kernel/blk_drv/Makefile	/^CC =gcc # GNU C 语言编译器。$/;"	m
+CC	kernel/chr_drv/Makefile	/^CC =gcc # GNU C 语言编译器。$/;"	m
+CC	kernel/math/Makefile	/^CC =gcc # GNU C 语言编译器。$/;"	m
+CC	lib/Makefile	/^CC	=gcc$/;"	m
+CC	mm/Makefile	/^CC	=gcc$/;"	m
+CFG	VC/Documents/Documents.mak	/^CFG=Documents - Win32 Release$/;"	m
+CFG	VC/bootsect.mak	/^CFG=bootsect - Win32 Release$/;"	m
+CFG	VC/build.mak	/^CFG=build - Win32 Release$/;"	m
+CFG	VC/setup.mak	/^CFG=setup - Win32 Release$/;"	m
+CFG	VC/system.mak	/^CFG=system - Win32 Release$/;"	m
+CFLAGS	fs/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fcombine-regs -fomit-frame-pointer \\$/;"	m
+CFLAGS	kernel/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	kernel/blk_drv/Makefile	/^CFLAGS =-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	kernel/chr_drv/Makefile	/^CFLAGS =-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	kernel/math/Makefile	/^CFLAGS =-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	lib/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	mm/Makefile	/^CFLAGS	=-O -Wall -fstrength-reduce -fcombine-regs -fomit-frame-pointer \\$/;"	m
+CHARS	include/linux/tty.h	39;"	d
+CIBAUD	include/termios.h	214;"	d
+CLOCAL	include/termios.h	213;"	d
+CLOCKS_PER_SEC	include/time.h	14;"	d
+CMOS_READ	init/main.c	/^_inline unsigned char CMOS_READ(unsigned char addr)$/;"	f
+CMOS_READ	kernel/blk_drv/hd.c	/^_inline unsigned char CMOS_READ(unsigned char addr)$/;"	f
+CODE_SPACE	mm/memory.c	65;"	d	file:
+COPYBLK	fs/buffer.c	/^extern __inline void COPYBLK(char* from, char* to)$/;"	f
+CPARENB	include/termios.h	210;"	d
+CPARODD	include/termios.h	211;"	d
+CPP	VC/build.mak	/^CPP=cl.exe$/;"	m
+CPP	fs/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	kernel/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	kernel/blk_drv/Makefile	/^CPP =gcc -E -nostdinc -I..\/..\/include$/;"	m
+CPP	kernel/chr_drv/Makefile	/^CPP =gcc -E -nostdinc -I..\/..\/include$/;"	m
+CPP	kernel/math/Makefile	/^CPP =gcc -E -nostdinc -I..\/..\/include$/;"	m
+CPP	lib/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	mm/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP_PROJ	VC/build.mak	/^CPP_PROJ=\/nologo \/ML \/W3 \/GX \/O2 \/D "WIN32" \/D "NDEBUG" \/D "_CONSOLE" \/D "_MBCS" \/Fp"$(INTDIR)\\build.pch" \/YX \/Fo"$(INTDIR)\\\\" \/Fd"$(INTDIR)\\\\" \/FD \/c $/;"	m
+CR0	include/termios.h	162;"	d
+CR1	include/termios.h	163;"	d
+CR2	include/termios.h	164;"	d
+CR3	include/termios.h	165;"	d
+CRDLY	include/termios.h	161;"	d
+CREAD	include/termios.h	209;"	d
+CRTSCTS	include/termios.h	215;"	d
+CS5	include/termios.h	204;"	d
+CS6	include/termios.h	205;"	d
+CS7	include/termios.h	206;"	d
+CS8	include/termios.h	207;"	d
+CSIZE	include/termios.h	203;"	d
+CSTOPB	include/termios.h	208;"	d
+CURRENT	kernel/blk_drv/blk.h	91;"	d
+CURRENT_DEV	kernel/blk_drv/blk.h	92;"	d
+CURRENT_TIME	include/linux/sched.h	198;"	d
+DAY	kernel/mktime.c	30;"	d	file:
+DEC	include/linux/tty.h	29;"	d
+DEVICE_INTR	kernel/blk_drv/blk.h	/^void (*DEVICE_INTR) (void) = NULL;$/;"	v
+DEVICE_INTR	kernel/blk_drv/blk.h	70;"	d
+DEVICE_INTR	kernel/blk_drv/blk.h	79;"	d
+DEVICE_NAME	kernel/blk_drv/blk.h	61;"	d
+DEVICE_NAME	kernel/blk_drv/blk.h	69;"	d
+DEVICE_NAME	kernel/blk_drv/blk.h	78;"	d
+DEVICE_NR	kernel/blk_drv/blk.h	63;"	d
+DEVICE_NR	kernel/blk_drv/blk.h	72;"	d
+DEVICE_NR	kernel/blk_drv/blk.h	81;"	d
+DEVICE_OFF	kernel/blk_drv/blk.h	65;"	d
+DEVICE_OFF	kernel/blk_drv/blk.h	74;"	d
+DEVICE_OFF	kernel/blk_drv/blk.h	83;"	d
+DEVICE_ON	kernel/blk_drv/blk.h	64;"	d
+DEVICE_ON	kernel/blk_drv/blk.h	73;"	d
+DEVICE_ON	kernel/blk_drv/blk.h	82;"	d
+DEVICE_REQUEST	kernel/blk_drv/blk.h	62;"	d
+DEVICE_REQUEST	kernel/blk_drv/blk.h	71;"	d
+DEVICE_REQUEST	kernel/blk_drv/blk.h	80;"	d
+DIR_ENTRIES_PER_BLOCK	include/linux/fs.h	74;"	d
+DMA_READ	include/linux/fdreg.h	106;"	d
+DMA_WRITE	include/linux/fdreg.h	107;"	d
+DRIVE	kernel/blk_drv/floppy.c	61;"	d	file:
+DRIVE_INFO	init/main.c	73;"	d	file:
+DRQ_STAT	include/linux/hdreg.h	28;"	d
+DS_POSTBUILD_DEP	VC/bootsect.mak	/^DS_POSTBUILD_DEP=$(INTDIR)\\postbld.dep$/;"	m
+DS_POSTBUILD_DEP	VC/setup.mak	/^DS_POSTBUILD_DEP=$(INTDIR)\\postbld.dep$/;"	m
+DS_POSTBUILD_DEP	VC/system.mak	/^DS_POSTBUILD_DEP=$(INTDIR)\\postbld.dep$/;"	m
+E2BIG	include/errno.h	36;"	d
+EACCES	include/errno.h	42;"	d
+EAGAIN	include/errno.h	40;"	d
+EBADF	include/errno.h	38;"	d
+EBUSY	include/errno.h	45;"	d
+ECC_ERR	include/linux/hdreg.h	65;"	d
+ECC_STAT	include/linux/hdreg.h	27;"	d
+ECHILD	include/errno.h	39;"	d
+ECHO	include/termios.h	225;"	d
+ECHOCTL	include/termios.h	233;"	d
+ECHOE	include/termios.h	226;"	d
+ECHOK	include/termios.h	227;"	d
+ECHOKE	include/termios.h	236;"	d
+ECHONL	include/termios.h	228;"	d
+ECHOPRT	include/termios.h	235;"	d
+EDEADLK	include/errno.h	64;"	d
+EDOM	include/errno.h	62;"	d
+EEXIST	include/errno.h	46;"	d
+EFAULT	include/errno.h	43;"	d
+EFBIG	include/errno.h	56;"	d
+EFLAGS	kernel/system_call.s	/^EFLAGS = 24h$/;"	d
+EINTR	include/errno.h	33;"	d
+EINVAL	include/errno.h	51;"	d
+EIO	include/errno.h	34;"	d
+EISDIR	include/errno.h	50;"	d
+EMFILE	include/errno.h	53;"	d
+EMLINK	include/errno.h	60;"	d
+EMPTY	include/linux/tty.h	31;"	d
+ENAMETOOLONG	include/errno.h	65;"	d
+ENDSEG	boot/bootsect.s	/^ ENDSEG   = SYSSEG + SYSSIZE		;\/\/ 停止加载的段地址$/;"	d
+ENFILE	include/errno.h	52;"	d
+ENODEV	include/errno.h	48;"	d
+ENOENT	include/errno.h	31;"	d
+ENOEXEC	include/errno.h	37;"	d
+ENOLCK	include/errno.h	66;"	d
+ENOMEM	include/errno.h	41;"	d
+ENOSPC	include/errno.h	57;"	d
+ENOSYS	include/errno.h	67;"	d
+ENOTBLK	include/errno.h	44;"	d
+ENOTDIR	include/errno.h	49;"	d
+ENOTEMPTY	include/errno.h	68;"	d
+ENOTTY	include/errno.h	54;"	d
+ENXIO	include/errno.h	35;"	d
+EOF_CHAR	include/linux/tty.h	54;"	d
+EPERM	include/errno.h	30;"	d
+EPIPE	include/errno.h	61;"	d
+ERANGE	include/errno.h	63;"	d
+ERASE_CHAR	include/linux/tty.h	52;"	d
+EROFS	include/errno.h	59;"	d
+ERROR	include/errno.h	29;"	d
+ERR_STAT	include/linux/hdreg.h	25;"	d
+ESPIPE	include/errno.h	58;"	d
+ESRCH	include/errno.h	32;"	d
+ETXTBSY	include/errno.h	55;"	d
+EXDEV	include/errno.h	47;"	d
+EXTA	include/termios.h	201;"	d
+EXTB	include/termios.h	202;"	d
+EXT_MEM_K	init/main.c	72;"	d	file:
+FD_CLOEXEC	include/fcntl.h	43;"	d
+FD_DATA	include/linux/fdreg.h	18;"	d
+FD_DCR	include/linux/fdreg.h	23;"	d
+FD_DIR	include/linux/fdreg.h	21;"	d
+FD_DOR	include/linux/fdreg.h	19;"	d
+FD_READ	include/linux/fdreg.h	96;"	d
+FD_RECALIBRATE	include/linux/fdreg.h	92;"	d
+FD_SEEK	include/linux/fdreg.h	94;"	d
+FD_SENSEI	include/linux/fdreg.h	100;"	d
+FD_SPECIFY	include/linux/fdreg.h	102;"	d
+FD_STATUS	include/linux/fdreg.h	17;"	d
+FD_WRITE	include/linux/fdreg.h	98;"	d
+FF0	include/termios.h	179;"	d
+FF1	include/termios.h	180;"	d
+FFDLY	include/termios.h	178;"	d
+FIRST_LDT_ENTRY	include/linux/sched.h	216;"	d
+FIRST_TASK	include/linux/sched.h	7;"	d
+FIRST_TSS_ENTRY	include/linux/sched.h	214;"	d
+FLUSHO	include/termios.h	237;"	d
+FULL	include/linux/tty.h	37;"	d
+F_DUPFD	include/fcntl.h	30;"	d
+F_GETFD	include/fcntl.h	31;"	d
+F_GETFL	include/fcntl.h	33;"	d
+F_GETLK	include/fcntl.h	36;"	d
+F_OK	include/unistd.h	30;"	d
+F_RDLCK	include/fcntl.h	51;"	d
+F_SETFD	include/fcntl.h	32;"	d
+F_SETFL	include/fcntl.h	34;"	d
+F_SETLK	include/fcntl.h	37;"	d
+F_SETLKW	include/fcntl.h	38;"	d
+F_UNLCK	include/fcntl.h	53;"	d
+F_WRLCK	include/fcntl.h	52;"	d
+GDT_CODE	include/linux/head.h	15;"	d
+GDT_DATA	include/linux/head.h	16;"	d
+GDT_NUL	include/linux/head.h	14;"	d
+GDT_TMP	include/linux/head.h	17;"	d
+GETCH	include/linux/tty.h	41;"	d
+HD_CMD	include/linux/hdreg.h	21;"	d
+HD_COMMAND	include/linux/hdreg.h	19;"	d
+HD_CURRENT	include/linux/hdreg.h	16;"	d
+HD_DATA	include/linux/hdreg.h	10;"	d
+HD_ERROR	include/linux/hdreg.h	11;"	d
+HD_HCYL	include/linux/hdreg.h	15;"	d
+HD_LCYL	include/linux/hdreg.h	14;"	d
+HD_NSECTOR	include/linux/hdreg.h	12;"	d
+HD_PRECOMP	include/linux/hdreg.h	18;"	d
+HD_SECTOR	include/linux/hdreg.h	13;"	d
+HD_STATUS	include/linux/hdreg.h	17;"	d
+HIGH_MEMORY	mm/memory.c	/^static unsigned long HIGH_MEMORY = 0;\/\/ 全局变量，存放实际物理内存最高端地址。$/;"	v	file:
+HOUR	kernel/mktime.c	29;"	d	file:
+HUPCL	include/termios.h	212;"	d
+HZ	include/linux/sched.h	5;"	d
+ICANON	include/termios.h	223;"	d
+ICRNL	include/termios.h	141;"	d
+ID_ERR	include/linux/hdreg.h	64;"	d
+IEXTEN	include/termios.h	239;"	d
+IGNBRK	include/termios.h	133;"	d
+IGNCR	include/termios.h	140;"	d
+IGNPAR	include/termios.h	135;"	d
+IMAXBEL	include/termios.h	146;"	d
+INC	include/linux/tty.h	27;"	d
+INC_PIPE	include/linux/fs.h	84;"	d
+INDEX_STAT	include/linux/hdreg.h	26;"	d
+INITSEG	boot/bootsect.s	/^ INITSEG  = 9000h		;\/\/ 将bootsect移到这里$/;"	d
+INITSEG	boot/setup.s	/^ INITSEG  = 9000h	;\/\/ 原来bootsect 所处的段$/;"	d
+INIT_C_CC	include/linux/tty.h	86;"	d
+INIT_REQUEST	kernel/blk_drv/blk.h	131;"	d
+INIT_TASK	include/linux/sched.h	173;"	d
+INLCR	include/termios.h	139;"	d
+INODES_PER_BLOCK	include/linux/fs.h	72;"	d
+INPCK	include/termios.h	137;"	d
+INTDIR	VC/Documents/Documents.mak	/^INTDIR=.\\Release$/;"	m
+INTDIR	VC/bootsect.mak	/^INTDIR=.\\Release\\boot$/;"	m
+INTDIR	VC/build.mak	/^INTDIR=.\\Release\\build$/;"	m
+INTDIR	VC/setup.mak	/^INTDIR=.\\Release\\boot$/;"	m
+INTDIR	VC/system.mak	/^INTDIR=.\\Release$/;"	m
+INTMASK	kernel/chr_drv/tty_io.c	21;"	d	file:
+INTR_CHAR	include/linux/tty.h	50;"	d
+IN_ORDER	kernel/blk_drv/blk.h	37;"	d
+ISIG	include/termios.h	222;"	d
+ISTRIP	include/termios.h	138;"	d
+IS_SEEKABLE	include/linux/fs.h	40;"	d
+IUCLC	include/termios.h	142;"	d
+IXANY	include/termios.h	144;"	d
+IXOFF	include/termios.h	145;"	d
+IXON	include/termios.h	143;"	d
+I_BLOCK_SPECIAL	include/const.h	10;"	d
+I_CHAR_SPECIAL	include/const.h	11;"	d
+I_CRNL	kernel/chr_drv/tty_io.c	47;"	d	file:
+I_DIRECTORY	include/const.h	8;"	d
+I_MAP_SLOTS	include/linux/fs.h	55;"	d
+I_NAMED_PIPE	include/const.h	12;"	d
+I_NLCR	kernel/chr_drv/tty_io.c	46;"	d	file:
+I_NOCR	kernel/chr_drv/tty_io.c	48;"	d	file:
+I_REGULAR	include/const.h	9;"	d
+I_SET_GID_BIT	include/const.h	14;"	d
+I_SET_UID_BIT	include/const.h	13;"	d
+I_TYPE	include/const.h	7;"	d
+I_UCLC	kernel/chr_drv/tty_io.c	45;"	d	file:
+InputName	VC/bootsect.mak	/^InputName=bootsect$/;"	m
+InputName	VC/setup.mak	/^InputName=setup$/;"	m
+InputName	VC/system.mak	/^InputName=_exit$/;"	m
+InputName	VC/system.mak	/^InputName=asm$/;"	m
+InputName	VC/system.mak	/^InputName=bitmap$/;"	m
+InputName	VC/system.mak	/^InputName=block_dev$/;"	m
+InputName	VC/system.mak	/^InputName=buffer$/;"	m
+InputName	VC/system.mak	/^InputName=char_dev$/;"	m
+InputName	VC/system.mak	/^InputName=close$/;"	m
+InputName	VC/system.mak	/^InputName=console$/;"	m
+InputName	VC/system.mak	/^InputName=ctype$/;"	m
+InputName	VC/system.mak	/^InputName=dup$/;"	m
+InputName	VC/system.mak	/^InputName=errno$/;"	m
+InputName	VC/system.mak	/^InputName=exec$/;"	m
+InputName	VC/system.mak	/^InputName=execve$/;"	m
+InputName	VC/system.mak	/^InputName=exit$/;"	m
+InputName	VC/system.mak	/^InputName=fcntl$/;"	m
+InputName	VC/system.mak	/^InputName=file_dev$/;"	m
+InputName	VC/system.mak	/^InputName=file_table$/;"	m
+InputName	VC/system.mak	/^InputName=floppy$/;"	m
+InputName	VC/system.mak	/^InputName=fork$/;"	m
+InputName	VC/system.mak	/^InputName=hd$/;"	m
+InputName	VC/system.mak	/^InputName=head$/;"	m
+InputName	VC/system.mak	/^InputName=inode$/;"	m
+InputName	VC/system.mak	/^InputName=ioctl$/;"	m
+InputName	VC/system.mak	/^InputName=keyboard$/;"	m
+InputName	VC/system.mak	/^InputName=ll_rw_blk$/;"	m
+InputName	VC/system.mak	/^InputName=main$/;"	m
+InputName	VC/system.mak	/^InputName=malloc$/;"	m
+InputName	VC/system.mak	/^InputName=math_emulate$/;"	m
+InputName	VC/system.mak	/^InputName=memory$/;"	m
+InputName	VC/system.mak	/^InputName=mktime$/;"	m
+InputName	VC/system.mak	/^InputName=namei$/;"	m
+InputName	VC/system.mak	/^InputName=open$/;"	m
+InputName	VC/system.mak	/^InputName=page$/;"	m
+InputName	VC/system.mak	/^InputName=panic$/;"	m
+InputName	VC/system.mak	/^InputName=pipe$/;"	m
+InputName	VC/system.mak	/^InputName=printk$/;"	m
+InputName	VC/system.mak	/^InputName=ramdisk$/;"	m
+InputName	VC/system.mak	/^InputName=read_write$/;"	m
+InputName	VC/system.mak	/^InputName=rs_io$/;"	m
+InputName	VC/system.mak	/^InputName=sched$/;"	m
+InputName	VC/system.mak	/^InputName=serial$/;"	m
+InputName	VC/system.mak	/^InputName=setsid$/;"	m
+InputName	VC/system.mak	/^InputName=signal$/;"	m
+InputName	VC/system.mak	/^InputName=stat$/;"	m
+InputName	VC/system.mak	/^InputName=string$/;"	m
+InputName	VC/system.mak	/^InputName=super$/;"	m
+InputName	VC/system.mak	/^InputName=sys$/;"	m
+InputName	VC/system.mak	/^InputName=system_call$/;"	m
+InputName	VC/system.mak	/^InputName=traps$/;"	m
+InputName	VC/system.mak	/^InputName=truncate$/;"	m
+InputName	VC/system.mak	/^InputName=tty_io$/;"	m
+InputName	VC/system.mak	/^InputName=tty_ioctl$/;"	m
+InputName	VC/system.mak	/^InputName=vsprintf$/;"	m
+InputName	VC/system.mak	/^InputName=wait$/;"	m
+InputName	VC/system.mak	/^InputName=write$/;"	m
+InputPath	VC/bootsect.mak	/^InputPath=..\\boot\\bootsect.s$/;"	m
+InputPath	VC/setup.mak	/^InputPath=..\\boot\\setup.s$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\boot\\head.s$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\bitmap.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\block_dev.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\buffer.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\char_dev.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\exec.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\fcntl.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\file_dev.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\file_table.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\inode.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\ioctl.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\namei.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\open.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\pipe.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\read_write.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\stat.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\super.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\fs\\truncate.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\init\\main.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\asm.s$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\blk_drv\\floppy.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\blk_drv\\hd.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\blk_drv\\ll_rw_blk.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\blk_drv\\ramdisk.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\console.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\keyboard.S$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\rs_io.s$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\serial.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\tty_io.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\chr_drv\\tty_ioctl.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\exit.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\fork.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\math\\math_emulate.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\mktime.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\panic.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\printk.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\sched.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\signal.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\sys.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\system_call.s$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\traps.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\kernel\\vsprintf.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\_exit.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\close.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\ctype.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\dup.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\errno.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\execve.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\malloc.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\open.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\setsid.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\string.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\wait.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\lib\\write.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\mm\\memory.c$/;"	m
+InputPath	VC/system.mak	/^InputPath=..\\mm\\page.s$/;"	m
+IntDir	VC/bootsect.mak	/^IntDir=.\\Release\\boot$/;"	m
+IntDir	VC/setup.mak	/^IntDir=.\\Release\\boot$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\boot$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\fs$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\init$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\kernel$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\kernel\\blk_drv$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\kernel\\chr_drv$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\kernel\\math$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\lib$/;"	m
+IntDir	VC/system.mak	/^IntDir=.\\Release\\mm$/;"	m
+KBD_US	include/linux/config.h	27;"	d
+KEYBOARD_H	kernel/chr_drv/keyboard.h	2;"	d
+KILLMASK	kernel/chr_drv/tty_io.c	20;"	d	file:
+KILL_CHAR	include/linux/tty.h	53;"	d
+L3	boot/head.s	/^L3:	stosd				;\/* fill pages backwards - more efficient :-) *\/$/;"	l
+L6	boot/head.s	/^L6:$/;"	l
+LAST	include/linux/tty.h	35;"	d
+LAST_TASK	include/linux/sched.h	8;"	d
+LATCH	kernel/sched.c	51;"	d	file:
+LD	fs/Makefile	/^LD	=gld$/;"	m
+LD	kernel/Makefile	/^LD	=gld$/;"	m
+LD	kernel/blk_drv/Makefile	/^LD =gld # GNU 的连接程序。$/;"	m
+LD	kernel/chr_drv/Makefile	/^LD =gld # GNU 的连接程序。$/;"	m
+LD	kernel/math/Makefile	/^LD =gld # GNU 的连接程序。$/;"	m
+LD	lib/Makefile	/^LD	=gld$/;"	m
+LD	mm/Makefile	/^LD	=gld$/;"	m
+LDFLAGS	kernel/Makefile	/^LDFLAGS	=-s -x$/;"	m
+LDFLAGS	kernel/blk_drv/Makefile	/^LDFLAGS =-s -x # 连接程序所有的参数，-s 输出文件中省略所有符号信息。-x 删除所有局部符号。$/;"	m
+LDFLAGS	kernel/chr_drv/Makefile	/^LDFLAGS =-s -x # 连接程序所有的参数，-s 输出文件中省略所有符号信息。-x 删除所有局部符号。$/;"	m
+LDFLAGS	kernel/math/Makefile	/^LDFLAGS =-s -x # 连接程序所有的参数，-s 输出文件中省略所有符号信息。-x 删除所有局部符号。$/;"	m
+LDFLAGS	lib/Makefile	/^LDFLAGS	=-s -x$/;"	m
+LDT_CODE	include/linux/head.h	20;"	d
+LDT_DATA	include/linux/head.h	21;"	d
+LDT_NUL	include/linux/head.h	19;"	d
+LEFT	include/linux/tty.h	33;"	d
+LEFT	kernel/vsprintf.c	37;"	d	file:
+LINK32	VC/build.mak	/^LINK32=link.exe$/;"	m
+LINK32_FLAGS	VC/build.mak	/^LINK32_FLAGS=kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib \/nologo \/subsystem:console \/incremental:no \/pdb:"$(OUTDIR)\\build.pdb" \/machine:I386 \/out:"$(OUTDIR)\\build.exe" $/;"	m
+LINK32_OBJS	VC/build.mak	/^LINK32_OBJS= \\$/;"	m
+LOW_MEM	mm/memory.c	58;"	d	file:
+L_CANON	kernel/chr_drv/tty_io.c	36;"	d	file:
+L_ECHO	kernel/chr_drv/tty_io.c	38;"	d	file:
+L_ECHOCTL	kernel/chr_drv/tty_io.c	41;"	d	file:
+L_ECHOE	kernel/chr_drv/tty_io.c	39;"	d	file:
+L_ECHOK	kernel/chr_drv/tty_io.c	40;"	d	file:
+L_ECHOKE	kernel/chr_drv/tty_io.c	42;"	d	file:
+L_ISIG	kernel/chr_drv/tty_io.c	37;"	d	file:
+MAJOR	include/linux/fs.h	49;"	d
+MAJOR_NR	kernel/blk_drv/floppy.c	38;"	d	file:
+MAJOR_NR	kernel/blk_drv/hd.c	24;"	d	file:
+MAJOR_NR	kernel/blk_drv/ramdisk.c	30;"	d	file:
+MAP_NR	mm/memory.c	61;"	d	file:
+MARK_ERR	include/linux/hdreg.h	61;"	d
+MAX	fs/file_dev.c	17;"	d	file:
+MAX_ARG_PAGES	fs/exec.c	40;"	d	file:
+MAX_ERRORS	kernel/blk_drv/floppy.c	66;"	d	file:
+MAX_ERRORS	kernel/blk_drv/hd.c	35;"	d	file:
+MAX_HD	kernel/blk_drv/hd.c	36;"	d	file:
+MAX_REPLIES	kernel/blk_drv/floppy.c	72;"	d	file:
+MAY_EXEC	fs/namei.c	32;"	d	file:
+MAY_READ	fs/namei.c	34;"	d	file:
+MAY_WRITE	fs/namei.c	33;"	d	file:
+MIN	fs/file_dev.c	16;"	d	file:
+MINOR	include/linux/fs.h	50;"	d
+MINUTE	kernel/mktime.c	28;"	d	file:
+MTL	VC/Documents/Documents.mak	/^MTL=midl.exe$/;"	m
+MTL	VC/bootsect.mak	/^MTL=midl.exe$/;"	m
+MTL	VC/setup.mak	/^MTL=midl.exe$/;"	m
+MTL	VC/system.mak	/^MTL=midl.exe$/;"	m
+MTL_PROJ	VC/Documents/Documents.mak	/^MTL_PROJ=$/;"	m
+MTL_PROJ	VC/bootsect.mak	/^MTL_PROJ=$/;"	m
+MTL_PROJ	VC/setup.mak	/^MTL_PROJ=$/;"	m
+MTL_PROJ	VC/system.mak	/^MTL_PROJ=$/;"	m
+NAME_LEN	include/linux/fs.h	52;"	d
+NCC	include/termios.h	88;"	d
+NCCS	include/termios.h	100;"	d
+NL0	include/termios.h	159;"	d
+NL1	include/termios.h	160;"	d
+NLDLY	include/termios.h	158;"	d
+NMAGIC	include/a.out.h	40;"	d
+NOFLSH	include/termios.h	229;"	d
+NPAR	kernel/chr_drv/console.c	57;"	d	file:
+NRDEVS	fs/char_dev.c	115;"	d	file:
+NRDEVS	fs/ioctl.c	22;"	d	file:
+NR_BLK_DEV	kernel/blk_drv/blk.h	4;"	d
+NR_BUFFERS	fs/buffer.c	/^int NR_BUFFERS = 0;$/;"	v
+NR_BUFFERS	include/linux/fs.h	64;"	d
+NR_FILE	include/linux/fs.h	61;"	d
+NR_HASH	include/linux/fs.h	63;"	d
+NR_HD	kernel/blk_drv/hd.c	/^static int NR_HD = 0;$/;"	v	file:
+NR_HD	kernel/blk_drv/hd.c	55;"	d	file:
+NR_INODE	include/linux/fs.h	60;"	d
+NR_OPEN	include/linux/fs.h	59;"	d
+NR_REQUEST	kernel/blk_drv/blk.h	13;"	d
+NR_SUPER	include/linux/fs.h	62;"	d
+NR_TASKS	include/linux/sched.h	4;"	d
+NSIG	include/signal.h	10;"	d
+NULL	VC/Documents/Documents.mak	/^NULL=$/;"	m
+NULL	VC/Documents/Documents.mak	/^NULL=nul$/;"	m
+NULL	VC/bootsect.mak	/^NULL=$/;"	m
+NULL	VC/bootsect.mak	/^NULL=nul$/;"	m
+NULL	VC/build.mak	/^NULL=$/;"	m
+NULL	VC/build.mak	/^NULL=nul$/;"	m
+NULL	VC/setup.mak	/^NULL=$/;"	m
+NULL	VC/setup.mak	/^NULL=nul$/;"	m
+NULL	VC/system.mak	/^NULL=$/;"	m
+NULL	VC/system.mak	/^NULL=nul$/;"	m
+NULL	include/linux/fs.h	68;"	d
+NULL	include/linux/sched.h	27;"	d
+NULL	include/stddef.h	14;"	d
+NULL	include/stddef.h	15;"	d
+NULL	include/string.h	9;"	d
+NULL	include/sys/types.h	20;"	d
+NULL	include/unistd.h	25;"	d
+N_ABS	include/a.out.h	165;"	d
+N_BADMAG	include/a.out.h	48;"	d
+N_BSS	include/a.out.h	174;"	d
+N_BSSADDR	include/a.out.h	139;"	d
+N_COMM	include/a.out.h	177;"	d
+N_DATA	include/a.out.h	171;"	d
+N_DATADDR	include/a.out.h	131;"	d
+N_DATOFF	include/a.out.h	68;"	d
+N_DRELOFF	include/a.out.h	78;"	d
+N_EXT	include/a.out.h	184;"	d
+N_FN	include/a.out.h	180;"	d
+N_INDR	include/a.out.h	206;"	d
+N_MAGIC	include/a.out.h	31;"	d
+N_SETA	include/a.out.h	226;"	d
+N_SETB	include/a.out.h	232;"	d
+N_SETD	include/a.out.h	230;"	d
+N_SETT	include/a.out.h	228;"	d
+N_SETV	include/a.out.h	237;"	d
+N_STAB	include/a.out.h	190;"	d
+N_STROFF	include/a.out.h	88;"	d
+N_SYMOFF	include/a.out.h	83;"	d
+N_TEXT	include/a.out.h	168;"	d
+N_TRELOFF	include/a.out.h	73;"	d
+N_TXTADDR	include/a.out.h	94;"	d
+N_TXTOFF	include/a.out.h	62;"	d
+N_TYPE	include/a.out.h	187;"	d
+N_UNDF	include/a.out.h	162;"	d
+OBJS	fs/Makefile	/^OBJS=	open.o read_write.o inode.o file_table.o buffer.o super.o \\$/;"	m
+OBJS	kernel/Makefile	/^OBJS  = sched.o system_call.o traps.o asm.o fork.o \\$/;"	m
+OBJS	kernel/blk_drv/Makefile	/^OBJS = ll_rw_blk.o floppy.o hd.o ramdisk.o # 定义目标文件变量OBJS。$/;"	m
+OBJS	kernel/chr_drv/Makefile	/^OBJS = tty_io.o console.o keyboard.o serial.o rs_io.o \\ # 定义目标文件变量OBJS。$/;"	m
+OBJS	kernel/math/Makefile	/^OBJS = math_emulate.o # 定义目标文件变量OBJS。$/;"	m
+OBJS	lib/Makefile	/^OBJS  = ctype.o _exit.o open.o close.o errno.o write.o dup.o setsid.o \\$/;"	m
+OBJS	mm/Makefile	/^OBJS	= memory.o page.o$/;"	m
+OCRNL	include/termios.h	153;"	d
+OFDEL	include/termios.h	157;"	d
+OFILL	include/termios.h	156;"	d
+OLCUC	include/termios.h	151;"	d
+OLDR_ESP	kernel/system_call.s	/^OLDR_ESP = 28h ;\/\/ 当有特权级变化时。$/;"	d
+OLR_DSS	kernel/system_call.s	/^OLR_DSS = 2Ch$/;"	d
+OMAGIC	include/a.out.h	37;"	d
+ONLCR	include/termios.h	152;"	d
+ONLRET	include/termios.h	155;"	d
+ONOCR	include/termios.h	154;"	d
+OPOST	include/termios.h	150;"	d
+ORIG_ROOT_DEV	init/main.c	74;"	d	file:
+ORIG_VIDEO_COLS	kernel/chr_drv/console.c	45;"	d	file:
+ORIG_VIDEO_EGA_AX	kernel/chr_drv/console.c	47;"	d	file:
+ORIG_VIDEO_EGA_BX	kernel/chr_drv/console.c	48;"	d	file:
+ORIG_VIDEO_EGA_CX	kernel/chr_drv/console.c	49;"	d	file:
+ORIG_VIDEO_LINES	kernel/chr_drv/console.c	46;"	d	file:
+ORIG_VIDEO_MODE	kernel/chr_drv/console.c	44;"	d	file:
+ORIG_VIDEO_PAGE	kernel/chr_drv/console.c	43;"	d	file:
+ORIG_X	kernel/chr_drv/console.c	41;"	d	file:
+ORIG_Y	kernel/chr_drv/console.c	42;"	d	file:
+OUTDIR	VC/Documents/Documents.mak	/^OUTDIR=.\\Release$/;"	m
+OUTDIR	VC/bootsect.mak	/^OUTDIR=.\\Release$/;"	m
+OUTDIR	VC/build.mak	/^OUTDIR=.\\Release$/;"	m
+OUTDIR	VC/setup.mak	/^OUTDIR=.\\Release$/;"	m
+OUTDIR	VC/system.mak	/^OUTDIR=.\\Release$/;"	m
+O_ACCMODE	include/fcntl.h	8;"	d
+O_APPEND	include/fcntl.h	18;"	d
+O_CREAT	include/fcntl.h	14;"	d
+O_CRNL	kernel/chr_drv/tty_io.c	53;"	d	file:
+O_EXCL	include/fcntl.h	15;"	d
+O_LCUC	kernel/chr_drv/tty_io.c	55;"	d	file:
+O_NDELAY	include/fcntl.h	20;"	d
+O_NLCR	kernel/chr_drv/tty_io.c	52;"	d	file:
+O_NLRET	kernel/chr_drv/tty_io.c	54;"	d	file:
+O_NOCTTY	include/fcntl.h	16;"	d
+O_NONBLOCK	include/fcntl.h	19;"	d
+O_POST	kernel/chr_drv/tty_io.c	51;"	d	file:
+O_RDONLY	include/fcntl.h	10;"	d
+O_RDWR	include/fcntl.h	12;"	d
+O_TRUNC	include/fcntl.h	17;"	d
+O_WRONLY	include/fcntl.h	11;"	d
+OutDir	VC/bootsect.mak	/^OutDir=.\\Release$/;"	m
+OutDir	VC/build.mak	/^OutDir=.\\Release$/;"	m
+OutDir	VC/setup.mak	/^OutDir=.\\Release$/;"	m
+PAGE_ALIGN	include/linux/sched.h	313;"	d
+PAGE_SIZE	include/a.out.h	107;"	d
+PAGE_SIZE	include/a.out.h	116;"	d
+PAGE_SIZE	include/a.out.h	120;"	d
+PAGE_SIZE	include/linux/mm.h	4;"	d
+PAGING_MEMORY	mm/memory.c	59;"	d	file:
+PAGING_PAGES	mm/memory.c	60;"	d	file:
+PARENB	include/termios.h	217;"	d
+PARMRK	include/termios.h	136;"	d
+PARODD	include/termios.h	218;"	d
+PENDIN	include/termios.h	238;"	d
+PIPE_EMPTY	include/linux/fs.h	80;"	d
+PIPE_FULL	include/linux/fs.h	81;"	d
+PIPE_HEAD	include/linux/fs.h	77;"	d
+PIPE_SIZE	include/linux/fs.h	79;"	d
+PIPE_TAIL	include/linux/fs.h	78;"	d
+PLUS	kernel/vsprintf.c	35;"	d	file:
+PUTCH	include/linux/tty.h	45;"	d
+ProjDir	VC/system.mak	/^ProjDir=.$/;"	m
+QUITMASK	kernel/chr_drv/tty_io.c	22;"	d	file:
+QUIT_CHAR	include/linux/tty.h	51;"	d
+READ	include/linux/fs.h	42;"	d
+READA	include/linux/fs.h	44;"	d
+READY_STAT	include/linux/hdreg.h	31;"	d
+RESPONSE	kernel/chr_drv/console.c	91;"	d	file:
+ROOT_DEV	boot/bootsect.s	/^ROOT_DEV = 301h;\/\/指定根文件系统设备是第1个硬盘的第1个分区。这是Linux老式的硬盘命名$/;"	d
+ROOT_DEV	fs/super.c	/^int ROOT_DEV;$/;"	v
+ROOT_INO	include/linux/fs.h	53;"	d
+RSC	VC/build.mak	/^RSC=rc.exe$/;"	m
+R_CS	kernel/system_call.s	/^R_CS = 20h$/;"	d
+R_DS	kernel/system_call.s	/^R_DS = 18h$/;"	d
+R_EAX	kernel/system_call.s	/^R_EAX = 00h ;\/\/ 堆栈中各个寄存器的偏移位置。$/;"	d
+R_EBX	kernel/system_call.s	/^R_EBX = 04h$/;"	d
+R_ECX	kernel/system_call.s	/^R_ECX = 08h$/;"	d
+R_EDX	kernel/system_call.s	/^R_EDX = 0Ch$/;"	d
+R_EIP	kernel/system_call.s	/^R_EIP = 1Ch$/;"	d
+R_ES	kernel/system_call.s	/^R_ES = 14h$/;"	d
+R_FS	kernel/system_call.s	/^R_FS = 10h$/;"	d
+R_OK	include/unistd.h	33;"	d
+SA_NOCLDSTOP	include/signal.h	39;"	d
+SA_NOMASK	include/signal.h	40;"	d
+SA_ONESHOT	include/signal.h	41;"	d
+SEEK_CUR	include/unistd.h	38;"	d
+SEEK_END	include/unistd.h	39;"	d
+SEEK_SET	include/unistd.h	37;"	d
+SEEK_STAT	include/linux/hdreg.h	29;"	d
+SEGMENT_SIZE	include/a.out.h	104;"	d
+SEGMENT_SIZE	include/a.out.h	110;"	d
+SEGMENT_SIZE	include/a.out.h	113;"	d
+SEGMENT_SIZE	include/a.out.h	117;"	d
+SEGMENT_SIZE	include/a.out.h	121;"	d
+SETUPLEN	boot/bootsect.s	/^ SETUPLEN = 4			;\/\/ setup程序的扇区数（setup－sectors）值$/;"	d
+SETUPSEG	boot/bootsect.s	/^ SETUPSEG = 9020h		;\/\/ setup程序从这里开始$/;"	d
+SETUPSEG	boot/setup.s	/^ SETUPSEG = 9020h	;\/\/ 本程序所在的段地址。$/;"	d
+SET_SEG_H	include/set_seg.h	2;"	d
+SIGABRT	include/signal.h	18;"	d
+SIGALRM	include/signal.h	27;"	d
+SIGCHLD	include/signal.h	30;"	d
+SIGCONT	include/signal.h	31;"	d
+SIGFPE	include/signal.h	21;"	d
+SIGHUP	include/signal.h	13;"	d
+SIGILL	include/signal.h	16;"	d
+SIGINT	include/signal.h	14;"	d
+SIGIOT	include/signal.h	19;"	d
+SIGKILL	include/signal.h	22;"	d
+SIGN	kernel/vsprintf.c	34;"	d	file:
+SIGPIPE	include/signal.h	26;"	d
+SIGQUIT	include/signal.h	15;"	d
+SIGSEGV	include/signal.h	24;"	d
+SIGSTKFLT	include/signal.h	29;"	d
+SIGSTOP	include/signal.h	32;"	d
+SIGTERM	include/signal.h	28;"	d
+SIGTRAP	include/signal.h	17;"	d
+SIGTSTP	include/signal.h	33;"	d
+SIGTTIN	include/signal.h	34;"	d
+SIGTTOU	include/signal.h	35;"	d
+SIGUNUSED	include/signal.h	20;"	d
+SIGUSR1	include/signal.h	23;"	d
+SIGUSR2	include/signal.h	25;"	d
+SIG_BLOCK	include/signal.h	44;"	d
+SIG_CHLD	kernel/system_call.s	/^SIG_CHLD = 17 ;\/\/ 定义SIG_CHLD 信号（子进程停止或结束）。$/;"	d
+SIG_DFL	include/signal.h	51;"	d
+SIG_IGN	include/signal.h	53;"	d
+SIG_SETMASK	include/signal.h	48;"	d
+SIG_UNBLOCK	include/signal.h	46;"	d
+SMALL	kernel/vsprintf.c	39;"	d	file:
+SOURCE	VC/bootsect.mak	/^SOURCE="$(InputPath)"$/;"	m
+SOURCE	VC/bootsect.mak	/^SOURCE=..\\boot\\bootsect.s$/;"	m
+SOURCE	VC/build.mak	/^SOURCE=..\\build\\build.cpp$/;"	m
+SOURCE	VC/setup.mak	/^SOURCE="$(InputPath)"$/;"	m
+SOURCE	VC/setup.mak	/^SOURCE=..\\boot\\setup.s$/;"	m
+SOURCE	VC/system.mak	/^SOURCE="$(InputPath)"$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\boot\\head.s$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\bitmap.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\block_dev.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\buffer.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\char_dev.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\exec.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\fcntl.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\file_dev.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\file_table.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\inode.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\ioctl.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\namei.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\open.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\pipe.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\read_write.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\stat.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\super.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\fs\\truncate.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\init\\main.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\asm.s$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\blk_drv\\floppy.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\blk_drv\\hd.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\blk_drv\\ll_rw_blk.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\blk_drv\\ramdisk.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\console.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\keyboard.S$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\rs_io.s$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\serial.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\tty_io.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\chr_drv\\tty_ioctl.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\exit.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\fork.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\math\\math_emulate.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\mktime.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\panic.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\printk.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\sched.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\signal.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\sys.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\system_call.s$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\traps.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\kernel\\vsprintf.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\_exit.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\close.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\ctype.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\dup.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\errno.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\execve.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\malloc.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\open.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\setsid.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\string.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\wait.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\lib\\write.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\mm\\memory.c$/;"	m
+SOURCE	VC/system.mak	/^SOURCE=..\\mm\\page.s$/;"	m
+SPACE	kernel/vsprintf.c	36;"	d	file:
+SPECIAL	kernel/vsprintf.c	38;"	d	file:
+ST0	kernel/blk_drv/floppy.c	76;"	d	file:
+ST0_DS	include/linux/fdreg.h	39;"	d
+ST0_ECE	include/linux/fdreg.h	45;"	d
+ST0_HA	include/linux/fdreg.h	41;"	d
+ST0_INTR	include/linux/fdreg.h	49;"	d
+ST0_NR	include/linux/fdreg.h	43;"	d
+ST0_SE	include/linux/fdreg.h	47;"	d
+ST1	kernel/blk_drv/floppy.c	77;"	d	file:
+ST1_CRC	include/linux/fdreg.h	62;"	d
+ST1_EOC	include/linux/fdreg.h	64;"	d
+ST1_MAM	include/linux/fdreg.h	54;"	d
+ST1_ND	include/linux/fdreg.h	58;"	d
+ST1_OR	include/linux/fdreg.h	60;"	d
+ST1_WP	include/linux/fdreg.h	56;"	d
+ST2	kernel/blk_drv/floppy.c	78;"	d	file:
+ST2_BC	include/linux/fdreg.h	70;"	d
+ST2_CM	include/linux/fdreg.h	80;"	d
+ST2_CRC	include/linux/fdreg.h	78;"	d
+ST2_MAM	include/linux/fdreg.h	68;"	d
+ST2_SEH	include/linux/fdreg.h	74;"	d
+ST2_SNS	include/linux/fdreg.h	72;"	d
+ST2_WC	include/linux/fdreg.h	76;"	d
+ST3	kernel/blk_drv/floppy.c	79;"	d	file:
+ST3_HA	include/linux/fdreg.h	84;"	d
+ST3_TZ	include/linux/fdreg.h	86;"	d
+ST3_WP	include/linux/fdreg.h	88;"	d
+START_CHAR	include/linux/tty.h	55;"	d
+STATUS_BUSY	include/linux/fdreg.h	29;"	d
+STATUS_BUSYMASK	include/linux/fdreg.h	27;"	d
+STATUS_DIR	include/linux/fdreg.h	33;"	d
+STATUS_DMA	include/linux/fdreg.h	31;"	d
+STATUS_READY	include/linux/fdreg.h	35;"	d
+STDERR_FILENO	include/unistd.h	22;"	d
+STDIN_FILENO	include/unistd.h	20;"	d
+STDOUT_FILENO	include/unistd.h	21;"	d
+STOP_CHAR	include/linux/tty.h	56;"	d
+SUPER_MAGIC	include/linux/fs.h	57;"	d
+SUSPEND_CHAR	include/linux/tty.h	57;"	d
+SYSSEG	boot/bootsect.s	/^ SYSSEG   = 1000h		;\/\/ system模块加载到10000(64kB)处.$/;"	d
+SYSSEG	boot/setup.s	/^ SYSSEG   = 1000h	;\/\/ system 在10000(64k)处。$/;"	d
+SYSSIZE	boot/bootsect.s	/^ SYSSIZE = 3000h		;\/\/ 指编译连接后system模块的大小。$/;"	d
+S_IFBLK	include/sys/stat.h	25;"	d
+S_IFCHR	include/sys/stat.h	27;"	d
+S_IFDIR	include/sys/stat.h	26;"	d
+S_IFIFO	include/sys/stat.h	28;"	d
+S_IFMT	include/sys/stat.h	23;"	d
+S_IFREG	include/sys/stat.h	24;"	d
+S_IRGRP	include/sys/stat.h	46;"	d
+S_IROTH	include/sys/stat.h	51;"	d
+S_IRUSR	include/sys/stat.h	41;"	d
+S_IRWXG	include/sys/stat.h	45;"	d
+S_IRWXO	include/sys/stat.h	50;"	d
+S_IRWXU	include/sys/stat.h	40;"	d
+S_ISBLK	include/sys/stat.h	37;"	d
+S_ISCHR	include/sys/stat.h	36;"	d
+S_ISDIR	include/sys/stat.h	35;"	d
+S_ISFIFO	include/sys/stat.h	38;"	d
+S_ISGID	include/sys/stat.h	31;"	d
+S_ISREG	include/sys/stat.h	34;"	d
+S_ISUID	include/sys/stat.h	30;"	d
+S_ISVTX	include/sys/stat.h	32;"	d
+S_IWGRP	include/sys/stat.h	47;"	d
+S_IWOTH	include/sys/stat.h	52;"	d
+S_IWUSR	include/sys/stat.h	42;"	d
+S_IXGRP	include/sys/stat.h	48;"	d
+S_IXOTH	include/sys/stat.h	53;"	d
+S_IXUSR	include/sys/stat.h	43;"	d
+TAB0	include/termios.h	167;"	d
+TAB1	include/termios.h	168;"	d
+TAB2	include/termios.h	169;"	d
+TAB3	include/termios.h	170;"	d
+TABDLY	include/termios.h	166;"	d
+TASK_INTERRUPTIBLE	include/linux/sched.h	21;"	d
+TASK_RUNNING	include/linux/sched.h	20;"	d
+TASK_STOPPED	include/linux/sched.h	24;"	d
+TASK_UNINTERRUPTIBLE	include/linux/sched.h	22;"	d
+TASK_ZOMBIE	include/linux/sched.h	23;"	d
+TCFLSH	include/termios.h	38;"	d
+TCGETA	include/termios.h	22;"	d
+TCGETS	include/termios.h	12;"	d
+TCIFLUSH	include/termios.h	261;"	d
+TCIOFF	include/termios.h	257;"	d
+TCIOFLUSH	include/termios.h	263;"	d
+TCION	include/termios.h	258;"	d
+TCOFLUSH	include/termios.h	262;"	d
+TCOOFF	include/termios.h	255;"	d
+TCOON	include/termios.h	256;"	d
+TCSADRAIN	include/termios.h	267;"	d
+TCSAFLUSH	include/termios.h	268;"	d
+TCSANOW	include/termios.h	266;"	d
+TCSBRK	include/termios.h	32;"	d
+TCSETA	include/termios.h	24;"	d
+TCSETAF	include/termios.h	30;"	d
+TCSETAW	include/termios.h	27;"	d
+TCSETS	include/termios.h	14;"	d
+TCSETSF	include/termios.h	20;"	d
+TCSETSW	include/termios.h	17;"	d
+TCXONC	include/termios.h	35;"	d
+TIME_REQUESTS	kernel/sched.c	345;"	d	file:
+TIOCEXCL	include/termios.h	41;"	d
+TIOCGPGRP	include/termios.h	47;"	d
+TIOCGSOFTCAR	include/termios.h	71;"	d
+TIOCGWINSZ	include/termios.h	56;"	d
+TIOCINQ	include/termios.h	75;"	d
+TIOCMBIC	include/termios.h	64;"	d
+TIOCMBIS	include/termios.h	62;"	d
+TIOCMGET	include/termios.h	60;"	d
+TIOCMSET	include/termios.h	66;"	d
+TIOCM_CAR	include/termios.h	248;"	d
+TIOCM_CD	include/termios.h	251;"	d
+TIOCM_CTS	include/termios.h	247;"	d
+TIOCM_DSR	include/termios.h	250;"	d
+TIOCM_DTR	include/termios.h	243;"	d
+TIOCM_LE	include/termios.h	242;"	d
+TIOCM_RI	include/termios.h	252;"	d
+TIOCM_RNG	include/termios.h	249;"	d
+TIOCM_RTS	include/termios.h	244;"	d
+TIOCM_SR	include/termios.h	246;"	d
+TIOCM_ST	include/termios.h	245;"	d
+TIOCNXCL	include/termios.h	43;"	d
+TIOCOUTQ	include/termios.h	51;"	d
+TIOCSCTTY	include/termios.h	45;"	d
+TIOCSPGRP	include/termios.h	49;"	d
+TIOCSSOFTCAR	include/termios.h	73;"	d
+TIOCSTI	include/termios.h	54;"	d
+TIOCSWINSZ	include/termios.h	58;"	d
+TOSTOP	include/termios.h	231;"	d
+TRK0_ERR	include/linux/hdreg.h	62;"	d
+TSTPMASK	kernel/chr_drv/tty_io.c	23;"	d	file:
+TTY_BUF_SIZE	include/linux/tty.h	12;"	d
+TTY_BUF_SIZE	include/termios.h	4;"	d
+TYPE	kernel/blk_drv/floppy.c	60;"	d	file:
+USED	mm/memory.c	62;"	d	file:
+VDISCARD	include/termios.h	126;"	d
+VEOF	include/termios.h	117;"	d
+VEOL	include/termios.h	124;"	d
+VEOL2	include/termios.h	129;"	d
+VERASE	include/termios.h	115;"	d
+VIDEO_TYPE_CGA	kernel/chr_drv/console.c	53;"	d	file:
+VIDEO_TYPE_EGAC	kernel/chr_drv/console.c	55;"	d	file:
+VIDEO_TYPE_EGAM	kernel/chr_drv/console.c	54;"	d	file:
+VIDEO_TYPE_MDA	kernel/chr_drv/console.c	52;"	d	file:
+VINTR	include/termios.h	113;"	d
+VKILL	include/termios.h	116;"	d
+VLNEXT	include/termios.h	128;"	d
+VMIN	include/termios.h	119;"	d
+VQUIT	include/termios.h	114;"	d
+VREPRINT	include/termios.h	125;"	d
+VSTART	include/termios.h	121;"	d
+VSTOP	include/termios.h	122;"	d
+VSUSP	include/termios.h	123;"	d
+VSWTC	include/termios.h	120;"	d
+VT0	include/termios.h	176;"	d
+VT1	include/termios.h	177;"	d
+VTDLY	include/termios.h	175;"	d
+VTIME	include/termios.h	118;"	d
+VWERASE	include/termios.h	127;"	d
+WAKEUP_CHARS	kernel/chr_drv/serial.c	30;"	d	file:
+WEXITSTATUS	include/sys/wait.h	16;"	d
+WIFEXITED	include/sys/wait.h	14;"	d
+WIFSIGNALED	include/sys/wait.h	19;"	d
+WIFSTOPPED	include/sys/wait.h	15;"	d
+WIN_DIAGNOSE	include/linux/hdreg.h	43;"	d
+WIN_FORMAT	include/linux/hdreg.h	40;"	d
+WIN_INIT	include/linux/hdreg.h	41;"	d
+WIN_READ	include/linux/hdreg.h	37;"	d
+WIN_RESTORE	include/linux/hdreg.h	36;"	d
+WIN_SEEK	include/linux/hdreg.h	42;"	d
+WIN_SPECIFY	include/linux/hdreg.h	44;"	d
+WIN_VERIFY	include/linux/hdreg.h	39;"	d
+WIN_WRITE	include/linux/hdreg.h	38;"	d
+WNOHANG	include/sys/wait.h	11;"	d
+WRERR_STAT	include/linux/hdreg.h	30;"	d
+WRITE	include/linux/fs.h	43;"	d
+WRITEA	include/linux/fs.h	45;"	d
+WSTOPSIG	include/sys/wait.h	18;"	d
+WTERMSIG	include/sys/wait.h	17;"	d
+WUNTRACED	include/sys/wait.h	12;"	d
+W_OK	include/unistd.h	32;"	d
+WkspDir	VC/bootsect.mak	/^WkspDir=.$/;"	m
+WkspDir	VC/setup.mak	/^WkspDir=.$/;"	m
+XCASE	include/termios.h	224;"	d
+XTABS	include/termios.h	171;"	d
+X_OK	include/unistd.h	31;"	d
+YEAR	kernel/mktime.c	31;"	d	file:
+ZEROPAD	kernel/vsprintf.c	33;"	d	file:
+ZMAGIC	include/a.out.h	43;"	d
+Z_MAP_SLOTS	include/linux/fs.h	56;"	d
+_A_OUT_H	include/a.out.h	2;"	d
+_BLK_H	kernel/blk_drv/blk.h	2;"	d
+_BLOCKABLE	kernel/sched.c	25;"	d	file:
+_C	include/ctype.h	7;"	d
+_CONFIG_H	include/linux/config.h	2;"	d
+_CONST_H	include/const.h	2;"	d
+_CTYPE_H	include/ctype.h	2;"	d
+_D	include/ctype.h	6;"	d
+_ERRNO_H	include/errno.h	2;"	d
+_FCNTL_H	include/fcntl.h	2;"	d
+_FDREG_H	include/linux/fdreg.h	6;"	d
+_FS_H	include/linux/fs.h	10;"	d
+_HDREG_H	include/linux/hdreg.h	6;"	d
+_HEAD_H	include/linux/head.h	2;"	d
+_HIGH	include/sys/wait.h	7;"	d
+_INC_PIPE	include/linux/fs.h	/^extern _inline void _INC_PIPE(unsigned long *head) {$/;"	f
+_I_FLAG	kernel/chr_drv/tty_io.c	32;"	d	file:
+_L	include/ctype.h	5;"	d
+_LDT	include/linux/sched.h	220;"	d
+_LOW	include/sys/wait.h	6;"	d
+_L_FLAG	kernel/chr_drv/tty_io.c	31;"	d	file:
+_MM_H	include/linux/mm.h	2;"	d
+_NSIG	include/signal.h	9;"	d
+_N_BADMAG	include/a.out.h	53;"	d
+_N_HDROFF	include/a.out.h	58;"	d
+_N_SEGMENT_ROUND	include/a.out.h	124;"	d
+_N_TXTENDADDR	include/a.out.h	127;"	d
+_O_FLAG	kernel/chr_drv/tty_io.c	33;"	d	file:
+_P	include/ctype.h	8;"	d
+_PC_CHOWN_RESTRICTED	include/unistd.h	64;"	d
+_PC_LINK_MAX	include/unistd.h	56;"	d
+_PC_MAX_CANON	include/unistd.h	57;"	d
+_PC_MAX_INPUT	include/unistd.h	58;"	d
+_PC_NAME_MAX	include/unistd.h	59;"	d
+_PC_NO_TRUNC	include/unistd.h	62;"	d
+_PC_PATH_MAX	include/unistd.h	60;"	d
+_PC_PIPE_BUF	include/unistd.h	61;"	d
+_PC_VDISABLE	include/unistd.h	63;"	d
+_POSIX_CHOWN_RESTRICTED	include/unistd.h	10;"	d
+_POSIX_NO_TRUNC	include/unistd.h	12;"	d
+_POSIX_VDISABLE	include/unistd.h	14;"	d
+_POSIX_VERSION	include/unistd.h	7;"	d
+_PTRDIFF_T	include/stddef.h	5;"	d
+_PTRDIFF_T	include/sys/types.h	15;"	d
+_S	include/ctype.h	9;"	d
+_S	kernel/sched.c	23;"	d	file:
+_SCHED_H	include/linux/sched.h	2;"	d
+_SC_ARG_MAX	include/unistd.h	44;"	d
+_SC_CHILD_MAX	include/unistd.h	45;"	d
+_SC_CLOCKS_PER_SEC	include/unistd.h	46;"	d
+_SC_JOB_CONTROL	include/unistd.h	49;"	d
+_SC_NGROUPS_MAX	include/unistd.h	47;"	d
+_SC_OPEN_MAX	include/unistd.h	48;"	d
+_SC_SAVED_IDS	include/unistd.h	50;"	d
+_SC_VERSION	include/unistd.h	51;"	d
+_SIGNAL_H	include/signal.h	2;"	d
+_SIZE_T	include/stddef.h	10;"	d
+_SIZE_T	include/string.h	13;"	d
+_SIZE_T	include/sys/types.h	5;"	d
+_SIZE_T	include/time.h	10;"	d
+_SP	include/ctype.h	11;"	d
+_STDARG_H	include/stdarg.h	2;"	d
+_STDDEF_H	include/stddef.h	2;"	d
+_STRING_H_	include/string.h	2;"	d
+_SYS_STAT_H	include/sys/stat.h	2;"	d
+_SYS_TYPES_H	include/sys/types.h	2;"	d
+_SYS_UTSNAME_H	include/sys/utsname.h	2;"	d
+_SYS_WAIT_H	include/sys/wait.h	2;"	d
+_TERMIOS_H	include/termios.h	2;"	d
+_TIMES_H	include/sys/times.h	2;"	d
+_TIME_H	include/time.h	2;"	d
+_TIME_T	include/sys/types.h	10;"	d
+_TIME_T	include/time.h	5;"	d
+_TSS	include/linux/sched.h	218;"	d
+_TTY_H	include/linux/tty.h	8;"	d
+_U	include/ctype.h	4;"	d
+_UNISTD_H	include/unistd.h	2;"	d
+_UTIME_H	include/utime.h	2;"	d
+_X	include/ctype.h	10;"	d
+__FILL_HEADER	build/build.cpp	/^}__FILL_HEADER;$/;"	t	typeref:struct:__tagFILE_HEADER	file:
+__GNU_EXEC_MACROS__	include/a.out.h	4;"	d
+__LIBRARY__	init/main.c	8;"	d	file:
+__LIBRARY__	lib/_exit.c	8;"	d	file:
+__LIBRARY__	lib/close.c	8;"	d	file:
+__LIBRARY__	lib/dup.c	8;"	d	file:
+__LIBRARY__	lib/execve.c	8;"	d	file:
+__LIBRARY__	lib/open.c	12;"	d	file:
+__LIBRARY__	lib/setsid.c	11;"	d	file:
+__LIBRARY__	lib/string.c	16;"	d	file:
+__LIBRARY__	lib/wait.c	18;"	d	file:
+__LIBRARY__	lib/write.c	11;"	d	file:
+__NR_access	include/unistd.h	108;"	d
+__NR_acct	include/unistd.h	126;"	d
+__NR_alarm	include/unistd.h	102;"	d
+__NR_break	include/unistd.h	92;"	d
+__NR_brk	include/unistd.h	120;"	d
+__NR_chdir	include/unistd.h	87;"	d
+__NR_chmod	include/unistd.h	90;"	d
+__NR_chown	include/unistd.h	91;"	d
+__NR_chroot	include/unistd.h	136;"	d
+__NR_close	include/unistd.h	81;"	d
+__NR_creat	include/unistd.h	83;"	d
+__NR_dup	include/unistd.h	116;"	d
+__NR_dup2	include/unistd.h	138;"	d
+__NR_execve	include/unistd.h	86;"	d
+__NR_exit	include/unistd.h	76;"	d
+__NR_fcntl	include/unistd.h	130;"	d
+__NR_fork	include/unistd.h	77;"	d
+__NR_fstat	include/unistd.h	103;"	d
+__NR_ftime	include/unistd.h	110;"	d
+__NR_getegid	include/unistd.h	125;"	d
+__NR_geteuid	include/unistd.h	124;"	d
+__NR_getgid	include/unistd.h	122;"	d
+__NR_getpgrp	include/unistd.h	140;"	d
+__NR_getpid	include/unistd.h	95;"	d
+__NR_getppid	include/unistd.h	139;"	d
+__NR_getuid	include/unistd.h	99;"	d
+__NR_gtty	include/unistd.h	107;"	d
+__NR_ioctl	include/unistd.h	129;"	d
+__NR_kill	include/unistd.h	112;"	d
+__NR_link	include/unistd.h	84;"	d
+__NR_lock	include/unistd.h	128;"	d
+__NR_lseek	include/unistd.h	94;"	d
+__NR_mkdir	include/unistd.h	114;"	d
+__NR_mknod	include/unistd.h	89;"	d
+__NR_mount	include/unistd.h	96;"	d
+__NR_mpx	include/unistd.h	131;"	d
+__NR_nice	include/unistd.h	109;"	d
+__NR_open	include/unistd.h	80;"	d
+__NR_pause	include/unistd.h	104;"	d
+__NR_phys	include/unistd.h	127;"	d
+__NR_pipe	include/unistd.h	117;"	d
+__NR_prof	include/unistd.h	119;"	d
+__NR_ptrace	include/unistd.h	101;"	d
+__NR_read	include/unistd.h	78;"	d
+__NR_rename	include/unistd.h	113;"	d
+__NR_rmdir	include/unistd.h	115;"	d
+__NR_setgid	include/unistd.h	121;"	d
+__NR_setpgid	include/unistd.h	132;"	d
+__NR_setregid	include/unistd.h	146;"	d
+__NR_setreuid	include/unistd.h	145;"	d
+__NR_setsid	include/unistd.h	141;"	d
+__NR_setuid	include/unistd.h	98;"	d
+__NR_setup	include/unistd.h	74;"	d
+__NR_sgetmask	include/unistd.h	143;"	d
+__NR_sigaction	include/unistd.h	142;"	d
+__NR_signal	include/unistd.h	123;"	d
+__NR_ssetmask	include/unistd.h	144;"	d
+__NR_stat	include/unistd.h	93;"	d
+__NR_stime	include/unistd.h	100;"	d
+__NR_stty	include/unistd.h	106;"	d
+__NR_sync	include/unistd.h	111;"	d
+__NR_time	include/unistd.h	88;"	d
+__NR_times	include/unistd.h	118;"	d
+__NR_ulimit	include/unistd.h	133;"	d
+__NR_umask	include/unistd.h	135;"	d
+__NR_umount	include/unistd.h	97;"	d
+__NR_uname	include/unistd.h	134;"	d
+__NR_unlink	include/unistd.h	85;"	d
+__NR_ustat	include/unistd.h	137;"	d
+__NR_utime	include/unistd.h	105;"	d
+__NR_waitpid	include/unistd.h	82;"	d
+__NR_write	include/unistd.h	79;"	d
+__tagFILE_HEADER	build/build.cpp	/^typedef struct __tagFILE_HEADER{$/;"	s	file:
+__va_rounded_size	include/stdarg.h	12;"	d
+_bmap	fs/inode.c	/^static int _bmap(struct m_inode * inode,int block,int create)$/;"	f	file:
+_bounds	kernel/asm.s	/^_bounds:$/;"	l
+_bucket_dir	lib/malloc.c	/^struct _bucket_dir {	\/* 8 bytes *\/$/;"	s	file:
+_coprocessor_error	kernel/system_call.s	/^_coprocessor_error:$/;"	l
+_coprocessor_segment_overrun	kernel/asm.s	/^_coprocessor_segment_overrun:$/;"	l
+_copy_page	mm/memory.c	/^_inline void _copy_page(void *from, void *to)$/;"	f
+_ctmp	lib/ctype.c	/^char _ctmp = 0;\/\/ 一个临时字符变量，供ctype.h 文件中转换字符宏函数使用。$/;"	v
+_ctype	lib/ctype.c	/^unsigned char _ctype[] = {0x00,			\/* EOF *\/$/;"	v
+_debug	kernel/asm.s	/^_debug:$/;"	l
+_device_not_available	kernel/system_call.s	/^_device_not_available:$/;"	l
+_divide_error	kernel/asm.s	/^_divide_error:$/;"	l
+_do_div	kernel/vsprintf.c	/^extern _inline int _do_div(int *n,int base)$/;"	f
+_double_fault	kernel/asm.s	/^_double_fault:$/;"	l
+_exit	lib/_exit.c	/^void _exit(int exit_code)$/;"	f
+_floppy_interrupt	kernel/system_call.s	/^_floppy_interrupt:$/;"	l
+_fs	kernel/traps.c	/^_inline unsigned short _fs() {$/;"	f
+_gdt	boot/head.s	/^_gdt:$/;"	l
+_general_protection	kernel/asm.s	/^_general_protection:$/;"	l
+_get_base	include/linux/sched.h	/^extern _inline unsigned long _get_base(void *addr) $/;"	f
+_hashfn	fs/buffer.c	145;"	d	file:
+_hd_interrupt	kernel/system_call.s	/^_hd_interrupt:$/;"	l
+_idt	boot/head.s	/^_idt:$/;"	l
+_inb	include/asm/io.h	/^unsigned char _inline _inb(unsigned short port) $/;"	f
+_inb_p	include/asm/io.h	/^_inline unsigned char _inb_p(unsigned short port)$/;"	f
+_inline	include/set_seg.h	4;"	d
+_int3	kernel/asm.s	/^_int3:$/;"	l
+_invalid_TSS	kernel/asm.s	/^_invalid_TSS:$/;"	l
+_invalid_op	kernel/asm.s	/^_invalid_op:$/;"	l
+_irq13	kernel/asm.s	/^_irq13:$/;"	l
+_keyboard_interrupt	kernel/chr_drv/keyboard.S	/^_keyboard_interrupt:$/;"	l
+_nmi	kernel/asm.s	/^_nmi:$/;"	l
+_outb	include/asm/io.h	/^void _inline _outb(unsigned char value,unsigned short port) \/\/passed$/;"	f
+_outb_p	include/asm/io.h	/^_inline void _outb_p(unsigned char value, unsigned short port)$/;"	f
+_overflow	kernel/asm.s	/^_overflow:$/;"	l
+_page_fault	mm/page.s	/^_page_fault:$/;"	l
+_parallel_interrupt	kernel/system_call.s	/^_parallel_interrupt:$/;"	l
+_pg_dir	boot/head.s	/^_pg_dir:		;\/\/ 页目录将会存放在这里。$/;"	l
+_reserved	kernel/asm.s	/^_reserved:$/;"	l
+_rs1_interrupt	kernel/chr_drv/rs_io.s	/^_rs1_interrupt:$/;"	l
+_rs2_interrupt	kernel/chr_drv/rs_io.s	/^_rs2_interrupt:$/;"	l
+_segment_not_present	kernel/asm.s	/^_segment_not_present:$/;"	l
+_set_base	include/linux/sched.h	/^void _set_base(unsigned short *addr,unsigned long base) $/;"	f
+_set_gate	include/asm/system.h	/^void _inline _set_gate(unsigned long *gate_addr, \\$/;"	f
+_set_limit	include/linux/sched.h	/^extern _inline void _set_limit(unsigned short *addr,unsigned long limit) $/;"	f
+_set_seg_desc	include/asm/system.h	87;"	d
+_set_tssldt_desc	include/asm/system.h	/^extern _inline void _set_tssldt_desc(unsigned short *n,unsigned long addr,char tp) $/;"	f
+_stack_segment	kernel/asm.s	/^_stack_segment:$/;"	l
+_startup_32	boot/head.s	/^_startup_32:			;\/\/ 以下5行设置各个数据段寄存器。指向gdt数据段描述符项$/;"	l
+_str	include/linux/sched.h	/^_inline void _str(unsigned long n)$/;"	f
+_sys_execve	kernel/system_call.s	/^_sys_execve:$/;"	l
+_sys_fork	kernel/system_call.s	/^_sys_fork:$/;"	l
+_syscall0	include/unistd.h	153;"	d
+_syscall1	include/unistd.h	183;"	d
+_syscall2	include/unistd.h	213;"	d
+_syscall3	include/unistd.h	244;"	d
+_system_call	kernel/system_call.s	/^_system_call:$/;"	l
+_timer_interrupt	kernel/system_call.s	/^_timer_interrupt:$/;"	l
+_tmp_floppy_area	boot/head.s	/^_tmp_floppy_area:$/;"	l
+a	include/linux/head.h	/^  unsigned long a, b;		\/\/ 符是由8 个字节构成，每个描述符表共有256 项。$/;"	m	struct:desc_struct
+a	kernel/sched.c	/^  long *a;$/;"	m	struct:__anon4	file:
+a_bss	include/a.out.h	/^  unsigned a_bss;		\/* length of uninitialized data area for file, in bytes *\/$/;"	m	struct:exec
+a_data	include/a.out.h	/^  unsigned a_data;		\/* length of data, in bytes *\/$/;"	m	struct:exec
+a_drsize	include/a.out.h	/^  unsigned a_drsize;		\/* length of relocation info for data, in bytes *\/$/;"	m	struct:exec
+a_entry	include/a.out.h	/^  unsigned a_entry;		\/* start address *\/$/;"	m	struct:exec
+a_magic	include/a.out.h	/^  unsigned long a_magic;	\/* Use macros N_MAGIC, etc for access *\/$/;"	m	struct:exec
+a_syms	include/a.out.h	/^  unsigned a_syms;		\/* length of symbol table data in file, in bytes *\/$/;"	m	struct:exec
+a_text	include/a.out.h	/^  unsigned a_text;		\/* length of text, in bytes *\/$/;"	m	struct:exec
+a_trsize	include/a.out.h	/^  unsigned a_trsize;		\/* length of relocation info for text, in bytes *\/$/;"	m	struct:exec
+actime	include/utime.h	/^  time_t actime;		\/\/ 文件访问时间。从1970.1.1:0:0:0 开始的秒数。$/;"	m	struct:utimbuf
+add_entry	fs/namei.c	/^static struct buffer_head * add_entry(struct m_inode * dir,$/;"	f	file:
+add_request	kernel/blk_drv/ll_rw_blk.c	/^add_request (struct blk_dev_struct *dev, struct request *req)$/;"	f	file:
+add_timer	kernel/sched.c	/^void add_timer (long jiffies, void (*fn) ())$/;"	f
+after_page_tables	boot/head.s	/^after_page_tables:$/;"	l
+alarm	include/linux/sched.h	/^	long alarm;$/;"	m	struct:task_struct
+alt	kernel/chr_drv/keyboard.S	/^alt:$/;"	l
+alt_map	kernel/chr_drv/keyboard.S	/^alt_map:$/;"	l
+alt_map	kernel/chr_drv/keyboard.h	/^unsigned char alt_map[] = {$/;"	v
+argv	init/main.c	/^static char * argv[] = { "-\/bin\/sh",NULL };		\/\/ 同上。$/;"	v	file:
+argv_rc	init/main.c	/^static char * argv_rc[] = { "\/bin\/sh", NULL };\/\/ 调用执行程序时参数的字符串数组。$/;"	v	file:
+attr	kernel/chr_drv/console.c	/^static unsigned char attr = 0x07;	\/\/ 字符属性(黑底白字)。$/;"	v	file:
+b	include/linux/head.h	/^  unsigned long a, b;		\/\/ 符是由8 个字节构成，每个描述符表共有256 项。$/;"	m	struct:desc_struct
+b	kernel/sched.c	/^  short b;$/;"	m	struct:__anon4	file:
+b_blocknr	include/linux/fs.h	/^  unsigned long b_blocknr;	\/* block number *\/\/\/ 块号。$/;"	m	struct:buffer_head
+b_count	include/linux/fs.h	/^  unsigned char b_count;	\/* users using this block *\/\/\/ 使用的用户数。$/;"	m	struct:buffer_head
+b_data	include/linux/fs.h	/^  char *b_data;			\/* pointer to data block (1024 bytes) *\/\/\/指针。$/;"	m	struct:buffer_head
+b_dev	include/linux/fs.h	/^  unsigned short b_dev;		\/* device (0 = free) *\/\/\/ 数据源的设备号。$/;"	m	struct:buffer_head
+b_dirt	include/linux/fs.h	/^  unsigned char b_dirt;		\/* 0-clean,1-dirty *\/\/\/修改标志:0 未修改,1 已修改.$/;"	m	struct:buffer_head
+b_lock	include/linux/fs.h	/^  unsigned char b_lock;		\/* 0 - ok, 1 -locked *\/\/\/ 缓冲区是否被锁定。$/;"	m	struct:buffer_head
+b_next	include/linux/fs.h	/^  struct buffer_head *b_next;	\/\/ hash 队列上下一块。$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_next_free	include/linux/fs.h	/^  struct buffer_head *b_next_free;	\/\/ 空闲表上下一块。$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_prev	include/linux/fs.h	/^  struct buffer_head *b_prev;	\/\/ hash 队列上前一块（这四个指针用于缓冲区的管理）。$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_prev_free	include/linux/fs.h	/^  struct buffer_head *b_prev_free;	\/\/ 空闲表上前一块。$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_uptodate	include/linux/fs.h	/^  unsigned char b_uptodate;	\/\/ 更新标志：表示数据是否已更新。$/;"	m	struct:buffer_head
+b_wait	include/linux/fs.h	/^  struct task_struct *b_wait;	\/\/ 指向等待该缓冲区解锁的任务。$/;"	m	struct:buffer_head	typeref:struct:buffer_head::task_struct
+back_link	include/linux/sched.h	/^	long back_link;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+bad_flp_intr	kernel/blk_drv/floppy.c	/^bad_flp_intr (void)$/;"	f	file:
+bad_rt	boot/bootsect.s	/^bad_rt:	$/;"	l
+bad_rw_intr	kernel/blk_drv/hd.c	/^static void bad_rw_intr (void)$/;"	f	file:
+bad_sys_call	kernel/system_call.s	/^bad_sys_call:$/;"	l
+beepcount	kernel/chr_drv/console.c	/^int beepcount = 0;$/;"	v
+bh	kernel/blk_drv/blk.h	/^  struct buffer_head *bh;	\/\/ 缓冲区头指针(include\/linux\/fs.h,68)。$/;"	m	struct:request	typeref:struct:request::buffer_head
+blk_dev	kernel/blk_drv/ll_rw_blk.c	/^struct blk_dev_struct blk_dev[NR_BLK_DEV] = {$/;"	v	typeref:struct:blk_dev_struct
+blk_dev_init	kernel/blk_drv/ll_rw_blk.c	/^void blk_dev_init (void)$/;"	f
+blk_dev_struct	kernel/blk_drv/blk.h	/^struct blk_dev_struct$/;"	s
+block_read	fs/block_dev.c	/^int block_read(int dev, unsigned long * pos, char * buf, int count)$/;"	f
+block_write	fs/block_dev.c	/^int block_write(int dev, long * pos, char * buf, int count)$/;"	f
+blocked	include/linux/sched.h	/^	long blocked;			\/* bitmap of masked signals *\/$/;"	m	struct:task_struct
+blocked	kernel/system_call.s	/^blocked = (33*16) ;\/\/ 受阻塞信号位图的偏移量。$/;"	d
+bmap	fs/inode.c	/^int bmap(struct m_inode * inode,int block)$/;"	f
+boot_flag	boot/bootsect.s	/^boot_flag dw 0AA55h		;\/\/ 硬盘有效标识。$/;"	d
+boot_ind	include/linux/hdreg.h	/^  unsigned char boot_ind;	\/* 0x80 - active (unused) *\/$/;"	m	struct:partition
+bottom	kernel/chr_drv/console.c	/^static unsigned long top, bottom;	\/\/ 滚动时顶行行号；底行行号。$/;"	v	file:
+bread	fs/buffer.c	/^struct buffer_head * bread(int dev,int block)$/;"	f
+bread_page	fs/buffer.c	/^void bread_page(unsigned long address,int dev,int b[4])$/;"	f
+breada	fs/buffer.c	/^struct buffer_head * breada(int dev,int first, ...)$/;"	f
+brelse	fs/buffer.c	/^void brelse(struct buffer_head * buf)$/;"	f
+brk	include/linux/sched.h	/^	unsigned long start_code, end_code, end_data, brk, start_stack;$/;"	m	struct:task_struct
+bsize	kernel/chr_drv/keyboard.S	/^bsize = 1024 \/* must be a power of two ! And MUST be the same$/;"	d
+bsize	kernel/chr_drv/rs_io.s	/^bsize = 1024 ;\/* must be power of two ! 必须是2 的次方并且需$/;"	d
+bucket_desc	lib/malloc.c	/^struct bucket_desc {	\/* 16 bytes *\/$/;"	s	file:
+bucket_dir	lib/malloc.c	/^struct _bucket_dir bucket_dir[] = {$/;"	v	typeref:struct:_bucket_dir
+bucket_size	lib/malloc.c	/^	unsigned short		bucket_size;\/\/ 本描述符对应存储桶的大小。$/;"	m	struct:bucket_desc	file:
+buf	include/linux/tty.h	/^  char buf[TTY_BUF_SIZE];	\/\/ 队列的缓冲区。$/;"	m	struct:tty_queue
+buf	kernel/chr_drv/keyboard.S	/^buf = 16 \/\/ 缓冲区字段偏移。$/;"	d
+buf	kernel/chr_drv/rs_io.s	/^buf = 16 ;\/\/ 缓冲区字段偏移。$/;"	d
+buf	kernel/printk.c	/^static char buf[1024];$/;"	v	file:
+buffer	kernel/blk_drv/blk.h	/^  char *buffer;			\/\/ 数据缓冲区。$/;"	m	struct:request
+buffer_block	include/linux/fs.h	/^typedef char buffer_block[BLOCK_SIZE];	\/\/ 块缓冲区。$/;"	t
+buffer_head	include/linux/fs.h	/^struct buffer_head$/;"	s
+buffer_init	fs/buffer.c	/^void buffer_init(long buffer_end)$/;"	f
+buffer_memory_end	init/main.c	/^static long buffer_memory_end = 0;\/\/ 高速缓冲区末端地址。$/;"	v	file:
+buffer_wait	fs/buffer.c	/^static struct task_struct * buffer_wait = NULL;$/;"	v	typeref:struct:task_struct	file:
+c_cc	include/termios.h	/^  unsigned char c_cc[NCCS];	\/* control characters *\/\/\/ 控制字符数组。$/;"	m	struct:termios
+c_cc	include/termios.h	/^  unsigned char c_cc[NCC];	\/* control characters *\/\/\/ 控制字符数组。$/;"	m	struct:termio
+c_cflag	include/termios.h	/^  unsigned long c_cflag;	\/* control mode flags *\/\/\/ 控制模式标志。$/;"	m	struct:termios
+c_cflag	include/termios.h	/^  unsigned short c_cflag;	\/* control mode flags *\/\/\/ 控制模式标志。$/;"	m	struct:termio
+c_iflag	include/termios.h	/^  unsigned long c_iflag;	\/* input mode flags *\/\/\/ 输入模式标志。$/;"	m	struct:termios
+c_iflag	include/termios.h	/^  unsigned short c_iflag;	\/* input mode flags *\/\/\/ 输入模式标志。$/;"	m	struct:termio
+c_lflag	include/termios.h	/^  unsigned long c_lflag;	\/* local mode flags *\/\/\/ 本地模式标志。$/;"	m	struct:termios
+c_lflag	include/termios.h	/^  unsigned short c_lflag;	\/* local mode flags *\/\/\/ 本地模式标志。$/;"	m	struct:termio
+c_line	include/termios.h	/^  unsigned char c_line;		\/* line discipline *\/\/\/ 线路规程（速率）。$/;"	m	struct:termio
+c_line	include/termios.h	/^  unsigned char c_line;		\/* line discipline *\/\/\/ 线路规程（速率）。$/;"	m	struct:termios
+c_oflag	include/termios.h	/^  unsigned long c_oflag;	\/* output mode flags *\/\/\/ 输出模式标志。$/;"	m	struct:termios
+c_oflag	include/termios.h	/^  unsigned short c_oflag;	\/* output mode flags *\/\/\/ 输出模式标志。$/;"	m	struct:termio
+calc_mem	mm/memory.c	/^void calc_mem(void)$/;"	f
+caps	kernel/chr_drv/keyboard.S	/^caps:$/;"	l
+chain	lib/malloc.c	/^	struct bucket_desc	*chain;	\/\/ 该存储桶目录项的桶描述符链表指针。$/;"	m	struct:_bucket_dir	typeref:struct:_bucket_dir::bucket_desc	file:
+change_ldt	fs/exec.c	/^static unsigned long change_ldt(unsigned long text_size,unsigned long * page)$/;"	f	file:
+change_speed	kernel/chr_drv/tty_ioctl.c	/^change_speed (struct tty_struct *tty)$/;"	f	file:
+check_disk_change	fs/buffer.c	/^void check_disk_change(int dev)$/;"	f
+check_x87	boot/head.s	/^check_x87:$/;"	l
+chr_dev_init	kernel/chr_drv/tty_io.c	/^void chr_dev_init (void)$/;"	f
+clear_bit	fs/bitmap.c	/^extern _inline int clear_bit(unsigned long nr,char* addr)$/;"	f
+clear_block	fs/bitmap.c	/^extern _inline void clear_block(char *addr)$/;"	f
+cli	include/asm/system.h	32;"	d
+clock_t	include/time.h	/^typedef long clock_t;		\/\/ 从进程开始系统经过的时钟滴答数。$/;"	t
+close_on_exec	include/linux/sched.h	/^	unsigned long close_on_exec;$/;"	m	struct:task_struct
+cmd	kernel/blk_drv/blk.h	/^  int cmd;			\/* READ or WRITE *\/\/\/ 命令(READ 或WRITE)。$/;"	m	struct:request
+code	boot/bootsect.s	/^code segment		;\/\/ 程序从_main标号开始执行。$/;"	l
+code	boot/setup.s	/^code segment$/;"	l
+command	kernel/blk_drv/floppy.c	/^static unsigned char command = 0;$/;"	v	file:
+con_init	kernel/chr_drv/console.c	/^con_init (void)$/;"	f
+con_write	kernel/chr_drv/console.c	/^con_write (struct tty_struct *tty)$/;"	f
+controller_ready	kernel/blk_drv/hd.c	/^static int controller_ready (void)$/;"	f	file:
+copy_buffer	kernel/blk_drv/floppy.c	/^void _inline copy_buffer(void* from, void* to)$/;"	f
+copy_mem	kernel/fork.c	/^int copy_mem (int nr, struct task_struct *p)$/;"	f
+copy_page	mm/memory.c	73;"	d	file:
+copy_page_tables	mm/memory.c	/^int copy_page_tables(unsigned long from,unsigned long to,long size)$/;"	f
+copy_process	kernel/fork.c	/^int copy_process (int nr, long ebp, long edi, long esi, long gs, long none,$/;"	f
+copy_strings	fs/exec.c	/^static unsigned long copy_strings(int argc,char ** argv,unsigned long *page,$/;"	f	file:
+copy_to_cooked	kernel/chr_drv/tty_io.c	/^void copy_to_cooked (struct tty_struct *tty)$/;"	f
+count	fs/exec.c	/^static int count(char ** argv)$/;"	f	file:
+counter	include/linux/sched.h	/^	long counter;$/;"	m	struct:task_struct
+counter	kernel/system_call.s	/^counter = 4 ;\/\/ 任务运行时间计数(递减)（滴答数），运行时间片。$/;"	d
+cp_stat	fs/stat.c	/^cp_stat (struct m_inode *inode, struct stat *statbuf)$/;"	f	file:
+cr	kernel/chr_drv/console.c	/^cr (void)$/;"	f	file:
+cr3	include/linux/sched.h	/^	long cr3;$/;"	m	struct:tss_struct
+create_block	fs/inode.c	/^int create_block(struct m_inode * inode, int block)$/;"	f
+create_tables	fs/exec.c	/^static unsigned long * create_tables(char * p,int argc,int envc)$/;"	f	file:
+crw_ptr	fs/char_dev.c	/^typedef (*crw_ptr)(int rw,unsigned minor,char * buf,int count,off_t * pos);$/;"	t	file:
+crw_table	fs/char_dev.c	/^static crw_ptr crw_table[]={$/;"	v	file:
+cs	include/linux/sched.h	/^	long cs;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+csi_J	kernel/chr_drv/console.c	/^csi_J (int par)$/;"	f	file:
+csi_K	kernel/chr_drv/console.c	/^csi_K (int par)$/;"	f	file:
+csi_L	kernel/chr_drv/console.c	/^csi_L (unsigned int nr)$/;"	f	file:
+csi_M	kernel/chr_drv/console.c	/^csi_M (unsigned int nr)$/;"	f	file:
+csi_P	kernel/chr_drv/console.c	/^csi_P (unsigned int nr)$/;"	f	file:
+csi_at	kernel/chr_drv/console.c	/^csi_at (unsigned int nr)$/;"	f	file:
+csi_m	kernel/chr_drv/console.c	/^csi_m (void)$/;"	f
+cstime	include/linux/sched.h	/^	long utime, stime, cutime, cstime, start_time;$/;"	m	struct:task_struct
+ctl	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+ctrl	kernel/chr_drv/keyboard.S	/^ctrl:$/;"	l
+cur	kernel/chr_drv/keyboard.S	/^cur:$/;"	l
+cur2	kernel/chr_drv/keyboard.S	/^cur2:$/;"	l
+cur_rate	kernel/blk_drv/floppy.c	/^static int cur_rate = -1;$/;"	v	file:
+cur_spec1	kernel/blk_drv/floppy.c	/^static int cur_spec1 = -1;$/;"	v	file:
+cur_table	kernel/chr_drv/keyboard.S	/^cur_table db  "HA5 DGC YB623" \/\/ 数字小键盘上方向键或插入删除键对应的移动表示字符表。$/;"	d
+current	kernel/sched.c	/^struct task_struct *current = &(init_task.task);	\/\/ 当前任务指针（初始化为初始任务）。$/;"	v	typeref:struct:task_struct
+current_DOR	kernel/sched.c	/^unsigned char current_DOR = 0x0C;	\/\/ 数字输出寄存器(初值：允许DMA 和请求中断、启动FDC)。$/;"	v
+current_drive	kernel/blk_drv/floppy.c	/^static unsigned char current_drive = 0;$/;"	v	file:
+current_request	kernel/blk_drv/blk.h	/^  struct request *current_request;	\/\/ 请求信息结构。$/;"	m	struct:blk_dev_struct	typeref:struct:blk_dev_struct::request
+current_track	kernel/blk_drv/floppy.c	/^static unsigned char current_track = 255;$/;"	v	file:
+cursor	kernel/chr_drv/keyboard.S	/^cursor:$/;"	l
+cutime	include/linux/sched.h	/^	long utime, stime, cutime, cstime, start_time;$/;"	m	struct:task_struct
+cwd	include/linux/sched.h	/^	long cwd;			\/\/ 控制字(Control word)。$/;"	m	struct:i387_struct
+cyl	include/linux/hdreg.h	/^  unsigned char cyl;		\/* ? *\/$/;"	m	struct:partition
+cyl	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+d_inode	include/linux/fs.h	/^struct d_inode$/;"	s
+d_super_block	include/linux/fs.h	/^struct d_super_block$/;"	s
+daddr_t	include/sys/types.h	/^typedef int daddr_t;$/;"	t
+data	include/linux/tty.h	/^  unsigned long data;		\/\/ 等待队列缓冲区中当前数据指针字符数[??]）。$/;"	m	struct:tty_queue
+del	kernel/chr_drv/console.c	/^del (void)$/;"	f	file:
+delete_char	kernel/chr_drv/console.c	/^delete_char (void)$/;"	f	file:
+delete_line	kernel/chr_drv/console.c	/^delete_line (void)$/;"	f	file:
+desc_struct	include/linux/head.h	/^typedef struct desc_struct$/;"	s
+desc_table	include/linux/head.h	/^desc_table[256];$/;"	t	typeref:struct:desc_struct
+dev	kernel/blk_drv/blk.h	/^  int dev;			\/* -1 if no request *\/\/\/ 使用的设备号。$/;"	m	struct:request
+dev_t	include/sys/types.h	/^typedef unsigned short dev_t;	\/\/ 用于设备号。$/;"	t
+die	boot/bootsect.s	/^die:$/;"	l
+die	kernel/chr_drv/keyboard.S	/^die: $/;"	l
+die	kernel/traps.c	/^static void die(char * str,long esp_ptr,long nr)$/;"	f	file:
+dir_entry	include/linux/fs.h	/^struct dir_entry$/;"	s
+dir_namei	fs/namei.c	/^static struct m_inode * dir_namei(const char * pathname,$/;"	f	file:
+div_t	include/sys/types.h	/^div_t;				\/\/ 用于DIV 操作。$/;"	t	typeref:struct:__anon1
+do_bounds	kernel/traps.c	/^void do_bounds(long esp, long error_code)$/;"	f
+do_coprocessor_error	kernel/traps.c	/^void do_coprocessor_error(long esp, long error_code)$/;"	f
+do_coprocessor_segment_overrun	kernel/traps.c	/^void do_coprocessor_segment_overrun(long esp, long error_code)$/;"	f
+do_debug	kernel/traps.c	/^void do_debug(long esp, long error_code)$/;"	f
+do_device_not_available	kernel/traps.c	/^void do_device_not_available(long esp, long error_code)$/;"	f
+do_div	kernel/vsprintf.c	43;"	d	file:
+do_divide_error	kernel/traps.c	/^void do_divide_error(long esp, long error_code)$/;"	f
+do_double_fault	kernel/traps.c	/^void do_double_fault(long esp, long error_code)$/;"	f
+do_execve	fs/exec.c	/^int do_execve(unsigned long * eip,long tmp,char * filename,$/;"	f
+do_exit	kernel/exit.c	/^int do_exit (long code)		\/\/ code 是错误码。$/;"	f
+do_fd_request	kernel/blk_drv/floppy.c	/^do_fd_request (void)$/;"	f
+do_floppy_timer	kernel/sched.c	/^void do_floppy_timer (void)$/;"	f
+do_general_protection	kernel/traps.c	/^void do_general_protection(long esp, long error_code)$/;"	f
+do_hd_request	kernel/blk_drv/hd.c	/^void do_hd_request (void)$/;"	f
+do_int3	kernel/traps.c	/^void do_int3(long * esp, long error_code,$/;"	f
+do_invalid_TSS	kernel/traps.c	/^void do_invalid_TSS(long esp,long error_code)$/;"	f
+do_invalid_op	kernel/traps.c	/^void do_invalid_op(long esp, long error_code)$/;"	f
+do_move	boot/setup.s	/^do_move:$/;"	l
+do_nmi	kernel/traps.c	/^void do_nmi(long esp, long error_code)$/;"	f
+do_no_page	mm/memory.c	/^void do_no_page(unsigned long error_code,unsigned long address)$/;"	f
+do_overflow	kernel/traps.c	/^void do_overflow(long esp, long error_code)$/;"	f
+do_rd_request	kernel/blk_drv/ramdisk.c	/^do_rd_request (void)$/;"	f
+do_reserved	kernel/traps.c	/^void do_reserved(long esp, long error_code)$/;"	f
+do_segment_not_present	kernel/traps.c	/^void do_segment_not_present(long esp,long error_code)$/;"	f
+do_self	kernel/chr_drv/keyboard.S	/^do_self:$/;"	l
+do_signal	kernel/signal.c	/^void do_signal (long signr, long eax, long ebx, long ecx, long edx,$/;"	f
+do_stack_segment	kernel/traps.c	/^void do_stack_segment(long esp,long error_code)$/;"	f
+do_timer	kernel/sched.c	/^void do_timer (long cpl)$/;"	f
+do_tty_interrupt	kernel/chr_drv/tty_io.c	/^void do_tty_interrupt (int tty)$/;"	f
+do_wp_page	mm/memory.c	/^void do_wp_page(unsigned long error_code,unsigned long address)$/;"	f
+drive_busy	kernel/blk_drv/hd.c	/^static int drive_busy (void)$/;"	f	file:
+drive_info	init/main.c	/^struct drive_info { char dummy[32]; } drive_info;\/\/ 用于存放硬盘参数表信息。$/;"	s	file:
+drive_info	init/main.c	/^struct drive_info { char dummy[32]; } drive_info;\/\/ 用于存放硬盘参数表信息。$/;"	v	typeref:struct:drive_info
+ds	include/linux/sched.h	/^	long ds;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+dummy	init/main.c	/^struct drive_info { char dummy[32]; } drive_info;\/\/ 用于存放硬盘参数表信息。$/;"	m	struct:drive_info	file:
+dupfd	fs/fcntl.c	/^static int dupfd(unsigned int fd, unsigned int arg)$/;"	f	file:
+dwJmpAddr	build/build.cpp	/^	DWORD         dwJmpAddr;$/;"	m	struct:__tagFILE_HEADER	file:
+e0	kernel/chr_drv/keyboard.S	/^e0 db 0$/;"	d
+e0_e1	kernel/chr_drv/keyboard.S	/^e0_e1: $/;"	l
+eax	include/linux/sched.h	/^	long eax, ecx, edx, ebx;$/;"	m	struct:tss_struct
+ebp	include/linux/sched.h	/^	long ebp;$/;"	m	struct:tss_struct
+ebx	include/linux/sched.h	/^	long eax, ecx, edx, ebx;$/;"	m	struct:tss_struct
+ecx	include/linux/sched.h	/^	long eax, ecx, edx, ebx;$/;"	m	struct:tss_struct
+edi	include/linux/sched.h	/^	long edi;$/;"	m	struct:tss_struct
+edx	include/linux/sched.h	/^	long eax, ecx, edx, ebx;$/;"	m	struct:tss_struct
+eflags	include/linux/sched.h	/^	long eflags;$/;"	m	struct:tss_struct
+egid	include/linux/sched.h	/^	unsigned short gid, egid, sgid;$/;"	m	struct:task_struct
+eip	include/linux/sched.h	/^	long eip;$/;"	m	struct:tss_struct
+empty_8042	boot/setup.s	/^empty_8042:$/;"	l
+empty_dir	fs/namei.c	/^static int empty_dir(struct m_inode * inode)$/;"	f	file:
+end1	kernel/chr_drv/rs_io.s	/^end1:$/;"	l
+end_code	include/linux/sched.h	/^	unsigned long start_code, end_code, end_data, brk, start_stack;$/;"	m	struct:task_struct
+end_cyl	include/linux/hdreg.h	/^  unsigned char end_cyl;	\/* ? *\/$/;"	m	struct:partition
+end_data	include/linux/sched.h	/^	unsigned long start_code, end_code, end_data, brk, start_stack;$/;"	m	struct:task_struct
+end_func	kernel/chr_drv/keyboard.S	/^end_func:$/;"	l
+end_head	include/linux/hdreg.h	/^  unsigned char end_head;	\/* ? *\/$/;"	m	struct:partition
+end_move	boot/setup.s	/^end_move:$/;"	l
+end_request	kernel/blk_drv/blk.h	/^end_request (int uptodate)$/;"	f
+end_sector	include/linux/hdreg.h	/^  unsigned char end_sector;	\/* ? *\/$/;"	m	struct:partition
+envp	init/main.c	/^static char * envp[] = { "HOME=\/usr\/root", NULL };$/;"	v	file:
+envp_rc	init/main.c	/^static char * envp_rc[] = { "HOME=\/", NULL };\/\/ 调用执行程序时的环境字符串数组。$/;"	v	file:
+errno	lib/errno.c	/^int errno = 0;$/;"	v
+error_code	kernel/asm.s	/^error_code:$/;"	l
+errors	kernel/blk_drv/blk.h	/^  int errors;			\/\/操作时产生的错误次数。$/;"	m	struct:request
+es	include/linux/sched.h	/^	long es;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+esi	include/linux/sched.h	/^	long esi;$/;"	m	struct:tss_struct
+esp	include/linux/sched.h	/^	long esp;$/;"	m	struct:tss_struct
+esp0	include/linux/sched.h	/^	long esp0;$/;"	m	struct:tss_struct
+esp1	include/linux/sched.h	/^	long esp1;$/;"	m	struct:tss_struct
+esp2	include/linux/sched.h	/^	long esp2;$/;"	m	struct:tss_struct
+euid	include/linux/sched.h	/^	unsigned short uid, euid, suid;$/;"	m	struct:task_struct
+exec	include/a.out.h	/^struct exec$/;"	s
+executable	include/linux/sched.h	/^	struct m_inode *executable;$/;"	m	struct:task_struct	typeref:struct:task_struct::m_inode
+exit_code	include/linux/sched.h	/^	int exit_code;$/;"	m	struct:task_struct
+extern	kernel/chr_drv/keyboard.S	/^extern _do_tty_interrupt:proc, _show_stat:proc$/;"	l
+extern	kernel/chr_drv/keyboard.S	/^extern _table_list:dword$/;"	l
+extern	lib/string.c	14;"	d	file:
+extrn	boot/head.s	/^extrn _stack_start:far ptr,_main_rename:proc,_printk:proc$/;"	l
+extrn	kernel/asm.s	/^extrn _do_bounds:far, _do_invalid_op:far, _do_coprocessor_segment_overrun:far$/;"	l
+extrn	kernel/asm.s	/^extrn _do_divide_error:far, _do_int3:far, _do_nmi:far, _do_overflow:far$/;"	l
+extrn	kernel/asm.s	/^extrn _do_invalid_TSS:far, _do_segment_not_present:far$/;"	l
+extrn	kernel/asm.s	/^extrn _do_reserved:far, _coprocessor_error:far ptr, _do_double_fault:far$/;"	l
+extrn	kernel/asm.s	/^extrn _do_stack_segment:far, _do_general_protection:far$/;"	l
+extrn	kernel/chr_drv/rs_io.s	/^extrn _table_list:dword, _do_tty_interrupt:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _current:dword,_task:dword,_sys_call_table:dword$/;"	l
+extrn	kernel/system_call.s	/^extrn _do_floppy:proc,_unexpected_floppy_interrupt:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _do_hd:proc,_unexpected_hd_interrupt:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _do_timer:proc,_do_execve:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _find_empty_process:proc,_copy_process:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _math_state_restore:proc,_math_emulate:proc,_jiffies:proc$/;"	l
+extrn	kernel/system_call.s	/^extrn _schedule:proc,_do_signal:proc,_math_error:proc$/;"	l
+extrn	mm/page.s	/^extrn _do_no_page:proc,_do_wp_page:proc$/;"	l
+f_count	include/linux/fs.h	/^  unsigned short f_count;	\/\/ 对应文件句柄（文件描述符）数。$/;"	m	struct:file
+f_flags	include/linux/fs.h	/^  unsigned short f_flags;	\/\/ 文件打开和控制的标志。$/;"	m	struct:file
+f_fname	include/sys/types.h	/^  char f_fname[6];$/;"	m	struct:ustat
+f_fpack	include/sys/types.h	/^  char f_fpack[6];$/;"	m	struct:ustat
+f_inode	include/linux/fs.h	/^  struct m_inode *f_inode;	\/\/ 指向对应i 节点。$/;"	m	struct:file	typeref:struct:file::m_inode
+f_mode	include/linux/fs.h	/^  unsigned short f_mode;	\/\/ 文件操作模式（RW 位）$/;"	m	struct:file
+f_pos	include/linux/fs.h	/^  off_t f_pos;			\/\/ 文件位置（读写偏移值）。$/;"	m	struct:file
+f_tfree	include/sys/types.h	/^  daddr_t f_tfree;$/;"	m	struct:ustat
+f_tinode	include/sys/types.h	/^  ino_t f_tinode;$/;"	m	struct:ustat
+father	include/linux/sched.h	/^	long pid, father, pgrp, session, leader;$/;"	m	struct:task_struct
+fcs	include/linux/sched.h	/^	long fcs;			\/\/ 协处理器代码段寄存器。$/;"	m	struct:i387_struct
+file	include/linux/fs.h	/^struct file$/;"	s
+file_read	fs/file_dev.c	/^int file_read(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+file_table	fs/file_table.c	/^struct file file_table[NR_FILE] = {0};\/\/ 文件表数组(64 项)。$/;"	v	typeref:struct:file
+file_write	fs/file_dev.c	/^int file_write(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+filp	include/linux/sched.h	/^	struct file *filp[NR_OPEN];$/;"	m	struct:task_struct	typeref:struct:task_struct::file
+find_buffer	fs/buffer.c	/^static struct buffer_head * find_buffer(int dev, int block)$/;"	f	file:
+find_empty_process	kernel/fork.c	/^int find_empty_process (void)$/;"	f
+find_entry	fs/namei.c	/^static struct buffer_head * find_entry(struct m_inode ** dir,$/;"	f	file:
+find_first_zero	fs/bitmap.c	/^extern _inline int find_first_zero(char *addr)$/;"	f
+fip	include/linux/sched.h	/^	long fip;			\/\/ 协处理器代码指针。$/;"	m	struct:i387_struct
+flock	include/fcntl.h	/^struct flock$/;"	s
+floppy	kernel/blk_drv/floppy.c	/^static struct floppy_struct *floppy = floppy_type;$/;"	v	typeref:struct:floppy_struct	file:
+floppy_change	kernel/blk_drv/floppy.c	/^floppy_change (unsigned int nr)$/;"	f
+floppy_deselect	kernel/blk_drv/floppy.c	/^floppy_deselect (unsigned int nr)$/;"	f
+floppy_init	kernel/blk_drv/floppy.c	/^floppy_init (void)$/;"	f
+floppy_off	kernel/sched.c	/^void floppy_off (unsigned int nr)$/;"	f
+floppy_on	kernel/sched.c	/^void floppy_on (unsigned int nr)$/;"	f
+floppy_on_interrupt	kernel/blk_drv/floppy.c	/^floppy_on_interrupt (void)$/;"	f	file:
+floppy_struct	kernel/blk_drv/floppy.c	/^static struct floppy_struct$/;"	s	file:
+floppy_type	kernel/blk_drv/floppy.c	/^floppy_type[] =$/;"	v	typeref:struct:floppy_struct	file:
+flush	kernel/chr_drv/tty_ioctl.c	/^flush (struct tty_queue *queue)$/;"	f	file:
+fn	kernel/sched.c	/^	void (*fn) ();		\/\/ 定时处理程序。$/;"	m	struct:timer_list	file:
+fn_ptr	include/linux/sched.h	/^typedef int (*fn_ptr) ();	\/\/ 定义函数指针类型。$/;"	t
+foo	include/linux/sched.h	/^	long foo;$/;"	m	struct:i387_struct
+fos	include/linux/sched.h	/^	long fos;$/;"	m	struct:i387_struct
+free	include/linux/kernel.h	19;"	d
+free_block	fs/bitmap.c	/^void free_block(int dev, int block)$/;"	f
+free_bucket_desc	lib/malloc.c	/^struct bucket_desc *free_bucket_desc = (struct bucket_desc *) 0;$/;"	v	typeref:struct:bucket_desc
+free_dind	fs/truncate.c	/^free_dind (int dev, int block)$/;"	f	file:
+free_ind	fs/truncate.c	/^static void free_ind (int dev, int block)$/;"	f	file:
+free_inode	fs/bitmap.c	/^void free_inode(struct m_inode * inode)$/;"	f
+free_list	fs/buffer.c	/^static struct buffer_head * free_list = 0;$/;"	v	typeref:struct:buffer_head	file:
+free_page	mm/memory.c	/^void free_page(unsigned long addr)$/;"	f
+free_page_tables	mm/memory.c	/^int free_page_tables(unsigned long from,unsigned long size)$/;"	f
+free_s	lib/malloc.c	/^void free_s(void *obj, int size)$/;"	f
+free_super	fs/super.c	/^free_super (struct super_block *sb)$/;"	f	file:
+freeptr	lib/malloc.c	/^	void			*freeptr;		\/\/ 指向本桶中空闲内存位置的指针。$/;"	m	struct:bucket_desc	file:
+fs	include/linux/sched.h	/^	long fs;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+func	kernel/chr_drv/keyboard.S	/^func:$/;"	l
+func_table	kernel/chr_drv/keyboard.S	/^func_table:$/;"	l
+g_FillHeader	build/build.cpp	/^__FILL_HEADER g_FillHeader = {0x90,0x90,0x90,0xe9,0x00000000};    \/\/This structure will be$/;"	v
+g_dwFileHeader	build/build.cpp	/^DWORD g_dwFileHeader[1024] = {0};    \/\/The PE file's header will be read into this buffer.$/;"	v
+g_lpszTargetPath	build/build.cpp	/^char* g_lpszTargetPath = "E:\\\\book\\\\Temp\\\\linux011VC\\\\VC\\\\Release\\\\system";  \/\/Target file’s path and name.$/;"	v
+gap	kernel/blk_drv/floppy.c	/^	unsigned char gap, rate, spec1;$/;"	m	struct:floppy_struct	file:
+gdt	boot/setup.s	/^gdt:$/;"	l
+gdt_48	boot/setup.s	/^gdt_48:$/;"	l
+gdt_descr	boot/head.s	/^gdt_descr:$/;"	l
+get_base	include/linux/sched.h	370;"	d
+get_dir	fs/namei.c	/^static struct m_inode * get_dir(const char * pathname)$/;"	f	file:
+get_ds	include/asm/segment.h	/^get_ds ()$/;"	f
+get_ds	include/asm/y_segment.h	/^extern _inline unsigned long get_ds() $/;"	f
+get_empty_inode	fs/inode.c	/^struct m_inode * get_empty_inode(void)$/;"	f
+get_empty_page	mm/memory.c	/^void get_empty_page(unsigned long address)$/;"	f
+get_free_page	mm/memory.c	/^unsigned long get_free_page(void)$/;"	f
+get_fs	include/asm/segment.h	/^get_fs ()$/;"	f
+get_fs	include/asm/y_segment.h	/^extern _inline unsigned long get_fs() $/;"	f
+get_fs_byte	include/asm/segment.h	/^get_fs_byte (const char *addr)$/;"	f
+get_fs_byte	include/asm/y_segment.h	/^extern _inline unsigned char get_fs_byte(const char * addr)$/;"	f
+get_fs_long	include/asm/segment.h	/^get_fs_long (const unsigned long *addr)$/;"	f
+get_fs_long	include/asm/y_segment.h	/^extern _inline unsigned long get_fs_long(const unsigned long *addr)$/;"	f
+get_fs_word	include/asm/segment.h	/^get_fs_word (const unsigned short *addr)$/;"	f
+get_fs_word	include/asm/y_segment.h	/^extern _inline unsigned short get_fs_word(const unsigned short *addr)$/;"	f
+get_hash_table	fs/buffer.c	/^struct buffer_head * get_hash_table(int dev, int block)$/;"	f
+get_limit	include/linux/sched.h	/^extern _inline unsigned long get_limit(unsigned long segment) { $/;"	f
+get_new	kernel/signal.c	/^static _inline void get_new (char *from, char *to)$/;"	f	file:
+get_pipe_inode	fs/inode.c	/^struct m_inode * get_pipe_inode(void)$/;"	f
+get_seg_byte	kernel/traps.c	/^_inline char get_seg_byte(unsigned short segm, void *addr)$/;"	f
+get_seg_long	kernel/traps.c	/^get_seg_long(unsigned short segm,long *addr) {$/;"	f
+get_super	fs/super.c	/^get_super (int dev)$/;"	f
+get_termio	kernel/chr_drv/tty_ioctl.c	/^get_termio (struct tty_struct *tty, struct termio *termio)$/;"	f	file:
+get_termios	kernel/chr_drv/tty_ioctl.c	/^get_termios (struct tty_struct *tty, struct termios *termios)$/;"	f	file:
+getblk	fs/buffer.c	/^struct buffer_head * getblk(int dev,int block)$/;"	f
+gid	include/linux/sched.h	/^	unsigned short gid, egid, sgid;$/;"	m	struct:task_struct
+gid_t	include/sys/types.h	/^typedef unsigned char gid_t;	\/\/ 用于组号。$/;"	t
+go	boot/bootsect.s	/^go:	mov	ax,cs			;\/\/ 将ds、es和ss都置成移动后代码所在的段处（9000h）。$/;"	l
+goto_math_state_restore	kernel/system_call.s	/^goto_math_state_restore:$/;"	l
+gotoxy	kernel/chr_drv/console.c	/^gotoxy (unsigned int new_x, unsigned int new_y)$/;"	f	file:
+gs	include/linux/sched.h	/^	long gs;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+hash	fs/buffer.c	146;"	d	file:
+hash_table	fs/buffer.c	/^struct buffer_head * hash_table[NR_HASH] = {0};	\/\/ NR_HASH = 307 项。$/;"	v	typeref:struct:buffer_head
+hd	kernel/blk_drv/hd.c	/^hd[5 * MAX_HD] =$/;"	v	typeref:struct:hd_struct	file:
+hd_i_struct	kernel/blk_drv/hd.c	/^struct hd_i_struct$/;"	s	file:
+hd_info	kernel/blk_drv/hd.c	/^struct hd_i_struct hd_info[] =$/;"	v	typeref:struct:hd_i_struct
+hd_info	kernel/blk_drv/hd.c	/^struct hd_i_struct hd_info[] ={HD_TYPE};	\/\/ 取定义好的参数作为hd_info[]的数据。$/;"	v	typeref:struct:hd_i_struct
+hd_init	kernel/blk_drv/hd.c	/^void hd_init (void)$/;"	f
+hd_out	kernel/blk_drv/hd.c	/^static void hd_out (unsigned int drive, unsigned int nsect, unsigned int sect,$/;"	f	file:
+hd_struct	kernel/blk_drv/hd.c	/^static struct hd_struct$/;"	s	file:
+head	boot/bootsect.s	/^head	dw 0				;\/\/ 当前磁头号$/;"	d
+head	include/linux/hdreg.h	/^  unsigned char head;		\/* ? *\/$/;"	m	struct:partition
+head	include/linux/tty.h	/^  unsigned long head;		\/\/ 缓冲区中数据头指针。$/;"	m	struct:tty_queue
+head	kernel/blk_drv/floppy.c	/^	unsigned int size, sect, head, track, stretch;$/;"	m	struct:floppy_struct	file:
+head	kernel/blk_drv/floppy.c	/^static unsigned char head = 0;$/;"	v	file:
+head	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+head	kernel/chr_drv/keyboard.S	/^head = 4 \/\/ 缓冲区中头指针字段偏移。$/;"	d
+head	kernel/chr_drv/rs_io.s	/^head = 4 ;\/\/ 缓冲区中头指针字段偏移。$/;"	d
+i387	include/linux/sched.h	/^	struct i387_struct i387;$/;"	m	struct:tss_struct	typeref:struct:tss_struct::i387_struct
+i387_struct	include/linux/sched.h	/^struct i387_struct$/;"	s
+i_atime	include/linux/fs.h	/^  unsigned long i_atime;	\/\/ 最后访问时间。$/;"	m	struct:m_inode
+i_count	include/linux/fs.h	/^  unsigned short i_count;	\/\/ i 节点被使用的次数，0 表示该i 节点空闲。$/;"	m	struct:m_inode
+i_ctime	include/linux/fs.h	/^  unsigned long i_ctime;	\/\/ i 节点自身修改时间。$/;"	m	struct:m_inode
+i_dev	include/linux/fs.h	/^  unsigned short i_dev;		\/\/ i 节点所在的设备号。$/;"	m	struct:m_inode
+i_dirt	include/linux/fs.h	/^  unsigned char i_dirt;		\/\/ 已修改(脏)标志。$/;"	m	struct:m_inode
+i_gid	include/linux/fs.h	/^  unsigned char i_gid;		\/\/ 组id(文件拥有者所在的组)。$/;"	m	struct:d_inode
+i_gid	include/linux/fs.h	/^  unsigned char i_gid;		\/\/ 组id(文件拥有者所在的组)。$/;"	m	struct:m_inode
+i_lock	include/linux/fs.h	/^  unsigned char i_lock;		\/\/ 锁定标志。$/;"	m	struct:m_inode
+i_mode	include/linux/fs.h	/^  unsigned short i_mode;	\/\/ 文件类型和属性(rwx 位)。$/;"	m	struct:d_inode
+i_mode	include/linux/fs.h	/^  unsigned short i_mode;	\/\/ 文件类型和属性(rwx 位)。$/;"	m	struct:m_inode
+i_mount	include/linux/fs.h	/^  unsigned char i_mount;	\/\/ 安装标志。$/;"	m	struct:m_inode
+i_mtime	include/linux/fs.h	/^  unsigned long i_mtime;	\/\/ 修改时间（自1970.1.1:0 算起，秒）。$/;"	m	struct:m_inode
+i_nlinks	include/linux/fs.h	/^  unsigned char i_nlinks;	\/\/ 链接数（多少个文件目录项指向该i 节点）。$/;"	m	struct:d_inode
+i_nlinks	include/linux/fs.h	/^  unsigned char i_nlinks;	\/\/ 文件目录项链接数。$/;"	m	struct:m_inode
+i_num	include/linux/fs.h	/^  unsigned short i_num;		\/\/ i 节点号。$/;"	m	struct:m_inode
+i_pipe	include/linux/fs.h	/^  unsigned char i_pipe;		\/\/ 管道标志。$/;"	m	struct:m_inode
+i_seek	include/linux/fs.h	/^  unsigned char i_seek;		\/\/ 搜寻标志(lseek 时)。$/;"	m	struct:m_inode
+i_size	include/linux/fs.h	/^  unsigned long i_size;		\/\/ 文件大小（字节数）。$/;"	m	struct:d_inode
+i_size	include/linux/fs.h	/^  unsigned long i_size;		\/\/ 文件大小（字节数）。$/;"	m	struct:m_inode
+i_time	include/linux/fs.h	/^  unsigned long i_time;		\/\/ 修改时间（自1970.1.1:0 算起，秒）。$/;"	m	struct:d_inode
+i_uid	include/linux/fs.h	/^  unsigned short i_uid;		\/\/ 用户id（文件拥有者标识符）。$/;"	m	struct:d_inode
+i_uid	include/linux/fs.h	/^  unsigned short i_uid;		\/\/ 用户id（文件拥有者标识符）。$/;"	m	struct:m_inode
+i_update	include/linux/fs.h	/^  unsigned char i_update;	\/\/ 更新标志。$/;"	m	struct:m_inode
+i_wait	include/linux/fs.h	/^  struct task_struct *i_wait;	\/\/ 等待该i 节点的进程。$/;"	m	struct:m_inode	typeref:struct:m_inode::task_struct
+i_zone	include/linux/fs.h	/^  unsigned short i_zone[9];	\/\/ 直接(0-6)、间接(7)或双重间接(8)逻辑块号。$/;"	m	struct:d_inode
+i_zone	include/linux/fs.h	/^  unsigned short i_zone[9];	\/\/ 直接(0-6)、间接(7)或双重间接(8)逻辑块号。$/;"	m	struct:m_inode
+idt_48	boot/setup.s	/^idt_48:$/;"	l
+idt_descr	boot/head.s	/^idt_descr:$/;"	l
+iget	fs/inode.c	/^struct m_inode * iget(int dev,int nr)$/;"	f
+ignore_int	boot/head.s	/^ignore_int:$/;"	l
+immoutb_p	kernel/blk_drv/floppy.c	/^void _inline immoutb_p(unsigned char val,unsigned short port)$/;"	f
+inb	include/asm/io.h	15;"	d
+inb_p	include/asm/io.h	80;"	d
+init	init/main.c	/^void init(void)$/;"	f
+init	kernel/chr_drv/serial.c	/^static void init (int port)$/;"	f	file:
+init_bucket_desc	lib/malloc.c	/^static _inline void init_bucket_desc()$/;"	f	file:
+init_task	kernel/sched.c	/^static union task_union init_task = { INIT_TASK, };	\/\/ 定义初始任务的数据(sched.h 中)。$/;"	v	typeref:union:task_union	file:
+inline	lib/string.c	15;"	d	file:
+ino_t	include/sys/types.h	/^typedef unsigned short ino_t;	\/\/ 用于文件序列号。$/;"	t
+inode	include/linux/fs.h	/^  unsigned short inode;		\/\/ i 节点。$/;"	m	struct:dir_entry
+inode_table	fs/inode.c	/^struct m_inode inode_table[NR_INODE]={0};\/\/ 内存中i 节点表（NR_INODE=32 项）。$/;"	v	typeref:struct:m_inode
+insert_char	kernel/chr_drv/console.c	/^insert_char (void)$/;"	f	file:
+insert_into_queues	fs/buffer.c	/^static _inline void insert_into_queues(struct buffer_head * bh)$/;"	f	file:
+insert_line	kernel/chr_drv/console.c	/^insert_line (void)$/;"	f	file:
+int_msg	boot/head.s	/^int_msg:$/;"	l
+interruptible_sleep_on	kernel/sched.c	/^void interruptible_sleep_on (struct task_struct **p)$/;"	f
+invalidate	mm/memory.c	53;"	d	file:
+invalidate_buffers	fs/buffer.c	/^void _inline invalidate_buffers(int dev)$/;"	f
+invalidate_inodes	fs/inode.c	/^void invalidate_inodes(int dev)$/;"	f
+ioctl_ptr	fs/ioctl.c	/^typedef int (*ioctl_ptr)(int dev,int cmd,int arg);$/;"	t	file:
+ioctl_table	fs/ioctl.c	/^static ioctl_ptr ioctl_table[]={$/;"	v	file:
+iput	fs/inode.c	/^void iput(struct m_inode * inode)$/;"	f
+iret	include/asm/system.h	36;"	d
+is_digit	kernel/vsprintf.c	20;"	d	file:
+is_disk1	boot/setup.s	/^is_disk1:$/;"	l
+isalnum	include/ctype.h	17;"	d
+isalpha	include/ctype.h	18;"	d
+isascii	include/ctype.h	29;"	d
+iscntrl	include/ctype.h	19;"	d
+isdigit	include/ctype.h	20;"	d
+isgraph	include/ctype.h	21;"	d
+islower	include/ctype.h	22;"	d
+isprint	include/ctype.h	23;"	d
+ispunct	include/ctype.h	24;"	d
+isspace	include/ctype.h	25;"	d
+isupper	include/ctype.h	26;"	d
+isxdigit	include/ctype.h	27;"	d
+jiffies	kernel/sched.c	/^	long jiffies;			\/\/ 定时滴答数。$/;"	m	struct:timer_list	file:
+jiffies	kernel/sched.c	/^long volatile jiffies;	\/\/ 从开机开始算起的滴答数时间值（10ms\/滴答）。$/;"	v
+jmp_table	kernel/chr_drv/rs_io.s	/^jmp_table:$/;"	l
+kb_wait	kernel/chr_drv/keyboard.S	/^kb_wait:$/;"	l
+kernel_mktime	kernel/mktime.c	/^kernel_mktime (struct tm *tm)$/;"	f
+key_map	kernel/chr_drv/keyboard.S	/^key_map:$/;"	l
+key_map	kernel/chr_drv/keyboard.h	/^unsigned char key_map[] = {$/;"	v
+key_table	kernel/chr_drv/keyboard.S	/^key_table:$/;"	l
+key_table	kernel/chr_drv/keyboard.h	/^kf key_table[]={$/;"	v
+kf	kernel/chr_drv/keyboard.h	/^typedef void (*kf)();$/;"	t
+kill_motor	boot/bootsect.s	/^kill_motor:$/;"	l
+kill_session	kernel/exit.c	/^static void kill_session (void)$/;"	f	file:
+l1	boot/head.s	/^l1:	inc eax				;\/\/ check that A20 really IS enabled$/;"	l
+l1	kernel/asm.s	/^l1: jmp l2$/;"	l
+l1	kernel/chr_drv/keyboard.S	/^l1: jmp l2$/;"	l
+l1	kernel/chr_drv/rs_io.s	/^l1: push edx ;\/\/ 将串口号压入堆栈(1- 串口1，2 - 串口2)，作为参数，$/;"	l
+l1	kernel/system_call.s	/^l1: pop eax$/;"	l
+l1	mm/page.s	/^l1:	call _do_wp_page	;\/\/ 调用写保护处理函数（mm\/memory.c,247 行）。$/;"	l
+l10	kernel/chr_drv/keyboard.S	/^l10:$/;"	l
+l11	kernel/chr_drv/keyboard.S	/^l11:$/;"	l
+l12	kernel/chr_drv/keyboard.S	/^l12:$/;"	l
+l13	kernel/chr_drv/keyboard.S	/^l13:$/;"	l
+l14	kernel/chr_drv/keyboard.S	/^l14:$/;"	l
+l15	kernel/chr_drv/keyboard.S	/^l15:$/;"	l
+l16	kernel/chr_drv/keyboard.S	/^l16: $/;"	l
+l17	kernel/chr_drv/keyboard.S	/^l17: $/;"	l
+l18	kernel/chr_drv/keyboard.S	/^l18: $/;"	l
+l19	kernel/chr_drv/keyboard.S	/^l19: $/;"	l
+l2	boot/head.s	/^l2:			;\/\/ 即按4 字节方式对齐内存地址。$/;"	l
+l2	kernel/asm.s	/^l2: out 0A0h,al ;\/\/ 再向8259 从中断控制芯片发送EOI（中断结束）信号。$/;"	l
+l2	kernel/chr_drv/keyboard.S	/^l2: or al,80h \/\/ al 位7 置位(禁止键盘工作)。$/;"	l
+l2	kernel/chr_drv/rs_io.s	/^l2: mov ebx,tail[ecx] ;\/\/ 取尾指针。$/;"	l
+l2	kernel/system_call.s	/^l2: ret$/;"	l
+l2	mm/page.s	/^l2:	add esp,8		;\/\/ 丢弃压入栈的两个参数。$/;"	l
+l3	kernel/chr_drv/keyboard.S	/^l3: jmp l4$/;"	l
+l3	kernel/chr_drv/rs_io.s	/^l3: inc edx ;\/\/ 指向端口0x3f9(0x2f9)。$/;"	l
+l3	kernel/system_call.s	/^l3: jmp l4 ;\/\/ 延时作用。$/;"	l
+l4	kernel/chr_drv/keyboard.S	/^l4: out 61h,al \/\/ 使PPI PB7 位置位。$/;"	l
+l4	kernel/chr_drv/rs_io.s	/^l4: jmp l5$/;"	l
+l4	kernel/system_call.s	/^l4: xor edx,edx$/;"	l
+l5	kernel/chr_drv/keyboard.S	/^l5: jmp l6$/;"	l
+l5	kernel/chr_drv/rs_io.s	/^l5: and al,0dh ;\/* disable transmit interrupt *\/$/;"	l
+l5	kernel/system_call.s	/^l5: out 20h,al ;\/\/ 送主8259A 中断控制器EOI 指令（结束硬件中断）。$/;"	l
+l6	kernel/chr_drv/keyboard.S	/^l6: and al,7Fh \/\/ al 位7 复位。$/;"	l
+l6	kernel/system_call.s	/^l6: call eax ;\/\/ "interesting" way of handling intr.$/;"	l
+l7	kernel/chr_drv/keyboard.S	/^l7: mov buf[edx+ecx],al \/\/ 将al 中的字符放入缓冲队列头指针位置处。$/;"	l
+l8	kernel/chr_drv/keyboard.S	/^l8: mov head[edx],ecx \/\/ 若已将所有字符都放入了队列，则保存头指针。$/;"	l
+l9	kernel/chr_drv/keyboard.S	/^l9: pop edx \/\/ 弹出保留的寄存器并返回。$/;"	l
+l_len	include/fcntl.h	/^  off_t l_len;			\/\/ 阻塞锁定的大小；如果是0 则为到文件末尾。$/;"	m	struct:flock
+l_pid	include/fcntl.h	/^  pid_t l_pid;			\/\/ 加锁的进程id。$/;"	m	struct:flock
+l_start	include/fcntl.h	/^  off_t l_start;		\/\/ 阻塞锁定的开始处。相对偏移（字节数）。$/;"	m	struct:flock
+l_type	include/fcntl.h	/^  short l_type;			\/\/ 锁定类型（F_RDLCK，F_WRLCK，F_UNLCK）。$/;"	m	struct:flock
+l_whence	include/fcntl.h	/^  short l_whence;		\/\/ 开始偏移(SEEK_SET，SEEK_CUR 或SEEK_END)。$/;"	m	struct:flock
+last_pid	kernel/fork.c	/^long last_pid = 0;$/;"	v
+last_task_used_math	kernel/sched.c	/^struct task_struct *last_task_used_math = NULL;	\/\/ 使用过协处理器任务的指针。$/;"	v	typeref:struct:task_struct
+ldiv_t	include/sys/types.h	/^ldiv_t;				\/\/ 用于长DIV 操作。$/;"	t	typeref:struct:__anon2
+ldt	include/linux/sched.h	/^	long ldt;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ldt	include/linux/sched.h	/^	struct desc_struct ldt[3];$/;"	m	struct:task_struct	typeref:struct:task_struct::desc_struct
+leader	include/linux/sched.h	/^	long pid, father, pgrp, session, leader;$/;"	m	struct:task_struct
+leds	kernel/chr_drv/keyboard.S	/^leds db 2 \/* num-lock, caps, scroll-lock mode (nom-lock on) *\/$/;"	d
+lf	kernel/chr_drv/console.c	/^lf (void)$/;"	f	file:
+line_status	kernel/chr_drv/rs_io.s	/^line_status:$/;"	l
+ll_rw_block	kernel/blk_drv/ll_rw_blk.c	/^void ll_rw_block (int rw, struct buffer_head *bh)$/;"	f
+lldt	include/linux/sched.h	/^_inline void lldt(unsigned long n)$/;"	f
+load_setup	boot/bootsect.s	/^load_setup:$/;"	l
+lock_buffer	kernel/blk_drv/ll_rw_blk.c	/^lock_buffer (struct buffer_head *bh)$/;"	f	file:
+lock_inode	fs/inode.c	/^static _inline void lock_inode(struct m_inode * inode)$/;"	f	file:
+lock_super	fs/super.c	/^lock_super (struct super_block *sb)$/;"	f	file:
+lshift	kernel/chr_drv/keyboard.S	/^lshift:$/;"	l
+ltr	include/linux/sched.h	/^_inline void ltr(unsigned long n)$/;"	f
+lzone	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+m_inode	include/linux/fs.h	/^struct m_inode$/;"	s
+machine	include/sys/utsname.h	/^  char machine[9];		\/\/ 系统运行的硬件类型名称。$/;"	m	struct:utsname
+main	build/build.cpp	/^void main(int argc,char argv[])$/;"	f
+main_memory_start	init/main.c	/^static long main_memory_start = 0;\/\/ 主内存（将用于分页）开始的位置。$/;"	v	file:
+main_rename	init/main.c	/^void main_rename(void)		\/* 这里确实是void，并没错。 *\/$/;"	f
+make_request	kernel/blk_drv/ll_rw_blk.c	/^make_request (int major, int rw, struct buffer_head *bh)$/;"	f	file:
+malloc	lib/malloc.c	/^void *malloc(unsigned int len)$/;"	f
+match	fs/namei.c	/^static int match(int len,const char * name,struct dir_entry * de)$/;"	f	file:
+math_emulate	kernel/math/math_emulate.c	/^math_emulate (long edi, long esi, long ebp, long sys_call_ret,$/;"	f
+math_error	kernel/math/math_emulate.c	/^math_error (void)$/;"	f
+math_state_restore	kernel/sched.c	/^void math_state_restore ()$/;"	f
+mem_init	mm/memory.c	/^void mem_init(long start_mem, long end_mem)$/;"	f
+mem_map	mm/memory.c	/^static unsigned char mem_map [ PAGING_PAGES ] = {0,};$/;"	v	file:
+memchr	include/string.h	/^memchr (const void *csrc, char c, int count)$/;"	f
+memcmp	include/string.h	/^memcmp (const void *csrc, const void *ct, int count)$/;"	f
+memcpy	include/string.h	/^memcpy (void *dest, const void *src, int n)$/;"	f
+memmove	include/string.h	/^memmove (void *dest, const void *src, int n)$/;"	f
+memory_end	init/main.c	/^static long memory_end = 0;\/\/ 机器具有的内存（字节数）。$/;"	v	file:
+memset	include/string.h	/^memset (void *s, char c, int count)$/;"	f
+minus	kernel/chr_drv/keyboard.S	/^minus: $/;"	l
+mode	kernel/chr_drv/keyboard.S	/^mode db 0 \/* caps, alt, ctrl and shift mode *\/$/;"	d
+mode_t	include/sys/types.h	/^typedef unsigned short mode_t;	\/\/ 用于某些文件属性。$/;"	t
+modem_status	kernel/chr_drv/rs_io.s	/^modem_status:$/;"	l
+modtime	include/utime.h	/^  time_t modtime;		\/\/ 文件修改时间。从1970.1.1:0:0:0 开始的秒数。$/;"	m	struct:utimbuf
+moff_timer	kernel/sched.c	/^static int moff_timer[4] = { 0, 0, 0, 0 };$/;"	v	file:
+mon_timer	kernel/sched.c	/^static int mon_timer[4] = { 0, 0, 0, 0 };$/;"	v	file:
+month	kernel/mktime.c	/^static int month[12] = {$/;"	v	file:
+mount_root	fs/super.c	/^mount_root (void)$/;"	f
+move_to_user_mode	include/asm/system.h	3;"	d
+msg1	boot/bootsect.s	/^msg1 db 13,10			;\/\/ 回车、换行的ASCII码。$/;"	d
+n_desc	include/a.out.h	/^  short n_desc;$/;"	m	struct:nlist
+n_name	include/a.out.h	/^    char *n_name;$/;"	m	union:nlist::__anon3
+n_next	include/a.out.h	/^    struct nlist *n_next;$/;"	m	union:nlist::__anon3	typeref:struct:nlist::__anon3::nlist
+n_other	include/a.out.h	/^  char n_other;$/;"	m	struct:nlist
+n_strx	include/a.out.h	/^    long n_strx;$/;"	m	union:nlist::__anon3
+n_type	include/a.out.h	/^  unsigned char n_type;$/;"	m	struct:nlist
+n_un	include/a.out.h	/^  n_un;$/;"	m	struct:nlist	typeref:union:nlist::__anon3
+n_value	include/a.out.h	/^  unsigned long n_value;$/;"	m	struct:nlist
+name	include/linux/fs.h	/^  char name[NAME_LEN];		\/\/ 文件名。$/;"	m	struct:dir_entry
+namei	fs/namei.c	/^struct m_inode * namei(const char * pathname)$/;"	f
+new_block	fs/bitmap.c	/^int new_block(int dev)$/;"	f
+new_inode	fs/bitmap.c	/^struct m_inode * new_inode(int dev)$/;"	f
+next	kernel/blk_drv/blk.h	/^  struct request *next;		\/\/ 指向下一请求项。$/;"	m	struct:request	typeref:struct:request::request
+next	kernel/sched.c	/^	struct timer_list *next;	\/\/ 下一个定时器。$/;"	m	struct:timer_list	typeref:struct:timer_list::timer_list	file:
+next	lib/malloc.c	/^	struct bucket_desc	*next;		\/\/ 下一个描述符指针。$/;"	m	struct:bucket_desc	typeref:struct:bucket_desc::bucket_desc	file:
+next_timer	kernel/sched.c	/^timer_list[TIME_REQUESTS], *next_timer = NULL;$/;"	v	typeref:struct:timer_list	file:
+nlink_t	include/sys/types.h	/^typedef unsigned char nlink_t;	\/\/ 用于连接计数。$/;"	t
+nlist	include/a.out.h	/^struct nlist$/;"	s
+no_disk1	boot/setup.s	/^no_disk1:$/;"	l
+no_error_code	kernel/asm.s	/^no_error_code: ;\/\/ 这里是无出错号处理的入口处，见下面第55 行等。$/;"	l
+nodename	include/sys/utsname.h	/^  char nodename[9];		\/\/ 与实现相关的网络中节点名称。$/;"	m	struct:utsname
+none	kernel/chr_drv/keyboard.S	/^none: $/;"	l
+nop	include/asm/system.h	34;"	d
+npar	kernel/chr_drv/console.c	/^static unsigned long npar, par[NPAR];	\/\/ ANSI 转义字符序列参数个数和参数数组。$/;"	v	file:
+nr_sectors	kernel/blk_drv/blk.h	/^  unsigned long nr_sectors;	\/\/ 读\/写扇区数。$/;"	m	struct:request
+nr_sects	include/linux/hdreg.h	/^  unsigned int nr_sects;	\/* nr of sectors in partition *\/$/;"	m	struct:partition
+nr_sects	kernel/blk_drv/hd.c	/^	long nr_sects;$/;"	m	struct:hd_struct	file:
+nr_system_calls	kernel/system_call.s	/^nr_system_calls = 72 ;\/\/ Linux 0.11 版内核中的系统调用总数。$/;"	d
+num	kernel/chr_drv/keyboard.S	/^num:$/;"	l
+num_table	kernel/chr_drv/keyboard.S	/^num_table db "789 456 1230,"$/;"	d
+num_table	kernel/chr_drv/keyboard.S	/^num_table db "789 456 1230." \/\/ 数字小键盘上键对应的数字ASCII 码表。$/;"	d
+number	kernel/vsprintf.c	/^number (char *str, int num, int base, int size, int precision, int type)$/;"	f	file:
+off_t	include/sys/types.h	/^typedef long off_t;		\/\/ 用于文件长度（大小）。$/;"	t
+offsetof	include/stddef.h	17;"	d
+ok1_read	boot/bootsect.s	/^ok1_read:$/;"	l
+ok2_read	boot/bootsect.s	/^ok2_read:$/;"	l
+ok3_read	boot/bootsect.s	/^ok3_read:$/;"	l
+ok4_read	boot/bootsect.s	/^ok4_read:$/;"	l
+ok_cur	kernel/chr_drv/keyboard.S	/^ok_cur:$/;"	l
+ok_func	kernel/chr_drv/keyboard.S	/^ok_func:$/;"	l
+ok_load_setup	boot/bootsect.s	/^ok_load_setup:$/;"	l
+oom	mm/memory.c	/^static _inline void oom(void)$/;"	f	file:
+open	lib/open.c	/^int open(const char * filename, int flag, ...)$/;"	f
+open_namei	fs/namei.c	/^int open_namei(const char * pathname, int flag, int mode,$/;"	f
+org	boot/bootsect.s	/^org 508		;\/\/ 表示下面语句从地址508(1FC)开始，所以root_dev$/;"	l
+org	boot/head.s	/^org 1000h		;\/\/ 从偏移0x1000 处开始是第1 个页表（偏移0 开始处将存放页表目录）。$/;"	l
+org	boot/head.s	/^org 2000h$/;"	l
+org	boot/head.s	/^org 3000h$/;"	l
+org	boot/head.s	/^org 4000h$/;"	l
+org	boot/head.s	/^org 5000h		;\/\/ 定义下面的内存数据块从偏移0x5000 处开始。$/;"	l
+origin	kernel/chr_drv/console.c	/^static unsigned long origin;	\/* 用于EGA\/VGA 快速滚屏 *\/\/\/ 滚屏起始内存地址。$/;"	v	file:
+outb	include/asm/io.h	3;"	d
+outb_p	include/asm/io.h	47;"	d
+output_byte	kernel/blk_drv/floppy.c	/^output_byte (char byte)$/;"	f	file:
+page	lib/malloc.c	/^	void			*page;			\/\/ 该桶描述符对应的内存页面指针。$/;"	m	struct:bucket_desc	file:
+panic	kernel/panic.c	/^void panic (const char *s)$/;"	f
+par	kernel/chr_drv/console.c	/^static unsigned long npar, par[NPAR];	\/\/ ANSI 转义字符序列参数个数和参数数组。$/;"	v	file:
+partition	include/linux/hdreg.h	/^struct partition$/;"	s
+permission	fs/namei.c	/^static int permission(struct m_inode * inode,int mask)$/;"	f	file:
+pg0	boot/head.s	/^pg0:$/;"	l
+pg1	boot/head.s	/^pg1:$/;"	l
+pg2	boot/head.s	/^pg2:$/;"	l
+pg3	boot/head.s	/^pg3:$/;"	l
+pgrp	include/linux/sched.h	/^	long pid, father, pgrp, session, leader;$/;"	m	struct:task_struct
+pgrp	include/linux/tty.h	/^  int pgrp;			\/\/ 所属进程组。$/;"	m	struct:tty_struct
+pid	include/linux/sched.h	/^	long pid, father, pgrp, session, leader;$/;"	m	struct:task_struct
+pid_t	include/sys/types.h	/^typedef int pid_t;		\/\/ 用于进程号和进程组号。$/;"	t
+pop	boot/bootsect.s	/^	pop dx$/;"	d
+pop	boot/head.s	/^	pop ds$/;"	d
+pop	kernel/asm.s	/^	pop ds$/;"	d
+pop	kernel/chr_drv/keyboard.S	/^	pop ds$/;"	d
+pop	kernel/chr_drv/rs_io.s	/^	pop ds ;\/* 由于这是一个中断程序，我们不知道ds 是否正确，*\/$/;"	d
+pop	kernel/chr_drv/rs_io.s	/^	pop ds$/;"	d
+pop	kernel/system_call.s	/^	pop ds$/;"	d
+pop	mm/page.s	/^	pop ds$/;"	d
+port_read	kernel/blk_drv/hd.c	/^_inline void port_read(unsigned short port, void* buf,unsigned long nr)$/;"	f
+port_write	kernel/blk_drv/hd.c	/^_inline void port_write(unsigned short port, void* buf,unsigned long nr)$/;"	f
+pos	kernel/chr_drv/console.c	/^static unsigned long pos;	\/\/ 当前光标对应的显示内存位置。$/;"	v	file:
+printbuf	init/main.c	/^static char printbuf[1024];$/;"	v	file:
+printf	init/main.c	/^static int printf(const char *fmt, ...)$/;"	f	file:
+printk	kernel/printk.c	/^int printk (const char *fmt, ...)$/;"	f
+priority	include/linux/sched.h	/^	long priority;$/;"	m	struct:task_struct
+priority	kernel/system_call.s	/^priority = 8 ;\/\/ 运行优先数。任务开始运行时counter=priority，越大则运行时间越长。$/;"	d
+proc_list	include/linux/tty.h	/^  struct task_struct *proc_list;	\/\/ 等待进程列表。$/;"	m	struct:tty_queue	typeref:struct:tty_queue::task_struct
+proc_list	kernel/chr_drv/keyboard.S	/^proc_list = 12 \/\/ 等待该缓冲队列的进程字段偏移。$/;"	d
+proc_list	kernel/chr_drv/rs_io.s	/^proc_list = 12 ;\/\/ 等待该缓冲的进程字段偏移。$/;"	d
+ptrdiff_t	include/stddef.h	/^typedef long ptrdiff_t;		\/\/ 两个指针相减结果的类型。$/;"	t
+ptrdiff_t	include/sys/types.h	/^typedef long ptrdiff_t;$/;"	t
+public	boot/head.s	/^public _idt,_gdt,_pg_dir,_tmp_floppy_area$/;"	l
+public	kernel/asm.s	/^public _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	l
+public	kernel/asm.s	/^public _double_fault,_coprocessor_segment_overrun$/;"	l
+public	kernel/asm.s	/^public _general_protection,_irq13,_reserved$/;"	l
+public	kernel/asm.s	/^public _invalid_TSS,_segment_not_present,_stack_segment$/;"	l
+public	kernel/chr_drv/keyboard.S	/^public _keyboard_interrupt \/\/int 21h 在console.c内的conn_init函数内设置$/;"	l
+public	kernel/chr_drv/rs_io.s	/^public _rs1_interrupt,_rs2_interrupt$/;"	l
+public	kernel/system_call.s	/^public _device_not_available, _coprocessor_error$/;"	l
+public	kernel/system_call.s	/^public _hd_interrupt,_floppy_interrupt,_parallel_interrupt$/;"	l
+public	kernel/system_call.s	/^public _system_call,_sys_fork,_timer_interrupt,_sys_execve$/;"	l
+public	mm/page.s	/^public _page_fault$/;"	l
+push	boot/bootsect.s	/^	push dx$/;"	d
+push	boot/head.s	/^	push ds			;\/\/ 这里请注意！！ds,es,fs,gs 等虽然是16 位的寄存器，但入栈后$/;"	d
+push	kernel/asm.s	/^	push ds ;\/\/ ！！16 位的段寄存器入栈后也要占用4 个字节。$/;"	d
+push	kernel/asm.s	/^	push ds$/;"	d
+push	kernel/chr_drv/keyboard.S	/^	push ds$/;"	d
+push	kernel/chr_drv/rs_io.s	/^	push ds ;\/* as this is an interrupt, we cannot *\/$/;"	d
+push	kernel/system_call.s	/^	push ds ;\/\/ save ds,es and put kernel data space$/;"	d
+push	kernel/system_call.s	/^	push ds ;\/\/ 保存原段寄存器值。$/;"	d
+push	kernel/system_call.s	/^	push ds$/;"	d
+push	mm/page.s	/^	push ds$/;"	d
+put_fs_byte	include/asm/segment.h	/^put_fs_byte (char val, char *addr)\/\/passed$/;"	f
+put_fs_byte	include/asm/y_segment.h	/^extern _inline void put_fs_byte(char val,char *addr)$/;"	f
+put_fs_long	include/asm/segment.h	/^put_fs_long (long val, unsigned long *addr)$/;"	f
+put_fs_long	include/asm/y_segment.h	/^extern _inline void put_fs_long(unsigned long val,unsigned long * addr)$/;"	f
+put_fs_word	include/asm/segment.h	/^put_fs_word (short val, short *addr)$/;"	f
+put_fs_word	include/asm/y_segment.h	/^extern _inline void put_fs_word(short val,short * addr)$/;"	f
+put_page	mm/memory.c	/^unsigned long put_page(unsigned long page,unsigned long address)$/;"	f
+put_queue	kernel/chr_drv/keyboard.S	/^put_queue:$/;"	l
+put_super	fs/super.c	/^put_super (int dev)$/;"	f
+pwd	include/linux/sched.h	/^	struct m_inode *pwd;$/;"	m	struct:task_struct	typeref:struct:task_struct::m_inode
+ques	kernel/chr_drv/console.c	/^static unsigned long ques = 0;$/;"	v	file:
+quot	include/sys/types.h	/^  int quot, rem;$/;"	m	struct:__anon1
+quot	include/sys/types.h	/^  long quot, rem;$/;"	m	struct:__anon2
+quotient	kernel/chr_drv/tty_ioctl.c	/^static unsigned short quotient[] = {$/;"	v	file:
+r_address	include/a.out.h	/^  int r_address;$/;"	m	struct:relocation_info
+r_extern	include/a.out.h	/^  unsigned int r_extern:1;$/;"	m	struct:relocation_info
+r_length	include/a.out.h	/^  unsigned int r_length:2;$/;"	m	struct:relocation_info
+r_pad	include/a.out.h	/^  unsigned int r_pad:4;$/;"	m	struct:relocation_info
+r_pcrel	include/a.out.h	/^  unsigned int r_pcrel:1;$/;"	m	struct:relocation_info
+r_symbolnum	include/a.out.h	/^  unsigned int r_symbolnum:24;$/;"	m	struct:relocation_info
+rate	kernel/blk_drv/floppy.c	/^	unsigned char gap, rate, spec1;$/;"	m	struct:floppy_struct	file:
+rd_init	kernel/blk_drv/ramdisk.c	/^rd_init (long mem_start, int length)$/;"	f
+rd_length	kernel/blk_drv/ramdisk.c	/^int rd_length = 0;		\/\/ 虚拟盘所占内存大小（字节）。$/;"	v
+rd_load	kernel/blk_drv/ramdisk.c	/^rd_load (void)$/;"	f
+rd_start	kernel/blk_drv/ramdisk.c	/^char *rd_start = 0;			\/\/ 虚拟盘在内存中的起始位置。在52 行初始化函数rd_init()中$/;"	v
+read_char	kernel/chr_drv/rs_io.s	/^read_char:$/;"	l
+read_inode	fs/inode.c	/^static void read_inode(struct m_inode * inode)$/;"	f	file:
+read_intr	kernel/blk_drv/hd.c	/^static void read_intr (void)$/;"	f	file:
+read_it	boot/bootsect.s	/^read_it:		;\/\/ 测试输入的段值。必须位于内存地址64KB边界处，否则进入死循环。$/;"	l
+read_pipe	fs/pipe.c	/^int read_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+read_q	include/linux/tty.h	/^  struct tty_queue read_q;	\/\/ tty 读队列。$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+read_super	fs/super.c	/^read_super (int dev)$/;"	f	file:
+read_track	boot/bootsect.s	/^read_track:$/;"	l
+reboot	kernel/chr_drv/keyboard.S	/^reboot:$/;"	l
+recal_interrupt	kernel/blk_drv/floppy.c	/^recal_interrupt (void)$/;"	f	file:
+recal_intr	kernel/blk_drv/hd.c	/^static void recal_intr (void)$/;"	f	file:
+recalibrate	kernel/blk_drv/floppy.c	/^static int recalibrate = 0;	\/\/ 标志：需要重新校正。$/;"	v	file:
+recalibrate	kernel/blk_drv/hd.c	/^static int recalibrate = 1;	\/\/ 重新校正标志。$/;"	v	file:
+recalibrate_floppy	kernel/blk_drv/floppy.c	/^recalibrate_floppy (void)$/;"	f	file:
+refcnt	lib/malloc.c	/^	unsigned short		refcnt;		\/\/ 引用计数。$/;"	m	struct:bucket_desc	file:
+release	include/sys/utsname.h	/^  char release[9];		\/\/ 本实现的当前发行级别。$/;"	m	struct:utsname
+release	kernel/exit.c	/^void release (struct task_struct *p)$/;"	f
+relocation_info	include/a.out.h	/^struct relocation_info$/;"	s
+rem	include/sys/types.h	/^  int quot, rem;$/;"	m	struct:__anon1
+rem	include/sys/types.h	/^  long quot, rem;$/;"	m	struct:__anon2
+remove_from_queues	fs/buffer.c	/^static _inline void remove_from_queues(struct buffer_head * bh)$/;"	f	file:
+rep_int	kernel/chr_drv/rs_io.s	/^rep_int: ;\/\/ 中断标识寄存器端口是0x3fa（0x2fa），参见上节列表后信息。$/;"	l
+reply_buffer	kernel/blk_drv/floppy.c	/^static unsigned char reply_buffer[MAX_REPLIES] = {0};	\/\/ 存放FDC 返回的结果信息。$/;"	v	file:
+request	kernel/blk_drv/blk.h	/^struct request$/;"	s
+request	kernel/blk_drv/ll_rw_blk.c	/^struct request request[NR_REQUEST] = {0};$/;"	v	typeref:struct:request
+request_fn	kernel/blk_drv/blk.h	/^  void (*request_fn) (void);	\/\/ 请求操作的函数指针。$/;"	m	struct:blk_dev_struct
+reschedule	kernel/system_call.s	/^reschedule:$/;"	l
+reset	kernel/blk_drv/floppy.c	/^static int reset = 0;		\/\/ 标志：需要进行复位操作。$/;"	v	file:
+reset	kernel/blk_drv/hd.c	/^static int reset = 1;	\/\/ 复位标志。$/;"	v	file:
+reset_controller	kernel/blk_drv/hd.c	/^static void reset_controller (void)$/;"	f	file:
+reset_floppy	kernel/blk_drv/floppy.c	/^reset_floppy (void)$/;"	f	file:
+reset_hd	kernel/blk_drv/hd.c	/^static void reset_hd (int nr)$/;"	f	file:
+reset_interrupt	kernel/blk_drv/floppy.c	/^reset_interrupt (void)$/;"	f	file:
+respond	kernel/chr_drv/console.c	/^respond (struct tty_struct *tty)$/;"	f	file:
+restore_cur	kernel/chr_drv/console.c	/^restore_cur (void)$/;"	f	file:
+result	kernel/blk_drv/floppy.c	/^result (void)$/;"	f	file:
+ret_from_sys_call	kernel/system_call.s	/^ret_from_sys_call:$/;"	l
+ri	kernel/chr_drv/console.c	/^ri (void)$/;"	f	file:
+root	include/linux/sched.h	/^	struct m_inode *root;$/;"	m	struct:task_struct	typeref:struct:task_struct::m_inode
+root_defined	boot/bootsect.s	/^root_defined:$/;"	l
+root_dev	boot/bootsect.s	/^root_dev dw ROOT_DEV	;\/\/ 这里存放根文件系统所在的设备号（init\/main.c中会用）。$/;"	d
+rp_read	boot/bootsect.s	/^rp_read:$/;"	l
+rp_sidt	boot/head.s	/^rp_sidt:$/;"	l
+rs_addr	kernel/chr_drv/rs_io.s	/^rs_addr = 0 ;\/\/ 串行端口号字段偏移（端口号是0x3f8 或0x2f8）。$/;"	d
+rs_init	kernel/chr_drv/serial.c	/^rs_init (void)$/;"	f
+rs_int	kernel/chr_drv/rs_io.s	/^rs_int:$/;"	l
+rs_write	kernel/chr_drv/serial.c	/^void rs_write (struct tty_struct *tty)$/;"	f
+rshift	kernel/chr_drv/keyboard.S	/^rshift:$/;"	l
+rw_char	fs/char_dev.c	/^int rw_char(int rw,int dev, char * buf, int count, off_t * pos)$/;"	f
+rw_interrupt	kernel/blk_drv/floppy.c	/^rw_interrupt (void)$/;"	f	file:
+rw_kmem	fs/char_dev.c	/^static int rw_kmem(int rw,char * buf, int count, off_t * pos)$/;"	f	file:
+rw_mem	fs/char_dev.c	/^static int rw_mem(int rw,char * buf, int count, off_t * pos)$/;"	f	file:
+rw_memory	fs/char_dev.c	/^static int rw_memory(int rw, unsigned minor, char * buf, int count, off_t * pos)$/;"	f	file:
+rw_port	fs/char_dev.c	/^static int rw_port(int rw,char * buf, int count, off_t * pos)$/;"	f	file:
+rw_ram	fs/char_dev.c	/^static int rw_ram(int rw,char * buf, int count, off_t *pos)$/;"	f	file:
+rw_tty	fs/char_dev.c	/^static int rw_tty(int rw,unsigned minor,char * buf,int count, off_t * pos)$/;"	f	file:
+rw_ttyx	fs/char_dev.c	/^static int rw_ttyx(int rw,unsigned minor,char * buf,int count,off_t * pos)$/;"	f	file:
+s_dev	include/linux/fs.h	/^  unsigned short s_dev;		\/\/ 超级块所在的设备号。$/;"	m	struct:super_block
+s_dirt	include/linux/fs.h	/^  unsigned char s_dirt;		\/\/ 已修改(脏)标志。$/;"	m	struct:super_block
+s_firstdatazone	include/linux/fs.h	/^  unsigned short s_firstdatazone;	\/\/ 第一个数据逻辑块。$/;"	m	struct:d_super_block
+s_firstdatazone	include/linux/fs.h	/^  unsigned short s_firstdatazone;	\/\/ 第一个数据逻辑块号。$/;"	m	struct:super_block
+s_imap	include/linux/fs.h	/^  struct buffer_head *s_imap[8];	\/\/ i 节点位图缓冲块指针数组(占用8 块，可表示64M)。$/;"	m	struct:super_block	typeref:struct:super_block::buffer_head
+s_imap_blocks	include/linux/fs.h	/^  unsigned short s_imap_blocks;	\/\/ i 节点位图所占用的数据块数。$/;"	m	struct:d_super_block
+s_imap_blocks	include/linux/fs.h	/^  unsigned short s_imap_blocks;	\/\/ i 节点位图所占用的数据块数。$/;"	m	struct:super_block
+s_imount	include/linux/fs.h	/^  struct m_inode *s_imount;	\/\/ 被安装到的i 节点。$/;"	m	struct:super_block	typeref:struct:super_block::m_inode
+s_isup	include/linux/fs.h	/^  struct m_inode *s_isup;	\/\/ 被安装的文件系统根目录的i 节点。(isup-super i)$/;"	m	struct:super_block	typeref:struct:super_block::m_inode
+s_lock	include/linux/fs.h	/^  unsigned char s_lock;		\/\/ 被锁定标志。$/;"	m	struct:super_block
+s_log_zone_size	include/linux/fs.h	/^  unsigned short s_log_zone_size;	\/\/ log(数据块数\/逻辑块)。（以2 为底）。$/;"	m	struct:d_super_block
+s_log_zone_size	include/linux/fs.h	/^  unsigned short s_log_zone_size;	\/\/ log(数据块数\/逻辑块)。（以2 为底）。$/;"	m	struct:super_block
+s_magic	include/linux/fs.h	/^  unsigned short s_magic;	\/\/ 文件系统魔数。$/;"	m	struct:d_super_block
+s_magic	include/linux/fs.h	/^  unsigned short s_magic;	\/\/ 文件系统魔数。$/;"	m	struct:super_block
+s_max_size	include/linux/fs.h	/^  unsigned long s_max_size;	\/\/ 文件最大长度。$/;"	m	struct:d_super_block
+s_max_size	include/linux/fs.h	/^  unsigned long s_max_size;	\/\/ 文件最大长度。$/;"	m	struct:super_block
+s_ninodes	include/linux/fs.h	/^  unsigned short s_ninodes;	\/\/ 节点数。$/;"	m	struct:d_super_block
+s_ninodes	include/linux/fs.h	/^  unsigned short s_ninodes;	\/\/ 节点数。$/;"	m	struct:super_block
+s_nzones	include/linux/fs.h	/^  unsigned short s_nzones;	\/\/ 逻辑块数。$/;"	m	struct:d_super_block
+s_nzones	include/linux/fs.h	/^  unsigned short s_nzones;	\/\/ 逻辑块数。$/;"	m	struct:super_block
+s_rd_only	include/linux/fs.h	/^  unsigned char s_rd_only;	\/\/ 只读标志。$/;"	m	struct:super_block
+s_time	include/linux/fs.h	/^  unsigned long s_time;		\/\/ 修改时间。$/;"	m	struct:super_block
+s_wait	include/linux/fs.h	/^  struct task_struct *s_wait;	\/\/ 等待该超级块的进程。$/;"	m	struct:super_block	typeref:struct:super_block::task_struct
+s_zmap	include/linux/fs.h	/^  struct buffer_head *s_zmap[8];	\/\/ 逻辑块位图缓冲块指针数组（占用8 块）。$/;"	m	struct:super_block	typeref:struct:super_block::buffer_head
+s_zmap_blocks	include/linux/fs.h	/^  unsigned short s_zmap_blocks;	\/\/ 逻辑块位图所占用的数据块数。$/;"	m	struct:d_super_block
+s_zmap_blocks	include/linux/fs.h	/^  unsigned short s_zmap_blocks;	\/\/ 逻辑块位图所占用的数据块数。$/;"	m	struct:super_block
+sa_flags	include/signal.h	/^  int sa_flags;$/;"	m	struct:sigaction
+sa_flags	kernel/system_call.s	/^sa_flags = 8 ;\/\/ 信号集。$/;"	d
+sa_handler	include/signal.h	/^  void (*sa_handler) (int);$/;"	m	struct:sigaction
+sa_handler	kernel/system_call.s	/^sa_handler = 0 ;\/\/ 信号处理过程的句柄（描述符）。$/;"	d
+sa_mask	include/signal.h	/^  sigset_t sa_mask;$/;"	m	struct:sigaction
+sa_mask	kernel/system_call.s	/^sa_mask = 4 ;\/\/ 信号量屏蔽码$/;"	d
+sa_restorer	include/signal.h	/^  void (*sa_restorer) (void);$/;"	m	struct:sigaction
+sa_restorer	kernel/system_call.s	/^sa_restorer = 12 ;\/\/ 返回恢复执行的地址位置。$/;"	d
+save_cur	kernel/chr_drv/console.c	/^save_cur (void)$/;"	f	file:
+save_old	kernel/signal.c	/^static _inline void save_old (char *from, char *to)$/;"	f	file:
+saved_x	kernel/chr_drv/console.c	/^static int saved_x = 0;		\/\/ 保存的光标列号。$/;"	v	file:
+saved_y	kernel/chr_drv/console.c	/^static int saved_y = 0;		\/\/ 保存的光标行号。$/;"	v	file:
+sched_init	kernel/sched.c	/^void sched_init (void)$/;"	f
+schedule	kernel/sched.c	/^void schedule (void)$/;"	f
+scr_end	kernel/chr_drv/console.c	/^static unsigned long scr_end;	\/* 用于EGA\/VGA 快速滚屏 *\/\/\/ 滚屏末端内存地址。$/;"	v	file:
+scrdown	kernel/chr_drv/console.c	/^scrdown (void)$/;"	f	file:
+scroll	kernel/chr_drv/keyboard.S	/^scroll:$/;"	l
+scrup	kernel/chr_drv/console.c	/^scrup (void)$/;"	f	file:
+secondary	include/linux/tty.h	/^  struct tty_queue secondary;	\/\/ tty 辅助队列(存放规范模式字符序列)，$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+sect	kernel/blk_drv/floppy.c	/^	unsigned int size, sect, head, track, stretch;$/;"	m	struct:floppy_struct	file:
+sect	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+sector	include/linux/hdreg.h	/^  unsigned char sector;		\/* ? *\/$/;"	m	struct:partition
+sector	kernel/blk_drv/blk.h	/^  unsigned long sector;		\/\/ 起始扇区。(1 块=2 扇区)$/;"	m	struct:request
+sector	kernel/blk_drv/floppy.c	/^static unsigned char sector = 0;$/;"	v	file:
+sectors	boot/bootsect.s	/^sectors dw 0				;\/\/ 存放当前启动软盘每磁道的扇区数。$/;"	d
+seek	kernel/blk_drv/floppy.c	/^static int seek = 0;		\/\/ 寻道。$/;"	v	file:
+seek_interrupt	kernel/blk_drv/floppy.c	/^seek_interrupt (void)$/;"	f	file:
+seek_track	kernel/blk_drv/floppy.c	/^static unsigned char seek_track = 0;$/;"	v	file:
+selected	kernel/blk_drv/floppy.c	/^unsigned char selected = 0;$/;"	v
+send_break	kernel/chr_drv/tty_ioctl.c	/^send_break (struct tty_struct *tty)$/;"	f	file:
+send_sig	kernel/exit.c	/^send_sig (long sig, struct task_struct *p, int priv)$/;"	f	file:
+session	include/linux/sched.h	/^	long pid, father, pgrp, session, leader;$/;"	m	struct:task_struct
+set_base	include/linux/sched.h	363;"	d
+set_bit	fs/bitmap.c	/^extern _inline int set_bit(unsigned long nr,char* addr)$/;"	f
+set_bit	fs/super.c	/^extern _inline int set_bit(int bitnr,char* addr)$/;"	f
+set_cursor	kernel/chr_drv/console.c	/^set_cursor (void)$/;"	f	file:
+set_e0	kernel/chr_drv/keyboard.S	/^set_e0: $/;"	l
+set_e1	kernel/chr_drv/keyboard.S	/^set_e1: $/;"	l
+set_fs	include/asm/segment.h	/^set_fs (unsigned long val)$/;"	f
+set_fs	include/asm/y_segment.h	/^extern _inline void set_fs(unsigned long val)$/;"	f
+set_intr_gate	include/asm/system.h	72;"	d
+set_ldt_desc	include/asm/system.h	144;"	d
+set_leds	kernel/chr_drv/keyboard.S	/^set_leds:$/;"	l
+set_limit	include/linux/sched.h	366;"	d
+set_origin	kernel/chr_drv/console.c	/^set_origin (void)$/;"	f	file:
+set_system_gate	include/asm/system.h	82;"	d
+set_termio	kernel/chr_drv/tty_ioctl.c	/^set_termio (struct tty_struct *tty, struct termio *termio)$/;"	f	file:
+set_termios	kernel/chr_drv/tty_ioctl.c	/^set_termios (struct tty_struct *tty, struct termios *termios)$/;"	f	file:
+set_trap_gate	include/asm/system.h	77;"	d
+set_tss_desc	include/asm/system.h	140;"	d
+setup_DMA	kernel/blk_drv/floppy.c	/^setup_DMA (void)$/;"	f	file:
+setup_gdt	boot/head.s	/^setup_gdt:$/;"	l
+setup_idt	boot/head.s	/^setup_idt:$/;"	l
+setup_paging	boot/head.s	/^setup_paging:	;\/\/ 首先对5 页内存（1 页目录+ 4 页页表）清零$/;"	l
+setup_rw_floppy	kernel/blk_drv/floppy.c	/^setup_rw_floppy (void)$/;"	f
+sgid	include/linux/sched.h	/^	unsigned short gid, egid, sgid;$/;"	m	struct:task_struct
+share_page	mm/memory.c	/^static int share_page(unsigned long address)$/;"	f	file:
+shift_map	kernel/chr_drv/keyboard.S	/^shift_map:$/;"	l
+shift_map	kernel/chr_drv/keyboard.h	/^unsigned char shift_map[] = {$/;"	v
+show_stat	kernel/sched.c	/^void show_stat (void)$/;"	f
+show_task	kernel/sched.c	/^void show_task (int nr, struct task_struct *p)$/;"	f
+sig_atomic_t	include/signal.h	/^typedef int sig_atomic_t;	\/\/ 定义信号原子操作类型。$/;"	t
+sigaction	include/linux/sched.h	/^	struct sigaction sigaction[32];$/;"	m	struct:task_struct	typeref:struct:task_struct::sigaction
+sigaction	include/signal.h	/^struct sigaction$/;"	s
+sigaction	kernel/system_call.s	/^sigaction = 16 ;\/\/ MUST be 16 (=len of sigaction) \/\/ sigaction 结构长度必须是16 字节。$/;"	d
+signal	include/linux/sched.h	/^	long signal;$/;"	m	struct:task_struct
+signal	kernel/system_call.s	/^signal = 12 ;\/\/ 是信号位图，每个比特位代表一种信号，信号值=位偏移值+1。$/;"	d
+sigset_t	include/signal.h	/^typedef unsigned int sigset_t;	\/* 32 bits *\/\/\/ 定义信号集类型。$/;"	t
+size	kernel/blk_drv/floppy.c	/^	unsigned int size, sect, head, track, stretch;$/;"	m	struct:floppy_struct	file:
+size	lib/malloc.c	/^	int			size;			\/\/ 该存储桶的大小(字节数)。$/;"	m	struct:_bucket_dir	file:
+size_t	include/stddef.h	/^typedef unsigned long size_t;	\/\/ sizeof 返回的类型。$/;"	t
+size_t	include/string.h	/^typedef unsigned int size_t;$/;"	t
+size_t	include/sys/types.h	/^typedef unsigned int size_t;	\/\/ 用于对象的大小（长度）。$/;"	t
+size_t	include/time.h	/^typedef unsigned int size_t;$/;"	t
+skip_atoi	kernel/vsprintf.c	/^static int skip_atoi (const char **s)$/;"	f	file:
+sleep_if_empty	kernel/chr_drv/tty_io.c	/^sleep_if_empty (struct tty_queue *queue)$/;"	f	file:
+sleep_if_full	kernel/chr_drv/tty_io.c	/^sleep_if_full (struct tty_queue *queue)$/;"	f	file:
+sleep_on	kernel/sched.c	/^void sleep_on (struct task_struct **p)$/;"	f
+spec1	kernel/blk_drv/floppy.c	/^	unsigned char gap, rate, spec1;$/;"	m	struct:floppy_struct	file:
+speed_t	include/termios.h	/^typedef int speed_t;		\/\/ 波特率数值类型。$/;"	t
+sread	boot/bootsect.s	/^sread	dw 1+SETUPLEN	;\/\/ 当前磁道中已读的扇区数。开始时已经读进1扇区的引导扇区$/;"	d
+ss	include/linux/sched.h	/^	long ss;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss0	include/linux/sched.h	/^	long ss0;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss1	include/linux/sched.h	/^	long ss1;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss2	include/linux/sched.h	/^	long ss2;			\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+st_atime	include/sys/stat.h	/^  time_t st_atime;		\/\/ 上次（最后）访问时间。$/;"	m	struct:stat
+st_ctime	include/sys/stat.h	/^  time_t st_ctime;		\/\/ 最后节点修改时间。$/;"	m	struct:stat
+st_dev	include/sys/stat.h	/^  dev_t st_dev;			\/\/ 含有文件的设备号。$/;"	m	struct:stat
+st_gid	include/sys/stat.h	/^  gid_t st_gid;			\/\/ 文件的组号。$/;"	m	struct:stat
+st_ino	include/sys/stat.h	/^  ino_t st_ino;			\/\/ 文件i 节点号。$/;"	m	struct:stat
+st_mode	include/sys/stat.h	/^  umode_t st_mode;		\/\/ 文件属性（见下面）。$/;"	m	struct:stat
+st_mtime	include/sys/stat.h	/^  time_t st_mtime;		\/\/ 最后修改时间。$/;"	m	struct:stat
+st_nlink	include/sys/stat.h	/^  nlink_t st_nlink;		\/\/ 指定文件的连接数。$/;"	m	struct:stat
+st_rdev	include/sys/stat.h	/^  dev_t st_rdev;		\/\/ 设备号(如果文件是特殊的字符文件或块文件)。$/;"	m	struct:stat
+st_size	include/sys/stat.h	/^  off_t st_size;		\/\/ 文件大小（字节数）（如果文件是常规文件）。$/;"	m	struct:stat
+st_space	include/linux/sched.h	/^	long st_space[20];		\/* 8*10 bytes for each FP-reg = 80 bytes *\/$/;"	m	struct:i387_struct
+st_uid	include/sys/stat.h	/^  uid_t st_uid;			\/\/ 文件的用户(标识)号。$/;"	m	struct:stat
+stack	kernel/sched.c	/^	char stack[PAGE_SIZE];	\/\/ 从堆栈段寄存器ss 可以获得其数据段选择符。$/;"	m	union:task_union	file:
+stack_start	kernel/sched.c	/^stack_start = {&user_stack[PAGE_SIZE >> 2], 0x10};$/;"	v	typeref:struct:__anon4
+start	boot/bootsect.s	/^start:					;\/\/ 以下10行作用是将自身(bootsect)从目前段位置07c0h(31k)$/;"	l
+start	boot/setup.s	/^start:$/;"	l
+start_buffer	fs/buffer.c	/^struct buffer_head * start_buffer = (struct buffer_head *)(&end);$/;"	v	typeref:struct:buffer_head
+start_code	include/linux/sched.h	/^	unsigned long start_code, end_code, end_data, brk, start_stack;$/;"	m	struct:task_struct
+start_sect	include/linux/hdreg.h	/^  unsigned int start_sect;	\/* starting sector counting from 0 *\/$/;"	m	struct:partition
+start_sect	kernel/blk_drv/hd.c	/^	long start_sect;$/;"	m	struct:hd_struct	file:
+start_stack	include/linux/sched.h	/^	unsigned long start_code, end_code, end_data, brk, start_stack;$/;"	m	struct:task_struct
+start_time	include/linux/sched.h	/^	long utime, stime, cutime, cstime, start_time;$/;"	m	struct:task_struct
+startup	kernel/chr_drv/rs_io.s	/^startup = 256 ;\/* chars left in write queue when we restart it *\/$/;"	d
+startup_time	kernel/sched.c	/^long startup_time;		\/\/ 开机时间。从1970:0:0:0 开始计时的秒数。$/;"	v
+stat	include/sys/stat.h	/^struct stat$/;"	s
+state	include/linux/sched.h	/^	long state;			\/* -1 unrunnable, 0 runnable, >0 stopped *\/$/;"	m	struct:task_struct
+state	kernel/chr_drv/console.c	/^static unsigned long state = 0;	\/\/ ANSI 转义字符序列处理状态。$/;"	v	file:
+state	kernel/system_call.s	/^state = 0 ;\/\/ these are offsets into the task-struct. ;\/\/ 进程状态码$/;"	d
+sti	include/asm/system.h	30;"	d
+stime	include/linux/sched.h	/^	long utime, stime, cutime, cstime, start_time;$/;"	m	struct:task_struct
+stopped	include/linux/tty.h	/^  int stopped;			\/\/ 停止标志。$/;"	m	struct:tty_struct
+str	include/linux/sched.h	241;"	d
+strcat	include/string.h	/^strcat (char *dest, const char *src)$/;"	f
+strchr	include/string.h	/^strchr (const char *s, char c)$/;"	f
+strcmp	include/string.h	/^strcmp (const char *csrc, const char *ct)$/;"	f
+strcpy	include/string.h	/^strcpy (char *dest, const char *src)$/;"	f
+strcsrcpn	include/string.h	/^strcsrcpn (const char *csrc, const char *ct)$/;"	f
+stretch	kernel/blk_drv/floppy.c	/^	unsigned int size, sect, head, track, stretch;$/;"	m	struct:floppy_struct	file:
+strlen	include/string.h	/^strlen (const char *s)$/;"	f
+strncat	include/string.h	/^strncat (char *dest, const char *src, int count)$/;"	f
+strncmp	include/string.h	/^strncmp (const char *csrc, const char *ct, int count)$/;"	f
+strncpy	include/string.h	/^strncpy (char *dest, const char *src, int count)$/;"	f
+strpbrk	include/string.h	/^strpbrk (const char *csrc, const char *ct)$/;"	f
+strrchr	include/string.h	/^strrchr (const char *s, char c)$/;"	f
+strspn	include/string.h	/^strspn (const char *csrc, const char *ct)$/;"	f
+strstr	include/string.h	/^strstr (const char *csrc, const char *ct)$/;"	f
+strtok	include/string.h	/^strtok (char *s, register const char *ct)$/;"	f
+suid	include/linux/sched.h	/^	unsigned short uid, euid, suid;$/;"	m	struct:task_struct
+super_block	fs/super.c	/^struct super_block super_block[NR_SUPER] = {0};	\/\/ 超级块结构数组（共8 项）。$/;"	v	typeref:struct:super_block
+super_block	include/linux/fs.h	/^struct super_block$/;"	s
+suser	include/linux/kernel.h	27;"	d
+swd	include/linux/sched.h	/^	long swd;			\/\/ 状态字(Status word)。$/;"	m	struct:i387_struct
+switch_to	include/linux/sched.h	/^extern _inline void switch_to(int n) $/;"	f
+sync_dev	fs/buffer.c	/^int sync_dev(int dev)$/;"	f
+sync_inodes	fs/inode.c	/^void sync_inodes(void)$/;"	f
+sys_access	fs/open.c	/^int sys_access(const char * filename,int mode)$/;"	f
+sys_acct	kernel/sys.c	/^int sys_acct ()$/;"	f
+sys_alarm	kernel/sched.c	/^int sys_alarm (long seconds)$/;"	f
+sys_break	kernel/sys.c	/^int sys_break ()$/;"	f
+sys_brk	kernel/sys.c	/^int sys_brk (unsigned long end_data_seg)$/;"	f
+sys_call_table	include/linux/sys.h	/^fn_ptr sys_call_table[] = { sys_setup, sys_exit, sys_fork, sys_read,$/;"	v
+sys_chdir	fs/open.c	/^int sys_chdir(const char * filename)$/;"	f
+sys_chmod	fs/open.c	/^int sys_chmod(const char * filename,int mode)$/;"	f
+sys_chown	fs/open.c	/^int sys_chown(const char * filename,int uid,int gid)$/;"	f
+sys_chroot	fs/open.c	/^int sys_chroot(const char * filename)$/;"	f
+sys_close	fs/open.c	/^int sys_close(unsigned int fd)$/;"	f
+sys_creat	fs/open.c	/^int sys_creat(const char * pathname, int mode)$/;"	f
+sys_dup	fs/fcntl.c	/^int sys_dup(unsigned int fildes)$/;"	f
+sys_dup2	fs/fcntl.c	/^int sys_dup2(unsigned int oldfd, unsigned int newfd)$/;"	f
+sys_exit	kernel/exit.c	/^int sys_exit (int error_code)$/;"	f
+sys_fcntl	fs/fcntl.c	/^int sys_fcntl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_fstat	fs/stat.c	/^sys_fstat (unsigned int fd, struct stat *statbuf)$/;"	f
+sys_ftime	kernel/sys.c	/^int sys_ftime ()$/;"	f
+sys_getegid	kernel/sched.c	/^int sys_getegid (void)$/;"	f
+sys_geteuid	kernel/sched.c	/^int sys_geteuid (void)$/;"	f
+sys_getgid	kernel/sched.c	/^int sys_getgid (void)$/;"	f
+sys_getpgrp	kernel/sys.c	/^int sys_getpgrp (void)$/;"	f
+sys_getpid	kernel/sched.c	/^int sys_getpid (void)$/;"	f
+sys_getppid	kernel/sched.c	/^int sys_getppid (void)$/;"	f
+sys_getuid	kernel/sched.c	/^int sys_getuid (void)$/;"	f
+sys_gtty	kernel/sys.c	/^int sys_gtty ()$/;"	f
+sys_ind	include/linux/hdreg.h	/^  unsigned char sys_ind;	\/* ? *\/$/;"	m	struct:partition
+sys_ioctl	fs/ioctl.c	/^int sys_ioctl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_kill	kernel/exit.c	/^int sys_kill (int pid, int sig)$/;"	f
+sys_link	fs/namei.c	/^int sys_link(const char * oldname, const char * newname)$/;"	f
+sys_lock	kernel/sys.c	/^int sys_lock ()$/;"	f
+sys_lseek	fs/read_write.c	/^int sys_lseek (unsigned int fd, off_t offset, int origin)$/;"	f
+sys_mkdir	fs/namei.c	/^int sys_mkdir(const char * pathname, int mode)$/;"	f
+sys_mknod	fs/namei.c	/^int sys_mknod(const char * filename, int mode, int dev)$/;"	f
+sys_mount	fs/super.c	/^sys_mount (char *dev_name, char *dir_name, int rw_flag)$/;"	f
+sys_mpx	kernel/sys.c	/^int sys_mpx ()$/;"	f
+sys_nice	kernel/sched.c	/^int sys_nice (long increment)$/;"	f
+sys_open	fs/open.c	/^int sys_open(const char * filename,int flag,int mode)$/;"	f
+sys_pause	kernel/sched.c	/^int sys_pause (void)$/;"	f
+sys_phys	kernel/sys.c	/^int sys_phys ()$/;"	f
+sys_pipe	fs/pipe.c	/^int sys_pipe(unsigned long * fildes)$/;"	f
+sys_prof	kernel/sys.c	/^int sys_prof ()$/;"	f
+sys_ptrace	kernel/sys.c	/^int sys_ptrace ()$/;"	f
+sys_read	fs/read_write.c	/^int sys_read (unsigned int fd, char *buf, int count)$/;"	f
+sys_rename	kernel/sys.c	/^int sys_rename ()$/;"	f
+sys_rmdir	fs/namei.c	/^int sys_rmdir(const char * name)$/;"	f
+sys_setgid	kernel/sys.c	/^int sys_setgid (int gid)$/;"	f
+sys_setpgid	kernel/sys.c	/^int sys_setpgid (int pid, int pgid)$/;"	f
+sys_setregid	kernel/sys.c	/^int sys_setregid (int rgid, int egid)$/;"	f
+sys_setreuid	kernel/sys.c	/^int sys_setreuid (int ruid, int euid)$/;"	f
+sys_setsid	kernel/sys.c	/^int sys_setsid (void)$/;"	f
+sys_setuid	kernel/sys.c	/^int sys_setuid (int uid)$/;"	f
+sys_setup	kernel/blk_drv/hd.c	/^int sys_setup (unsigned char *BIOS)$/;"	f
+sys_sgetmask	kernel/signal.c	/^int sys_sgetmask ()$/;"	f
+sys_sigaction	kernel/signal.c	/^int sys_sigaction (int signum, const struct sigaction *action,$/;"	f
+sys_signal	kernel/signal.c	/^int sys_signal (int signum, long handler, long restorer)$/;"	f
+sys_ssetmask	kernel/signal.c	/^int sys_ssetmask (int newmask)$/;"	f
+sys_stat	fs/stat.c	/^sys_stat (char *filename, struct stat *statbuf)$/;"	f
+sys_stime	kernel/sys.c	/^int sys_stime (long *tptr)$/;"	f
+sys_stty	kernel/sys.c	/^int sys_stty ()$/;"	f
+sys_sync	fs/buffer.c	/^int sys_sync(void)\/\/passed$/;"	f
+sys_time	kernel/sys.c	/^int sys_time (long *tloc)$/;"	f
+sys_times	kernel/sys.c	/^int sys_times (struct tms *tbuf)$/;"	f
+sys_ulimit	kernel/sys.c	/^int sys_ulimit ()$/;"	f
+sys_umask	kernel/sys.c	/^int sys_umask (int mask)$/;"	f
+sys_umount	fs/super.c	/^sys_umount (char *dev_name)$/;"	f
+sys_uname	kernel/sys.c	/^int sys_uname (struct utsname *name)$/;"	f
+sys_unlink	fs/namei.c	/^int sys_unlink(const char * name)$/;"	f
+sys_ustat	fs/open.c	/^int sys_ustat(int dev, struct ustat * ubuf)$/;"	f
+sys_utime	fs/open.c	/^int sys_utime(char * filename, struct utimbuf * times)$/;"	f
+sys_waitpid	kernel/exit.c	/^int sys_waitpid (pid_t pid, unsigned long *stat_addr, int options)$/;"	f
+sys_write	fs/read_write.c	/^int sys_write (unsigned int fd, char *buf, int count)$/;"	f
+sysbeep	kernel/chr_drv/console.c	/^sysbeep (void)$/;"	f	file:
+sysbeepstop	kernel/chr_drv/console.c	/^sysbeepstop (void)$/;"	f
+sysname	include/sys/utsname.h	/^  char sysname[9];		\/\/ 本版本操作系统的名称。$/;"	m	struct:utsname
+table_list	kernel/chr_drv/tty_io.c	/^struct tty_queue *table_list[] = {$/;"	v	typeref:struct:tty_queue
+tail	include/linux/tty.h	/^  unsigned long tail;		\/\/ 缓冲区中数据尾指针。$/;"	m	struct:tty_queue
+tail	kernel/chr_drv/keyboard.S	/^tail = 8 \/\/ 缓冲区中尾指针字段偏移。$/;"	d
+tail	kernel/chr_drv/rs_io.s	/^tail = 8 ;\/\/ 缓冲区中尾指针字段偏移。$/;"	d
+task	kernel/sched.c	/^	struct task_struct task;	\/\/ 因为一个任务数据结构与其堆栈放在同一内存页中，所以$/;"	m	union:task_union	typeref:struct:task_union::task_struct	file:
+task	kernel/sched.c	/^struct task_struct *task[NR_TASKS] = { &(init_task.task), };	\/\/ 定义任务指针数组。$/;"	v	typeref:struct:task_struct
+task_struct	include/linux/sched.h	/^struct task_struct$/;"	s
+task_union	kernel/sched.c	/^union task_union$/;"	u	file:
+tell_father	kernel/exit.c	/^static void tell_father (int pid)$/;"	f	file:
+termio	include/termios.h	/^struct termio$/;"	s
+termios	include/linux/tty.h	/^  struct termios termios;	\/\/ 终端io 属性和控制字符数据结构。$/;"	m	struct:tty_struct	typeref:struct:tty_struct::termios
+termios	include/termios.h	/^struct termios$/;"	s
+ticks_to_floppy_on	kernel/sched.c	/^int ticks_to_floppy_on (unsigned int nr)$/;"	f
+time_init	init/main.c	/^static void time_init(void)$/;"	f	file:
+time_t	include/sys/types.h	/^typedef long time_t;		\/\/ 用于时间（以秒计）。$/;"	t
+time_t	include/time.h	/^typedef long time_t;		\/\/ 从GMT 1970 年1 月1 日开始的以秒计数的时间（日历时间）。$/;"	t
+timer_list	kernel/sched.c	/^static struct timer_list$/;"	s	file:
+timer_list	kernel/sched.c	/^timer_list[TIME_REQUESTS], *next_timer = NULL;$/;"	v	typeref:struct:timer_list	file:
+tm	include/time.h	/^struct tm$/;"	s
+tm_hour	include/time.h	/^  int tm_hour;			\/\/ 小时数 [0，59]。$/;"	m	struct:tm
+tm_isdst	include/time.h	/^  int tm_isdst;			\/\/ 夏令时标志。$/;"	m	struct:tm
+tm_mday	include/time.h	/^  int tm_mday;			\/\/ 1 个月的天数 [0，31]。$/;"	m	struct:tm
+tm_min	include/time.h	/^  int tm_min;			\/\/ 分钟数 [ 0，59]。$/;"	m	struct:tm
+tm_mon	include/time.h	/^  int tm_mon;			\/\/ 1 年中月份 [0，11]。$/;"	m	struct:tm
+tm_sec	include/time.h	/^  int tm_sec;			\/\/ 秒数 [0，59]。$/;"	m	struct:tm
+tm_wday	include/time.h	/^  int tm_wday;			\/\/ 1 星期中的某天 [0，6]（星期天 =0）。$/;"	m	struct:tm
+tm_yday	include/time.h	/^  int tm_yday;			\/\/ 1 年中的某天 [0，365]。$/;"	m	struct:tm
+tm_year	include/time.h	/^  int tm_year;			\/\/ 从1900 年开始的年数。$/;"	m	struct:tm
+tms	include/sys/times.h	/^struct tms$/;"	s
+tms_cstime	include/sys/times.h	/^  time_t tms_cstime;		\/\/ 已终止的子进程使用的系统CPU 时间。$/;"	m	struct:tms
+tms_cutime	include/sys/times.h	/^  time_t tms_cutime;		\/\/ 已终止的子进程使用的用户CPU 时间。$/;"	m	struct:tms
+tms_stime	include/sys/times.h	/^  time_t tms_stime;		\/\/ 系统（内核）CPU 时间。$/;"	m	struct:tms
+tms_utime	include/sys/times.h	/^  time_t tms_utime;		\/\/ 用户使用的CPU 时间。$/;"	m	struct:tms
+toascii	include/ctype.h	30;"	d
+tolower	include/ctype.h	32;"	d
+top	kernel/chr_drv/console.c	/^static unsigned long top, bottom;	\/\/ 滚动时顶行行号；底行行号。$/;"	v	file:
+toupper	include/ctype.h	33;"	d
+trace_bitmap	include/linux/sched.h	/^	long trace_bitmap;		\/* bits: trace 0, bitmap 16-31 *\/$/;"	m	struct:tss_struct
+track	boot/bootsect.s	/^track	dw 0				;\/\/ 当前磁道号$/;"	d
+track	kernel/blk_drv/floppy.c	/^	unsigned int size, sect, head, track, stretch;$/;"	m	struct:floppy_struct	file:
+track	kernel/blk_drv/floppy.c	/^static unsigned char track = 0;$/;"	v	file:
+transfer	kernel/blk_drv/floppy.c	/^transfer (void)$/;"	f	file:
+trap_init	kernel/traps.c	/^void trap_init(void)$/;"	f
+truncate	fs/truncate.c	/^truncate (struct m_inode *inode)$/;"	f
+try_to_share	mm/memory.c	/^static int try_to_share(unsigned long address, struct task_struct * p)$/;"	f	file:
+tss	include/linux/sched.h	/^	struct tss_struct tss;$/;"	m	struct:task_struct	typeref:struct:task_struct::tss_struct
+tss_struct	include/linux/sched.h	/^struct tss_struct$/;"	s
+tty	include/linux/sched.h	/^	int tty;			\/* -1 if no tty, so it must be signed *\/$/;"	m	struct:task_struct
+tty_init	kernel/chr_drv/tty_io.c	/^void tty_init (void)$/;"	f
+tty_intr	kernel/chr_drv/tty_io.c	/^void tty_intr (struct tty_struct *tty, int mask)$/;"	f
+tty_ioctl	kernel/chr_drv/tty_ioctl.c	/^tty_ioctl (int dev, int cmd, int arg)$/;"	f
+tty_queue	include/linux/tty.h	/^struct tty_queue$/;"	s
+tty_read	kernel/chr_drv/tty_io.c	/^int tty_read (unsigned channel, char *buf, int nr)$/;"	f
+tty_struct	include/linux/tty.h	/^struct tty_struct$/;"	s
+tty_table	kernel/chr_drv/tty_io.c	/^struct tty_struct tty_table[] = {$/;"	v	typeref:struct:tty_struct
+tty_write	kernel/chr_drv/tty_io.c	/^int tty_write (unsigned channel, char *buf, int nr)$/;"	f
+twd	include/linux/sched.h	/^	long twd;			\/\/ 标记字(Tag word)。$/;"	m	struct:i387_struct
+u_char	include/sys/types.h	/^typedef unsigned char u_char;	\/\/ 无符号字符类型。$/;"	t
+ucNop	build/build.cpp	/^	unsigned char ucNop[4];$/;"	m	struct:__tagFILE_HEADER	file:
+uid	include/linux/sched.h	/^	unsigned short uid, euid, suid;$/;"	m	struct:task_struct
+uid_t	include/sys/types.h	/^typedef unsigned short uid_t;	\/\/ 用于用户号（用户标识号）。$/;"	t
+umask	include/linux/sched.h	/^	unsigned short umask;$/;"	m	struct:task_struct
+umode_t	include/sys/types.h	/^typedef unsigned short umode_t;	\/\/$/;"	t
+un_wp_page	mm/memory.c	/^void un_wp_page(unsigned long * table_entry)$/;"	f
+unalt	kernel/chr_drv/keyboard.S	/^unalt:$/;"	l
+uncaps	kernel/chr_drv/keyboard.S	/^uncaps:$/;"	l
+unctrl	kernel/chr_drv/keyboard.S	/^unctrl:$/;"	l
+undef_root	boot/bootsect.s	/^undef_root:				;\/\/ 如果都不一样，则死循环（死机）。$/;"	l
+unexpected_floppy_interrupt	kernel/blk_drv/floppy.c	/^unexpected_floppy_interrupt (void)$/;"	f
+unexpected_hd_interrupt	kernel/blk_drv/hd.c	/^void unexpected_hd_interrupt (void)$/;"	f
+unlock_buffer	kernel/blk_drv/blk.h	/^unlock_buffer (struct buffer_head *bh)$/;"	f
+unlock_buffer	kernel/blk_drv/ll_rw_blk.c	/^unlock_buffer (struct buffer_head *bh)$/;"	f	file:
+unlock_inode	fs/inode.c	/^static _inline void unlock_inode(struct m_inode * inode)$/;"	f	file:
+unlshift	kernel/chr_drv/keyboard.S	/^unlshift:$/;"	l
+unrshift	kernel/chr_drv/keyboard.S	/^unrshift:$/;"	l
+used_math	include/linux/sched.h	/^	unsigned short used_math;$/;"	m	struct:task_struct
+user_stack	kernel/sched.c	/^long user_stack[PAGE_SIZE >> 2];	\/\/ 定义系统堆栈指针，4K。指针指在最后一项。$/;"	v
+ushort	include/sys/types.h	/^typedef unsigned short ushort;	\/\/ 无符号短整数类型。$/;"	t
+ustat	include/sys/types.h	/^struct ustat$/;"	s
+utimbuf	include/utime.h	/^struct utimbuf$/;"	s
+utime	include/linux/sched.h	/^	long utime, stime, cutime, cstime, start_time;$/;"	m	struct:task_struct
+utsname	include/sys/utsname.h	/^struct utsname$/;"	s
+va_arg	include/stdarg.h	40;"	d
+va_end	include/stdarg.h	32;"	d
+va_list	include/stdarg.h	/^typedef char *va_list;		\/\/ 定义va_list 是一个字符指针类型。$/;"	t
+va_start	include/stdarg.h	21;"	d
+va_start	include/stdarg.h	24;"	d
+verify_area	kernel/fork.c	/^void verify_area (void *addr, int size)$/;"	f
+version	include/sys/utsname.h	/^  char version[9];		\/\/ 本次发行的版本级别。$/;"	m	struct:utsname
+video_erase_char	kernel/chr_drv/console.c	/^static unsigned short video_erase_char;	\/* 擦除字符属性与字符(0x0720) *\/$/;"	v	file:
+video_mem_end	kernel/chr_drv/console.c	/^static unsigned long video_mem_end;	\/* 显示内存结束(末端)地址 *\/$/;"	v	file:
+video_mem_start	kernel/chr_drv/console.c	/^static unsigned long video_mem_start;	\/* 显示内存起始地址 *\/$/;"	v	file:
+video_num_columns	kernel/chr_drv/console.c	/^static unsigned long video_num_columns;	\/* 屏幕文本列数 *\/$/;"	v	file:
+video_num_lines	kernel/chr_drv/console.c	/^static unsigned long video_num_lines;	\/* 屏幕文本行数 *\/$/;"	v	file:
+video_page	kernel/chr_drv/console.c	/^static unsigned char video_page;	\/* 初始显示页面 *\/$/;"	v	file:
+video_port_reg	kernel/chr_drv/console.c	/^static unsigned short video_port_reg;	\/* 显示控制索引寄存器端口 *\/$/;"	v	file:
+video_port_val	kernel/chr_drv/console.c	/^static unsigned short video_port_val;	\/* 显示控制数据寄存器端口 *\/$/;"	v	file:
+video_size_row	kernel/chr_drv/console.c	/^static unsigned long video_size_row;	\/* 每行使用的字节数 *\/$/;"	v	file:
+video_type	kernel/chr_drv/console.c	/^static unsigned char video_type;	\/* 使用的显示类型 *\/$/;"	v	file:
+vsprintf	kernel/vsprintf.c	/^vsprintf (char *buf, const char *fmt, va_list args)$/;"	f
+wait	lib/wait.c	/^pid_t wait(int * wait_stat)$/;"	f
+wait_for_keypress	kernel/chr_drv/tty_io.c	/^void wait_for_keypress (void)$/;"	f
+wait_for_request	kernel/blk_drv/ll_rw_blk.c	/^struct task_struct *wait_for_request = NULL;$/;"	v	typeref:struct:task_struct
+wait_motor	kernel/sched.c	/^static struct task_struct *wait_motor[4] = { NULL, NULL, NULL, NULL };$/;"	v	typeref:struct:task_struct	file:
+wait_on_buffer	fs/buffer.c	/^static _inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wait_on_floppy_select	kernel/blk_drv/floppy.c	/^struct task_struct *wait_on_floppy_select = NULL;$/;"	v	typeref:struct:task_struct
+wait_on_inode	fs/inode.c	/^static _inline void wait_on_inode(struct m_inode * inode)$/;"	f	file:
+wait_on_super	fs/super.c	/^wait_on_super (struct super_block *sb)$/;"	f	file:
+wait_until_sent	kernel/chr_drv/tty_ioctl.c	/^wait_until_sent (struct tty_struct *tty)$/;"	f	file:
+waiting	kernel/blk_drv/blk.h	/^  struct task_struct *waiting;	\/\/ 任务等待操作执行完成的地方。$/;"	m	struct:request	typeref:struct:request::task_struct
+wake_up	kernel/sched.c	/^void wake_up (struct task_struct **p)$/;"	f
+win_result	kernel/blk_drv/hd.c	/^static int win_result (void)$/;"	f	file:
+winsize	include/termios.h	/^struct winsize$/;"	s
+wpcom	kernel/blk_drv/hd.c	/^	int head, sect, cyl, wpcom, lzone, ctl;$/;"	m	struct:hd_i_struct	file:
+write	include/linux/tty.h	/^  void (*write) (struct tty_struct * tty);	\/\/ tty 写函数指针。$/;"	m	struct:tty_struct
+write_buffer_empty	kernel/chr_drv/rs_io.s	/^write_buffer_empty:$/;"	l
+write_char	kernel/chr_drv/rs_io.s	/^write_char:$/;"	l
+write_inode	fs/inode.c	/^static void write_inode(struct m_inode * inode)$/;"	f	file:
+write_intr	kernel/blk_drv/hd.c	/^static void write_intr (void)$/;"	f	file:
+write_pipe	fs/pipe.c	/^int write_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+write_q	include/linux/tty.h	/^  struct tty_queue write_q;	\/\/ tty 写队列。$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+write_verify	mm/memory.c	/^void write_verify(unsigned long address)$/;"	f
+ws_col	include/termios.h	/^  unsigned short ws_col;	\/\/ 窗口字符列数。$/;"	m	struct:winsize
+ws_row	include/termios.h	/^  unsigned short ws_row;	\/\/ 窗口字符行数。$/;"	m	struct:winsize
+ws_xpixel	include/termios.h	/^  unsigned short ws_xpixel;	\/\/ 窗口宽度，象素值。$/;"	m	struct:winsize
+ws_ypixel	include/termios.h	/^  unsigned short ws_ypixel;	\/\/ 窗口高度，象素值。$/;"	m	struct:winsize
+x	kernel/chr_drv/console.c	/^static unsigned long x, y;	\/\/ 当前光标位置。$/;"	v	file:
+y	kernel/chr_drv/console.c	/^static unsigned long x, y;	\/\/ 当前光标位置。$/;"	v	file:
