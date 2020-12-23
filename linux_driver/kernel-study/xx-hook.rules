@@ -1,0 +1,2 @@
+KERNEL=="xxhook", SUBSYSTEM=="xxhook-dev", MODE="0666"
+
