@@ -77,9 +77,57 @@ printk("%s:%d lower_file = %px\n", __func__, __LINE__, lower_file);
 	return 0;
 }
 
+/*
+* fg_open
+* 
+* inode 查找文件的inode
+* file 查找文件的file,里面有path
+*/
+static int fg_open(struct inode *inode, struct file *file)
+{
+	struct file* lower_file;
+	struct fg_file_info* file_info;
+	struct dentry *fg_dentry = file->f_path.dentry;
+	lower_file = dentry_open(fg_dentry_to_lower_path(fg_dentry),
+						file->f_flags, current_cred());
+	printk("%s:%d lower_file = %px, lower_file->f_inode->i_sb->s_type->name = %s\n",
+			__func__, __LINE__, lower_file, lower_file->f_inode->i_sb->s_type->name);
+
+	file_info = kmem_cache_zalloc(fg_file_info_cache, GFP_KERNEL);
+
+	fg_set_file_private(file, file_info);
+	fg_set_file_lower(file, lower_file);
+	fg_set_inode_file_lower(inode, lower_file);
+
+	return 0;
+}
+
+static ssize_t fg_read_update_atime(struct kiocb *iocb,
+								struct iov_iter *to)
+{
+	ssize_t rc;
+	struct path *path;
+	struct file *file = iocb->ki_filp;
+
+	rc = generic_file_read_iter(iocb, to);
+
+	if(rc >= 0) {
+		path = fg_dentry_to_lower_path(file->f_path.dentry);
+		touch_atime(path);
+	}
+
+	return rc;
+}
+
 
 const struct file_operations fg_dir_fops = {
 	.owner = THIS_MODULE,
 	.iterate_shared = fg_readdir,
 	.open = fg_dir_open,
+};
+
+const struct file_operations fg_main_fops = {
+	.owner = THIS_MODULE,
+	.open = fg_open,
+	.read_iter = fg_read_update_atime,
 };

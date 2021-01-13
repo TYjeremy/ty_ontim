@@ -20,15 +20,15 @@ static int fg_inode_set(struct inode *inode, void* opaque)
 
 	fsstack_copy_inode_size(inode, lower_inode);
 	inode->i_ino = lower_inode->i_ino;
-//	inode->i_mapping->a_ops = lower_inode->i_mapping->a_ops;
+	inode->i_mapping->a_ops = &fg_aops;
 
 	//
 	if(S_ISDIR(inode->i_mode)) {
 		inode->i_op = &fg_dir_iops;
 		inode->i_fop = &fg_dir_fops;
 	} else {
-		inode->i_op = lower_inode->i_op;
-		inode->i_fop = lower_inode->i_fop;
+		inode->i_op = &fg_file_iops;
+		inode->i_fop = &fg_main_fops;
 	}
 
 
@@ -181,4 +181,13 @@ const struct inode_operations fg_dir_iops = {
 	.lookup = fg_lookup,
 	.mkdir = fg_mkdir,
 //	.mknod = fg_mknod,
+};
+
+static int fg_permission(struct inode *inode, int mask)
+{
+	return inode_permission(fg_inode_to_lower(inode), mask);
+}
+
+const struct inode_operations fg_file_iops = {
+	.permission = fg_permission,
 };

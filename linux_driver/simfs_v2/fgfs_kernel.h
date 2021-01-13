@@ -10,7 +10,10 @@ extern struct kmem_cache *fg_inode_info_cache;
 extern struct kmem_cache *fg_dentry_info_cache;
 extern const struct super_operations fg_sops;
 extern const struct inode_operations fg_dir_iops;
+extern const struct inode_operations fg_file_iops;
 extern const struct file_operations fg_dir_fops;
+extern const struct file_operations fg_main_fops;
+extern const struct address_space_operations fg_aops;
 
 struct fg_sb_info {
 	struct super_block *wsi_sb;
@@ -96,6 +99,11 @@ static inline struct file* fg_file_to_lower(struct file *file)
 static inline void fg_set_file_private(struct file *file, struct fg_file_info *file_info)
 {
 	file->private_data = file_info;
+}
+
+static inline void fg_set_inode_file_lower(struct inode *inode, struct file* lower_file)
+{
+	fg_inode_to_private(inode)->lower_file = lower_file;
 }
 
 static inline struct vfsmount* fg_dentry_to_lower_mnt(struct dentry *dentry)
