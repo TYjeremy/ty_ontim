@@ -22,7 +22,7 @@ static int fg_filldir(struct dir_context *ctx, const char *lower_name,
 
 	buf->caller->pos = buf->ctx.pos;
 	rc = !dir_emit(buf->caller, lower_name, lower_namelen, ino, d_type);
-printk("%s:%d name = %s rc = %d pos = %d\n", 
+printk("%s:%d name = %s rc = %d pos = %lld\n",
 			__func__, __LINE__, lower_name, rc, buf->caller->pos);
 
 	return rc;

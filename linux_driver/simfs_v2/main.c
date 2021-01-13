@@ -28,7 +28,6 @@ static void
 inode_info_init_once(void *vptr)
 {
     struct fg_inode_info *ei = (struct fg_inode_info *)vptr;
-	struct inode* inode = &ei->vfs_inode;
 
     inode_init_once(&ei->vfs_inode);
 }
@@ -55,7 +54,7 @@ static struct fg_cache_info {
 		.name = "fg_inode_info_cache",
 		.size = sizeof(struct fg_inode_info),
 		.flags = SLAB_ACCOUNT,
-		.ctor = inode_info_init_once,
+		.ctor = inode_info_init_once, //inode申请时必须初始化，里面各种链表，不初始化，运行时会出乱七八糟的指针问题
 	},
 	{
 		.cache = &fg_file_info_cache,
@@ -74,10 +73,12 @@ static int fg_init_kmem_caches(void)
 				SLAB_HWCACHE_ALIGN | info->flags, info->ctor);
 
 		if(!*(info->cache)) {
-			printk("%s:%d kmem_cache_create failed\n", __func__, __LINE__);
+			printk("%s:%d kmem_cache_create failed info->name = %s\n", __func__, __LINE__, info->name);
 			return -ENOMEM;
 		}
 	}
+
+	return 0;
 }
 
 
@@ -138,7 +139,7 @@ static struct dentry *fg_mount(struct file_system_type *fs_type,
 	s->s_blocksize = path.dentry->d_sb->s_blocksize;
 	s->s_magic = ZFFS_SUPER_BLOCK_MAGIC;
 	s->s_stack_depth = path.dentry->d_sb->s_stack_depth +1;
-	printk("%s:%d maxbytes = %d, blocksize = %d, stack_depth = %d\n",
+	printk("%s:%d maxbytes = %lld, blocksize = %ld, stack_depth = %d\n",
 				__func__, __LINE__, s->s_maxbytes, s->s_blocksize, s->s_stack_depth);
 //以上super block设置完毕
 
@@ -171,7 +172,7 @@ printk("%s:%d inode = %px prev = %px, next = %px\n", __func__, __LINE__, inode, 
 	
 
 out:
-	return rc;
+	return NULL;
 }
 
 static struct file_system_type fgfs_type = {
